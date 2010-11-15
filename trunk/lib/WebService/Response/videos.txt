@@ -1,0 +1,1452 @@
+<vod_title>
+<id>1</id>
+<title>Dog Bite Dog</title>
+<original_title>Gau Ngao Gau</original_title>
+<ean>6416548477114</ean>
+<vet>205245</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Pang: selviytyjф, katutappelija, taistelija, ammattitappaja, murhaaja. Hiljainen, nopea, tehokas, laiha, nфlkфinen, raaka kuin raivokas koira. Ei tunne armoa, sффliф, pelkoa tai katumusta. Menneisyytenф Kamputsean lohduton ja raaka kіyhyys. Odottamassa joko parempi tulevaisuus tai vфkivaltainen loppu. &lt;br /&gt;&lt;br /&gt;Wai: selviytyjф, taistelija, kontrolloimaton, vфkivaltainen, kyttф. Hiljainen, armoton, sinnikфs, tehokas ja mieleltффn raivokas kuin riivattu koira. Ei tunne vaihtoehtoja, rikollisten oikeuksia, sффliф tai pelkoa. Menneisyytenф Hong Kongin rankat korttelit ja poliisi-isф. Odottamassa joko levollisempi tulevaisuus tai vфkivaltainen loppu. &lt;br /&gt;&lt;br /&gt; Nyt Pang ja Wai ovat tіrmфyskurssilla. Kaksi koiraa, joita maailma on kurittanut liian kauan. On aika purra takaisin, verta kaihtamatta!&lt;/p&gt;</description>
+
+<year>2006</year>
+<agelimit>18</agelimit>
+<actors><actor><id>2</id><name>Ask Lee</name></actor><actor><id>3</id><name>Chi Wai Lao</name></actor><actor><id>4</id><name>Edison Chen</name></actor><actor><id>5</id><name>Ho Yam</name></actor><actor><id>6</id><name>Ka Sing Chau</name></actor><actor><id>7</id><name>Ka Wah Lam</name></actor><actor><id>8</id><name>Ka Wing Lee</name></actor><actor><id>9</id><name>Kam-wah Koo</name></actor><actor><id>10</id><name>Kar Fai Lee</name></actor><actor><id>11</id><name>Sam Lee</name></actor><actor><id>12</id><name>Siu-Fai Cheung</name></actor><actor><id>13</id><name>Suet Lam</name></actor><actor><id>14</id><name>Ting Fung Lee</name></actor><actor><id>15</id><name>Weiying Pei</name></actor><actor><id>16</id><name>Yiu-Cheung Lai</name></actor></actors>
+
+<directors><director><id>1</id><name>Pou-Soi Cheang
+</name></director></directors>
+<languages><language><id>1</id><name>kantoneesi</name></language></languages>
+<countries><country><id>1</id><name>kantoneesi</name></country><country><id>1</id><name>kantoneesi</name></country></countries>
+</vod_title>
+<vod_title>
+<id>2</id>
+<title>Langenneet enkelit</title>
+
+<original_title>Falling Angels</original_title>
+<ean>6416548449616</ean>
+<vet>200284</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;1960-luvun lopulla Kanadassa asuvat Fieldien perheenjфsenet elфvфt kaikki murroskauttaan. Perheen kolme teini-ikфistф tytфrtф kohtaavat maailman tyystin eri tavalla kuin vanhempansa �uutena aikana, sukupolvikuilun toisella puolella. Heille aika on itsensф lіytфmisen, vapaan rakkauden, rohkean musiikin, kapinoinnin ja psykedeelisten huumeiden taistelukenttффф. Sen sijaan perheen isфlle, Jim Fieldille taistelu kфydффn ydinvarustelun ja kylmфn sodan ohjeet sekф uhkakuvat mielessф: tarvittaessa omalla pihalla, omassa bunkkerissa, patriotismiin perustuen. &lt;br /&gt;&lt;br /&gt;Jimin aviopuoliso, Mary, on hukuttanut elфmфnsф nousut ja laskut aikaa sitten viinaan, alkoholisoituen pahasti. 60- ja 70-lukujen vaihde ja vivahteet heijastuvat jokaiseen Fieldin perheessф eri tavoin, silti kaikkiin selvфt jфljet jфttфen. Heidфn on lіydettфvф itsensф uudelleen �yksin. Mutta samalla heitф kaikkia sitoo yhteinen synkkф salaisuus.&lt;/p&gt;</description>
+
+<year>2003</year>
+<agelimit>11</agelimit>
+<actors><actor><id>18</id><name>Callum Keith Rennie</name></actor><actor><id>19</id><name>Carman Fielding</name></actor><actor><id>20</id><name>Chris Scott</name></actor><actor><id>21</id><name>Courtney Goodison</name></actor><actor><id>22</id><name>Ingrid Nilson</name></actor><actor><id>23</id><name>Jonathan Bastian</name></actor><actor><id>24</id><name>Josh Strait</name></actor><actor><id>25</id><name>Katharine Isabelle</name></actor><actor><id>26</id><name>Kett Turton</name></actor><actor><id>27</id><name>Kristin Adams</name></actor><actor><id>28</id><name>Kristina Hughes</name></actor><actor><id>29</id><name>Mark McKinney</name></actor><actor><id>30</id><name>Melissa Brown</name></actor><actor><id>31</id><name>Miranda Richardson</name></actor><actor><id>32</id><name>Montщ Gagnщ</name></actor></actors>
+
+<directors><director><id>17</id><name>Scott Smith
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>3</id>
+<title>8 naista</title>
+
+<original_title>8 Femmes</original_title>
+<ean>6416548443515</ean>
+<vet>104773</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Eristфytynyt herraskartano lumisella maaseudulla 1950-luvun Ranskassa. Perhe on  kokoontunut loman viettoon... Mutta juhlaan ei ole aihetta, sillф heidфn  rakastettu patriarkkansa on murhattu!Tappaja ei voi olla kukaan muu kuin yksi  kahdeksasta talossa olevasta naisesta. Oliko se hфnen voimakas vaimonsa? Hфnen  vanhapiika kфlynsф? Hфnen saita anoppinsa? Ehkф hфnen hфvytіn sisфkkіnsф tai  lojaali taloudenhoitajansa? Vai olisiko se mahdollisesti voinut olla jompikumpi  hфnen nuorista ja kauniista tyttфristффn?Uhrin loistokkaan sisaren  yllфtysvierailu muuttaa murhatutkimukset pфivфksi, joka on tфynnф hysteriaa,  kilpailua ja jopa farssin aineksia. Koomiset tilanteet on maustettu synkillф  perhesalaisuuksilla. Viettelys kulkee kфsi kфdessф pettфmisen kanssa. Naisen  sielunelфmфn mysteeri on paljastettu.Kahdeksan naista. Kaikki epфiltyjф.  Jokaisella on motiivi. Jokaisella on salaisuus.Kahdeksan naista. Kaunis,  myrskyisф, фlykфs, aistillinen ja vaarallinen... Yksi heistф on syyllinen. Kuka  heistф?&lt;/p&gt;</description>
+<year>2002</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>34</id><name>Catherine Deneuve</name></actor><actor><id>35</id><name>Isabelle Hu</name></actor><actor><id>36</id><name>Emmanuelle Bщart</name></actor><actor><id>37</id><name>Fanny Ardant</name></actor><actor><id>38</id><name>Virginia Ledoyen</name></actor><actor><id>39</id><name>Danielle Dar</name></actor><actor><id>40</id><name>Ludivine Sagnier</name></actor><actor><id>41</id><name>Firmine Rich</name></actor></actors>
+
+<directors><director><id>33</id><name>Franчois Ozon
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>4</id>
+<title>Election II - Triadit</title>
+
+<original_title>Election II</original_title>
+<ean>6416548837215</ean>
+<vet>204644</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Jimmy on kuumaa kamaa Hong Kongin mafiamaailmassa. Hфnen lojaaliutensa triadille ja rohkea, mффrфtietoinen ja aggressiivinen asenne on nostanut hфnen asemaansa ylіs perheessф. Nфillф meriiteillф hфn pystyy hakemaan ylimmфn pomon, kummisedфn, paikkaa. Paikka olisi muuten automaattisesti Jimmyn, ilman yhtф suurta "muttaa matkassa": nykyinen, vallassa oleva johtaja Lok ei halua luopua paikastaan, vaikka olisikin siihen alamaailman lakien mukaan velvollinen.&lt;/p&gt;
+&lt;p&gt;Alkaa sффlimфtіn, toimintatфytteinen ja ultravфkivaltainen sota vallasta Jimmyn ja Lokin leirien vфlillф. Triadin pomon istuin on niin korkea saavutus, ettф sen puolesta voi tappaa ja vaikka kuolla. Hong Kongin kadut ja kujat virtaavat pian armottoman mafiasodan uhrien verestф. Vain yksi voi olla pomo, vain yksi voi jффdф henkiin johtamaan triadia.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>12</id><name>Siu-Fai Cheung</name></actor><actor><id>13</id><name>Suet Lam</name></actor><actor><id>43</id><name>Andy On</name></actor><actor><id>44</id><name>Ka Tung Lam</name></actor><actor><id>45</id><name>Louis Koo</name></actor><actor><id>46</id><name>Mark Cheng</name></actor><actor><id>47</id><name>Mo-Hau Cheung</name></actor><actor><id>48</id><name>Nick Cheung</name></actor><actor><id>49</id><name>Ping-Man Tam</name></actor><actor><id>50</id><name>Simon Yam</name></actor><actor><id>51</id><name>Siu-Pang Chan</name></actor><actor><id>52</id><name>Tian-lin Wang</name></actor><actor><id>53</id><name>Yong You</name></actor><actor><id>54</id><name>Yue-Tong Pan</name></actor></actors>
+
+<directors><director><id>42</id><name>Johnny To
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>5</id>
+<title>Lady Vengeance</title>
+
+<original_title>Sympathy for Lady Vengeance / Chinjeolhan Geumjassi</original_title>
+<ean>6416548460017</ean>
+<vet>202979</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Geum-ja on erittфin kaunis ja tappavan vaarallinen nuori nainen - enkeli joillekin, paholainen toisille. Kolmetoista vuotta sitten Geum-ja teki elфmфnsф virheen, kun nuorena ja hyvфuskoisena luotti vффrффn mieheen. Tфmфn hyvфksikфytіn ja petoksen takia Geum-ja tuli tuomituksi syyttіmфnф vankilaan... 13 vuotta poislukittuna on pitkф aika. Niin pitkф, ettф sinф aikana ehtii hautomaan tфydelliseksi hiotun helvetillisen kostosuunitelman, joka vain odottaa toteuttamistaan. Mutta kuten sanonta kylmфsti menee: �un suunnittelet kostoa, valmistaudu kaivamaan kaksi hautaa...�Poistaako kosto Geum-jan kokeman kфrsimyksen ja monta vuotta hautoman vihan vai viekі se hфnet ainoastaan syvemmфlle pimeyteen ja ahdinkoon? &lt;br /&gt;&lt;br /&gt; Superlahjakkaan ja ффrimmфisen arvostetun ohjaajan, Chan-Wook Parkin Vengeance-trilogian ensimmфinen osa, Sympathy for Mr. Vengeance, nosti Etelф-Korean elokuvamaailman kartalle. Toinen osa, Oldboy, julistettiin kansainvфlisesti nerokkaaksi, voittaen mm. Cannesin elokuvajuhlien Grand Prix-palkinnon. Kostotrilogian tфydellinen pффtіs on Sympathy for Lady Vengeance. Maassaan megamenestys, joka rikkoi kaikki katsojaennфtykset. Ulkomailla elokuva on saanut ylistфvфn vastaanoton elokuvajuhlilla ja kriitikoilta.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>18</agelimit>
+<actors><actor><id>56</id><name>Choi Min-sik</name></actor><actor><id>57</id><name>Kim Bu-sun</name></actor><actor><id>58</id><name>Kim Si-hu</name></actor><actor><id>59</id><name>Lee Yeung Ai</name></actor></actors>
+<directors><director><id>55</id><name>Chan-wook Park
+</name></director></directors>
+<languages><language><id>5</id><name>Korea</name></language></languages>
+
+<countries><country><id>5</id><name>Korea</name></country><country><id>5</id><name>Korea</name></country></countries>
+</vod_title>
+<vod_title>
+<id>6</id>
+<title>Dresden</title>
+<original_title>Dresden</original_title>
+<ean>6416548836515</ean>
+<vet>204406</vet>
+
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Natsi-Saksan viimeiset pфivфt ovat kфsillф. Erффnф yіnф brittilфinen lentфjф, Robert, ammutaan alas Dresdenin yllф. Dresden, joka oli toistaiseksi sффstynyt pahimmilta pommituksilta, tarjoaa vakavasti loukkaantuneelle Robertille tilapфisen turvapaikan. Hфn piiloutuu sairaalan kellariin, mutta tulee lіydetyksi lфhes heti. Nuori sairaanhoitaja Anna lіytфф Robertin, eikф kykene ilmiantamaan tфtф Gestapolle. Anna huomaa suojelevansa vihollislentфjфф omien joukoilta koko sydфmellффn - kohtaaminen Robertin kanssa on herфttфnyt hфnessф jotain, eikф paluu entiseen enфф ole mahdollista. Mutta ei aikaakaan, kun ilmahфlytys soi taas ja nyt on Dresdenin vuoro olla liekeissф, voimakkaammin kuin mikффn muu kaupunki Saksassa toisen maailmansodan aikana.&lt;/p&gt;</description>
+<year>2006</year>
+<agelimit>13</agelimit>
+<actors><actor><id>61</id><name>Anja Taschenberg</name></actor><actor><id>62</id><name>Benjamin Sadler</name></actor><actor><id>63</id><name>Christian Rodska</name></actor><actor><id>64</id><name>Felicitas Woll</name></actor><actor><id>65</id><name>Heiner Lauterbach</name></actor><actor><id>66</id><name>John Keogh</name></actor><actor><id>67</id><name>John Light</name></actor><actor><id>68</id><name>Jќrgen Heinrich</name></actor><actor><id>69</id><name>Kai Wiesinger</name></actor><actor><id>70</id><name>Katharina Meinecke</name></actor><actor><id>71</id><name>Marie Bфumer</name></actor><actor><id>72</id><name>Paul Ready</name></actor><actor><id>73</id><name>Pip Torrens</name></actor><actor><id>74</id><name>Susanne Bormann</name></actor><actor><id>75</id><name>Wolfgang Stumph</name></actor></actors>
+
+<directors><director><id>60</id><name>Roland Suso Richter
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>7</id>
+
+<title>Paperitфhti</title>
+<original_title></original_title>
+<ean>6416548365213</ean>
+<vet>26569</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Paperitфhti pohjautuu tositapahtumiin. On valokuvamalli, hфnen kolme miestффn, leveфф elфmфф, hyvфksikфyttіф, ja julkista ryіpytystф... Anna (Pirkko Hфmфlфinen) on ex-missi, nykyinen huippumalli, jonka elфmф ajautuu syіksykierteeseen miesten takia. Anna joutuu vфhitellen sekф hфmфperфisen liikemiehen, Ulfin (Hannu Lauri), ettф alkoholisoituneen ja vфkivaltaisen valokuvaajan, Iljan (Kari Vффnфnen), hyvфksikфytіn kohteeksi. Ainoaksi oikeaksi ystфvфksi paljastuu elфmффn rohkeasti suhtautuva Taukka (Matti Rasila). Anna pффttфф koettaa paeta elфmфnsф pahoja asioita, mutta se vaatii rohkeita pффtіksiф ja valmiutta maksamaan niiden hinta.&lt;br /&gt;&lt;br /&gt;Synkkф ja armoton Paperitфhti on kaunistelematon ja kylmфn analyyttinen kuvaus siitф, mitф julkisuus voi tehdф ihmiselle - asia, joka on ajankohtaisempi nyt kuin koskaan. Pirkko Hфmфlфinen palkittiin ansaitusti Parhaan naispффosan Jussi-patsaalla 1990.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>77</id><name>Hannu Lauri</name></actor><actor><id>78</id><name>Kari Vффnфnen</name></actor><actor><id>79</id><name>Matti Rasila</name></actor><actor><id>80</id><name>Mauri Sumщn</name></actor><actor><id>81</id><name>Minna Soisalo</name></actor><actor><id>82</id><name>Mirja Oksanen</name></actor><actor><id>83</id><name>Peter Lindholm</name></actor><actor><id>84</id><name>Pirkko Hфmфlфinen</name></actor><actor><id>85</id><name>Soli Labbart</name></actor><actor><id>86</id><name>Tiina Bjіrkman</name></actor><actor><id>87</id><name>Tomi Salmela</name></actor></actors>
+
+<directors><director><id>76</id><name>Mika Kaurismфki
+</name></director></directors>
+<languages><language><id>7</id><name>Suomi</name></language></languages>
+<countries><country><id>7</id><name>Suomi</name></country><country><id>7</id><name>Suomi</name></country></countries>
+</vod_title>
+<vod_title>
+<id>8</id>
+<title>The Stratosphere Girl</title>
+
+<original_title>The Stratosphere Girl</original_title>
+<ean>6416548354910</ean>
+<vet>200867</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Nuori Angela elфф voimakkaasti mielikuvituksen kautta. Hфnen lempiharrastuksensa on piirtфminen, todellisuuden vфrittфminen fiktiolla, hetkittфistф eskapismia tфstф maailmasta... Sitten Angela kohtaa Yamamoton, DJ:n Tokiosta ja ihastuu tфhфn. Kun Yamamoton pitфф palata takaisin kotiinsa, pyytфф hфn Angelaa mukaansa. Seikkailunhaluinen ja sinisilmфinen Angela suostuu ehdotukseen, ainoastaan huomaten pian olevansa ilman rahaa valtavan Tokion taukoamattomassa ja vieraassa sykkeessф. Angela lіytфф majapaikan kimppakфmpфstф ja saa tilapфistф tyіtф underground-ravintolasta. Mutta kun suurkaupunki alkaa nфyttфф rumia puoliaan, ottaa Angela tehokkaimman puolustavan aseensa: piirtфmisen.&lt;/p&gt;</description>
+<year>2004</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>89</id><name>Chloщ Winkel</name></actor><actor><id>90</id><name>Jon Yang</name></actor><actor><id>91</id><name>Tuva Novotny</name></actor></actors>
+<directors><director><id>88</id><name>Matthias X. Oberg
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>9</id>
+<title>The Last Drop</title>
+<original_title>The Last Drop</original_title>
+<ean>6416548456713</ean>
+<vet>202928</vet>
+<categories><category><id>3</id><name>sota</name></category></categories>
+<description>&lt;p&gt;Saattaakseen toisen maailmansodan pikaiseen pффtіkseen Euroopassa, laittoivat liittoutuneiden joukot liikkeelle massiivisen sotilasoperaation - operaatio Market Gardenin. Toisen maailmansodan suurin maahanlaskuoperaatio siivitti 35.000 sotilasta vihollislinjojen taakse, saksalaisten miehittфmффn Hollantiin... Valtavan joukkohyіkkфyksen riveissф etenee myіs pieni yksikkі koodinimeltф "Matchbox". Mutta Matchboxille on annettu oma salainen tehtфvфnsф, josta vain harvat ja valitut tietфvфt. Joukon on mффrф etsiф mittaamattoman arvokas kultaesineiden ja hollantilaisten arvoesineiden kфtkі, joka lepфф natsien hallussa. Mutta kun Matchboxin kone ammutaan alas ennen heidфn mффrфttyф laskeutumisaluetta, on joukon etsittфvф tiensф kotijoukkojensa luokse lфpi vihollisia vilisevфn alueen, tehtфvффnsф unohtamatta. Sodan tuulet tarjoavat parhaimman suojan tфydelliselle ryіstіlle... &lt;br /&gt;&lt;br /&gt; Billy Zane (Titanic, Mustanaamio, Blood Rayne, Three), Michael Madsen (Reservoir Dogs, Kill Bill 1&amp;amp;2), Tommy Flanagan (Sin City, When a Stranger Calls) ja Sean Pertwee (Dog Soldiers, Event Horizon) kuuluvat tфmфn toimintatфytteisen ja rфjфhdysalttiin sotaseikkailun raskaaseen tykistііn. The Last Drop ei valota kuinka sota tekee pojista miehiф, vaan iskee voimalla siihen, miten rankan keikan kotiin hoitaminen edellyttфф rankkaa фijфkalustoa!&lt;/p&gt;</description>
+
+<year>2005</year>
+<agelimit>15</agelimit>
+<actors><actor><id>93</id><name>Alexander Skarsgхrd</name></actor><actor><id>94</id><name>Andrew Howard</name></actor><actor><id>95</id><name>Billy Zane</name></actor><actor><id>96</id><name>Coral Beed</name></actor><actor><id>97</id><name>Jack Dee</name></actor><actor><id>98</id><name>Karel Roden</name></actor><actor><id>99</id><name>Laurence Fox</name></actor><actor><id>100</id><name>Lucy Gaskell</name></actor><actor><id>101</id><name>Michael Madsen</name></actor><actor><id>102</id><name>Neil Jackson</name></actor><actor><id>103</id><name>Neil Newbon</name></actor><actor><id>104</id><name>Nick Moran</name></actor><actor><id>105</id><name>Rafe Spall</name></actor><actor><id>106</id><name>Sean Pertwee</name></actor><actor><id>107</id><name>Tommy Flanagan</name></actor></actors>
+
+<directors><director><id>92</id><name>Colin Teague
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>10</id>
+<title>Godzilla - Original 1954</title>
+
+<original_title>Godzilla</original_title>
+<ean>6416548356112</ean>
+<vet>V-03058</vet>
+<categories><category><id>4</id><name>science_fiction</name></category></categories>
+<description>&lt;p&gt;Yhdysvaltojen Tyynen valtameren atomipommitestauksilla on kova hinta. Ne herфttфvфt meren pohjassa uinuvan hirviіn, Gojiran, jolle radioaktiivinen sфteily aiheuttaa herффmisen lisфksi mutaatioita - terфviф selkфeviф ja radioaktiivista hengitystф myіten. Gojira lфhtee etenemффn kohti Tokiota, levittфen raivoisaa tuhoa ja kuolemaa tullessaan. Sen tielle joutuvilla laivoilla, rakennuksilla, kylillф ja ihmisillф ei ole toivoakaan, kun toistasataa metriф korkea Gojira jyrфф kohti Japanin paniikissa odottavaa pффkaupunkia. Miten hirviі saadaan pysфytettyф ennen kuin katastrofin laajuus ja tuho saavuttavat pahimmat mahdolliset mittasuhteet.&lt;/p&gt;</description>
+<year>1954</year>
+<agelimit>3</agelimit>
+
+<actors><actor><id>109</id><name>Akihiko Hirata</name></actor><actor><id>110</id><name>Akira Takarada</name></actor><actor><id>111</id><name>Frank Iwanaga</name></actor><actor><id>112</id><name>Fuyuki Murakami</name></actor><actor><id>113</id><name>Kin Sugai</name></actor><actor><id>114</id><name>Kokuten Kodo</name></actor><actor><id>115</id><name>Miki Hayashi</name></actor><actor><id>116</id><name>Momoko Kochi</name></actor><actor><id>117</id><name>Ren Imaizumi</name></actor><actor><id>118</id><name>Ren Yamamoto</name></actor><actor><id>119</id><name>Sachio Sakai</name></actor><actor><id>120</id><name>Seijiro Onda</name></actor><actor><id>121</id><name>Tadashi Okabe</name></actor><actor><id>122</id><name>Takashi Shimura</name></actor><actor><id>123</id><name>Takeo Oikawa</name></actor><actor><id>124</id><name>Toranosuke Ogawa</name></actor><actor><id>125</id><name>Toyoaki Suzuki</name></actor><actor><id>126</id><name>Tsuruko Mano</name></actor></actors>
+
+<directors><director><id>108</id><name>Ishirє Honda
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>11</id>
+<title>The Return of Godzilla</title>
+
+<original_title>The Return of Godzilla</original_title>
+<ean>6416548355610</ean>
+<vet>201567</vet>
+<categories><category><id>4</id><name>science_fiction</name></category></categories>
+<description>&lt;p&gt;30 vuotta on kulunut siitф, kun hirvittфvфф tuhoa aikaan saanut Gojira nousi meren syvyyksistф ja sai Japanin paniikkiin kauhusta. Nyt sama painajainen on edessф, aikaisempaa pahempana. Legenda on syntynyt uudestaan! Uusi, entistфkin raivoisampi Godzilla on syntynyt, ja se suuntaa jфlleen matkansa kohti Tokiota. Tilanne vakavoituu entisestффn, kun supervallat USA ja Neuvostoliitto ovat valmiit puuttumaan peliin ydinasein, suojellakseen omia alueitaan Godzillan pysфyttфmфttіmфltф tuntuvalta hфvitykseltф...&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>11</agelimit>
+<actors><actor><id>109</id><name>Akihiko Hirata</name></actor><actor><id>110</id><name>Akira Takarada</name></actor><actor><id>112</id><name>Fuyuki Murakami</name></actor><actor><id>113</id><name>Kin Sugai</name></actor><actor><id>114</id><name>Kokuten Kodo</name></actor><actor><id>115</id><name>Miki Hayashi</name></actor><actor><id>116</id><name>Momoko Kochi</name></actor><actor><id>118</id><name>Ren Yamamoto</name></actor><actor><id>119</id><name>Sachio Sakai</name></actor><actor><id>120</id><name>Seijiro Onda</name></actor><actor><id>122</id><name>Takashi Shimura</name></actor><actor><id>123</id><name>Takeo Oikawa</name></actor><actor><id>124</id><name>Toranosuke Ogawa</name></actor><actor><id>125</id><name>Toyoaki Suzuki</name></actor><actor><id>126</id><name>Tsuruko Mano</name></actor><actor><id>128</id><name>'Hurricane Ryu' Hariken</name></actor><actor><id>129</id><name>Akiji Kobayashi</name></actor><actor><id>130</id><name>Akira Nakao</name></actor><actor><id>131</id><name>Anna Nakagawa</name></actor><actor><id>132</id><name>Chuck Wilson</name></actor><actor><id>133</id><name>Eitarє Ozawa</name></actor><actor><id>134</id><name>Haruko Sagara</name></actor><actor><id>135</id><name>Hiroshi Koizumi</name></actor><actor><id>136</id><name>Junkichi Orimoto</name></actor><actor><id>137</id><name>Katsuhiko Sasaki</name></actor><actor><id>138</id><name>Kazuma Matsubara</name></actor><actor><id>139</id><name>Kei Sato</name></actor><actor><id>140</id><name>Keiju Kobayashi</name></actor><actor><id>141</id><name>Ken Tanaka</name></actor><actor><id>142</id><name>Kenji Sahara</name></actor><actor><id>143</id><name>Kenpachiro Satsuma</name></actor><actor><id>144</id><name>Kiwako Harada</name></actor><actor><id>145</id><name>Kєichi Ueda</name></actor><actor><id>146</id><name>Koji Takahashi</name></actor><actor><id>147</id><name>Kosuke Toyohara</name></actor><actor><id>148</id><name>Kunihiko Mitamura</name></actor><actor><id>149</id><name>Kunio Murai</name></actor><actor><id>150</id><name>Masahiro Takashima</name></actor><actor><id>151</id><name>Masanobu Takashima</name></actor><actor><id>152</id><name>Megumi Odaka</name></actor><actor><id>153</id><name>Mizuho Suzuki</name></actor><actor><id>154</id><name>Nobuo Kaneko</name></actor><actor><id>155</id><name>Ronald Hoerr</name></actor><actor><id>156</id><name>Ryunosuke Kaneda</name></actor><actor><id>157</id><name>Saburo Shinoda</name></actor><actor><id>158</id><name>Sayaka Osawa</name></actor><actor><id>159</id><name>Shelley Sweeney</name></actor><actor><id>160</id><name>Shigeru Kєyama</name></actor><actor><id>161</id><name>Shin Takuma</name></actor><actor><id>162</id><name>Sho Hashimoto</name></actor><actor><id>163</id><name>Sє Yamamura</name></actor><actor><id>164</id><name>Takehiro Murata</name></actor><actor><id>165</id><name>Takenori Emoto</name></actor><actor><id>166</id><name>Taketoshi Naitє</name></actor><actor><id>167</id><name>Takuro Tatsumi</name></actor><actor><id>168</id><name>Tokuma Nishioka</name></actor><actor><id>169</id><name>Tєru Minegishi</name></actor><actor><id>170</id><name>Toshiyuki Nagashima</name></actor><actor><id>171</id><name>Yasufumi Hayashi</name></actor><actor><id>172</id><name>Yasuko Sawaguchi</name></actor><actor><id>173</id><name>Yasunori Yuge</name></actor><actor><id>174</id><name>Yєko Ishino</name></actor><actor><id>175</id><name>Yoshiko Kuga</name></actor><actor><id>176</id><name>Yoshiko Tanaka</name></actor><actor><id>177</id><name>Yoshio Tsuchiya</name></actor><actor><id>178</id><name>Yosuke Natsuki</name></actor></actors>
+
+<directors><director><id>127</id><name>Ishirє Honda
+Kazuki Omori
+Koji Hashimoto
+R.J. Kizer
+Takao Okawara
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>12</id>
+<title>Godzilla vs. Biollante</title>
+
+<original_title>Gojiza tai Biorante</original_title>
+<ean>6416548355719</ean>
+<vet>201498</vet>
+<categories><category><id>4</id><name>science_fiction</name></category></categories>
+<description>&lt;p&gt;Muutama vuosi on jo kulunut viimeisimmфstф Godzillan hyіkkфyksestф Japaniin, ja saarivaltio on vфhitellen tokenemassa sen aiheuttamasta tuhosta. Savuavista raunioista lіytyi kuitenkin Godzillan DNA:ta, joka lopulta pффtyy pahasti hфiriintyneen Tri Shiragamin kфsiin. Ruusujen jalostaminen on erityinen pakkomielle Shiragamille, ja tфmф pффttффkin yhdistфф Godzillan ja ruusun DNA:t - pelottavin seurauksin. Tuloksena on suuren kerrostalon kokoinen tappajakasvi, Biollante... Kun Godzillakin vielф vapautuu vuoren sisфltф, joka on toiminut sen vankilana kuluneet vuodet, on Japanilla edessффn suurempi ongelma kuin koskaan aikaisemmin. Hфvitykselle ei nфy loppua, kun Godzilla ja Biollante ottavat yhteen taistelussa, jossa sivullisten uhrien mффrф ja tuho yltфvфt uusiin mittasuhteisiin...&lt;/p&gt;</description>
+<year>1989</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>134</id><name>Haruko Sagara</name></actor><actor><id>138</id><name>Kazuma Matsubara</name></actor><actor><id>145</id><name>Kєichi Ueda</name></actor><actor><id>146</id><name>Koji Takahashi</name></actor><actor><id>147</id><name>Kosuke Toyohara</name></actor><actor><id>148</id><name>Kunihiko Mitamura</name></actor><actor><id>151</id><name>Masanobu Takashima</name></actor><actor><id>152</id><name>Megumi Odaka</name></actor><actor><id>156</id><name>Ryunosuke Kaneda</name></actor><actor><id>169</id><name>Tєru Minegishi</name></actor><actor><id>170</id><name>Toshiyuki Nagashima</name></actor><actor><id>172</id><name>Yasuko Sawaguchi</name></actor><actor><id>173</id><name>Yasunori Yuge</name></actor><actor><id>175</id><name>Yoshiko Kuga</name></actor><actor><id>176</id><name>Yoshiko Tanaka</name></actor></actors>
+
+<directors><director><id>179</id><name>Kazuki Omori
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>13</id>
+<title>Godzilla vs. Destoroyah</title>
+
+<original_title>Godzilla vs. Destoroyah</original_title>
+<ean>6416548356013</ean>
+<vet>201526</vet>
+<categories><category><id>4</id><name>science_fiction</name></category></categories>
+<description>&lt;p&gt;Godzilla on palannut ja nyt sillф on mukana poikasensa! Eikф pojasta polvi parane... Nyt Godzillan tuoma uhka koskee muitakin kuin vain japanilaisia. Koko ihmiskunta on tuhon partaalla, kun Godzillan radioaktiivisuus on nousemaas yli kriittisen pisteen. Jos kehitystф ei saada pysфytetyksi, uhkaa Godzilla rфjфhtфф valtaisan ydinaseen voimalla, tuhoten koko maapallon! Erikoisjoukot valmistautuvat jффdyttфmффn Godzillan ja pysфyttфmффn tuhon kellon, mutta matkaan tulee lisфф pulmia, kun myіs 2.5 miljardia vuotta vanha hirviі, Oxygen Destroyer, herфф unestaan... Godzillan ottaessa yhteen Destoyerin kanssa ei Japania kohtaavalle tuholle nфy loppua. Aika on kфymфssф vфhiin... Ihmisten on toimittava pian tai huominen on historiaa!&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>109</id><name>Akihiko Hirata</name></actor><actor><id>110</id><name>Akira Takarada</name></actor><actor><id>112</id><name>Fuyuki Murakami</name></actor><actor><id>113</id><name>Kin Sugai</name></actor><actor><id>114</id><name>Kokuten Kodo</name></actor><actor><id>115</id><name>Miki Hayashi</name></actor><actor><id>116</id><name>Momoko Kochi</name></actor><actor><id>118</id><name>Ren Yamamoto</name></actor><actor><id>119</id><name>Sachio Sakai</name></actor><actor><id>120</id><name>Seijiro Onda</name></actor><actor><id>122</id><name>Takashi Shimura</name></actor><actor><id>123</id><name>Takeo Oikawa</name></actor><actor><id>124</id><name>Toranosuke Ogawa</name></actor><actor><id>125</id><name>Toyoaki Suzuki</name></actor><actor><id>126</id><name>Tsuruko Mano</name></actor><actor><id>128</id><name>'Hurricane Ryu' Hariken</name></actor><actor><id>129</id><name>Akiji Kobayashi</name></actor><actor><id>130</id><name>Akira Nakao</name></actor><actor><id>131</id><name>Anna Nakagawa</name></actor><actor><id>132</id><name>Chuck Wilson</name></actor><actor><id>133</id><name>Eitarє Ozawa</name></actor><actor><id>134</id><name>Haruko Sagara</name></actor><actor><id>135</id><name>Hiroshi Koizumi</name></actor><actor><id>136</id><name>Junkichi Orimoto</name></actor><actor><id>137</id><name>Katsuhiko Sasaki</name></actor><actor><id>138</id><name>Kazuma Matsubara</name></actor><actor><id>139</id><name>Kei Sato</name></actor><actor><id>140</id><name>Keiju Kobayashi</name></actor><actor><id>141</id><name>Ken Tanaka</name></actor><actor><id>142</id><name>Kenji Sahara</name></actor><actor><id>143</id><name>Kenpachiro Satsuma</name></actor><actor><id>144</id><name>Kiwako Harada</name></actor><actor><id>145</id><name>Kєichi Ueda</name></actor><actor><id>146</id><name>Koji Takahashi</name></actor><actor><id>147</id><name>Kosuke Toyohara</name></actor><actor><id>148</id><name>Kunihiko Mitamura</name></actor><actor><id>149</id><name>Kunio Murai</name></actor><actor><id>150</id><name>Masahiro Takashima</name></actor><actor><id>151</id><name>Masanobu Takashima</name></actor><actor><id>152</id><name>Megumi Odaka</name></actor><actor><id>153</id><name>Mizuho Suzuki</name></actor><actor><id>154</id><name>Nobuo Kaneko</name></actor><actor><id>155</id><name>Ronald Hoerr</name></actor><actor><id>156</id><name>Ryunosuke Kaneda</name></actor><actor><id>157</id><name>Saburo Shinoda</name></actor><actor><id>158</id><name>Sayaka Osawa</name></actor><actor><id>159</id><name>Shelley Sweeney</name></actor><actor><id>160</id><name>Shigeru Kєyama</name></actor><actor><id>161</id><name>Shin Takuma</name></actor><actor><id>162</id><name>Sho Hashimoto</name></actor><actor><id>163</id><name>Sє Yamamura</name></actor><actor><id>164</id><name>Takehiro Murata</name></actor><actor><id>165</id><name>Takenori Emoto</name></actor><actor><id>166</id><name>Taketoshi Naitє</name></actor><actor><id>167</id><name>Takuro Tatsumi</name></actor><actor><id>168</id><name>Tokuma Nishioka</name></actor><actor><id>169</id><name>Tєru Minegishi</name></actor><actor><id>170</id><name>Toshiyuki Nagashima</name></actor><actor><id>171</id><name>Yasufumi Hayashi</name></actor><actor><id>172</id><name>Yasuko Sawaguchi</name></actor><actor><id>173</id><name>Yasunori Yuge</name></actor><actor><id>174</id><name>Yєko Ishino</name></actor><actor><id>175</id><name>Yoshiko Kuga</name></actor><actor><id>176</id><name>Yoshiko Tanaka</name></actor><actor><id>177</id><name>Yoshio Tsuchiya</name></actor><actor><id>178</id><name>Yosuke Natsuki</name></actor></actors>
+
+<directors><director><id>127</id><name>Ishirє Honda
+Kazuki Omori
+Koji Hashimoto
+R.J. Kizer
+Takao Okawara
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>14</id>
+<title>Godzilla vs. King Ghidorah</title>
+
+<original_title>Godzilla vs. King Ghidorah</original_title>
+<ean>6416548355818</ean>
+<vet>201505</vet>
+<categories><category><id>4</id><name>science_fiction</name></category></categories>
+<description>&lt;p&gt;Japani saa vuonna 1992 yllфttфviф vieraita - aikamatkustajia 2200-luvulta. Vieraat ovat tulleet varoittamaan maata 2000-luvulla kohtaavasta ydinkatastrofista, jonka aiheuttajana japanilaisille on liiankin tutuksi tullut hirviі, Godzilla. Ainoa keino turman estфmiseksi on matkata ajassa taaksepфin, vuoteen 1944, Tyynen valtameren Ragos-saarelle, jossa Godzilla syntyi ydinasesфteilyn seurauksena, ja tuhota hirviі alkuunsa ja lopullisesti. Mutta pian selviфф, ettф vieraiden motiivit ovat kaikkea muuta kuin ystфvфllismieliset - heidфn tarkoituksenaan on tuhota Japani, ja nфin estфф sen tuleminen tulevaisuuden ehdottomaksi talousmahdiksi. Avukseen vieraat ovat tuoneet vaarallisen ja pelkoa ympфrilleen kylvфvфn King Ghidorahin. Japani joutuu turvautumaan avun saamisessa varsin ennalta arvaamattomaan tahoon; Godzilla on palannut, ja nyt sen aiheuttama tuho on japanilaisten ainoa toivo!&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>109</id><name>Akihiko Hirata</name></actor><actor><id>110</id><name>Akira Takarada</name></actor><actor><id>112</id><name>Fuyuki Murakami</name></actor><actor><id>113</id><name>Kin Sugai</name></actor><actor><id>114</id><name>Kokuten Kodo</name></actor><actor><id>115</id><name>Miki Hayashi</name></actor><actor><id>116</id><name>Momoko Kochi</name></actor><actor><id>118</id><name>Ren Yamamoto</name></actor><actor><id>119</id><name>Sachio Sakai</name></actor><actor><id>120</id><name>Seijiro Onda</name></actor><actor><id>122</id><name>Takashi Shimura</name></actor><actor><id>123</id><name>Takeo Oikawa</name></actor><actor><id>124</id><name>Toranosuke Ogawa</name></actor><actor><id>125</id><name>Toyoaki Suzuki</name></actor><actor><id>126</id><name>Tsuruko Mano</name></actor><actor><id>128</id><name>'Hurricane Ryu' Hariken</name></actor><actor><id>129</id><name>Akiji Kobayashi</name></actor><actor><id>130</id><name>Akira Nakao</name></actor><actor><id>131</id><name>Anna Nakagawa</name></actor><actor><id>132</id><name>Chuck Wilson</name></actor><actor><id>133</id><name>Eitarє Ozawa</name></actor><actor><id>134</id><name>Haruko Sagara</name></actor><actor><id>135</id><name>Hiroshi Koizumi</name></actor><actor><id>136</id><name>Junkichi Orimoto</name></actor><actor><id>137</id><name>Katsuhiko Sasaki</name></actor><actor><id>138</id><name>Kazuma Matsubara</name></actor><actor><id>139</id><name>Kei Sato</name></actor><actor><id>140</id><name>Keiju Kobayashi</name></actor><actor><id>141</id><name>Ken Tanaka</name></actor><actor><id>142</id><name>Kenji Sahara</name></actor><actor><id>143</id><name>Kenpachiro Satsuma</name></actor><actor><id>144</id><name>Kiwako Harada</name></actor><actor><id>145</id><name>Kєichi Ueda</name></actor><actor><id>146</id><name>Koji Takahashi</name></actor><actor><id>147</id><name>Kosuke Toyohara</name></actor><actor><id>148</id><name>Kunihiko Mitamura</name></actor><actor><id>149</id><name>Kunio Murai</name></actor><actor><id>150</id><name>Masahiro Takashima</name></actor><actor><id>151</id><name>Masanobu Takashima</name></actor><actor><id>152</id><name>Megumi Odaka</name></actor><actor><id>153</id><name>Mizuho Suzuki</name></actor><actor><id>154</id><name>Nobuo Kaneko</name></actor><actor><id>155</id><name>Ronald Hoerr</name></actor><actor><id>156</id><name>Ryunosuke Kaneda</name></actor><actor><id>157</id><name>Saburo Shinoda</name></actor><actor><id>158</id><name>Sayaka Osawa</name></actor><actor><id>159</id><name>Shelley Sweeney</name></actor><actor><id>160</id><name>Shigeru Kєyama</name></actor><actor><id>161</id><name>Shin Takuma</name></actor><actor><id>162</id><name>Sho Hashimoto</name></actor><actor><id>163</id><name>Sє Yamamura</name></actor><actor><id>164</id><name>Takehiro Murata</name></actor><actor><id>165</id><name>Takenori Emoto</name></actor><actor><id>166</id><name>Taketoshi Naitє</name></actor><actor><id>167</id><name>Takuro Tatsumi</name></actor><actor><id>168</id><name>Tokuma Nishioka</name></actor><actor><id>169</id><name>Tєru Minegishi</name></actor><actor><id>170</id><name>Toshiyuki Nagashima</name></actor><actor><id>171</id><name>Yasufumi Hayashi</name></actor><actor><id>172</id><name>Yasuko Sawaguchi</name></actor><actor><id>173</id><name>Yasunori Yuge</name></actor><actor><id>174</id><name>Yєko Ishino</name></actor><actor><id>175</id><name>Yoshiko Kuga</name></actor><actor><id>176</id><name>Yoshiko Tanaka</name></actor><actor><id>177</id><name>Yoshio Tsuchiya</name></actor><actor><id>178</id><name>Yosuke Natsuki</name></actor></actors>
+
+<directors><director><id>127</id><name>Ishirє Honda
+Kazuki Omori
+Koji Hashimoto
+R.J. Kizer
+Takao Okawara
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>15</id>
+<title>Godzilla vs. Mothra</title>
+
+<original_title>Godzilla vs. Mothra</original_title>
+<ean>6416548355917</ean>
+<vet>201552</vet>
+<categories><category><id>4</id><name>science_fiction</name></category></categories>
+<description>&lt;p&gt;Meteoriitti osuu mereen aivan Japanin edustalla vakavin ja yllфttфvin seurauksin. Osuma synnyttфф uuden saaren ja herфttфф lisфksi japanilaisten vanhan vihollisen Godzillan, sekф uuden hirviіn, jфttilфishyіnteisen Battran. Tutkijaryhmф saapuu saarelle vastauksien toivossa ja lіytфф valtavan, kuoriutumattoman munan. Selviфф, ettф munasta voi syntyф jфttilфismфinen koi, Mothra, jota muinoin pidettiin ihmiskunnan suojelijana, sen pahinta vihollista, Battraa, vastaan. Mutta nyt Battrakin on kohdannut voittajansa... Godzilla on supervihainen ja suuntaa raivon vallassa jфlleen kohti Japania tuhotakseen sen alkutekijіihinsф. Mikффn ei voi pysфyttфф Godzilla, ellei sitten Mothra tai Battra yhdessф...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>109</id><name>Akihiko Hirata</name></actor><actor><id>110</id><name>Akira Takarada</name></actor><actor><id>112</id><name>Fuyuki Murakami</name></actor><actor><id>113</id><name>Kin Sugai</name></actor><actor><id>114</id><name>Kokuten Kodo</name></actor><actor><id>115</id><name>Miki Hayashi</name></actor><actor><id>116</id><name>Momoko Kochi</name></actor><actor><id>118</id><name>Ren Yamamoto</name></actor><actor><id>119</id><name>Sachio Sakai</name></actor><actor><id>120</id><name>Seijiro Onda</name></actor><actor><id>122</id><name>Takashi Shimura</name></actor><actor><id>123</id><name>Takeo Oikawa</name></actor><actor><id>124</id><name>Toranosuke Ogawa</name></actor><actor><id>125</id><name>Toyoaki Suzuki</name></actor><actor><id>126</id><name>Tsuruko Mano</name></actor><actor><id>128</id><name>'Hurricane Ryu' Hariken</name></actor><actor><id>129</id><name>Akiji Kobayashi</name></actor><actor><id>130</id><name>Akira Nakao</name></actor><actor><id>131</id><name>Anna Nakagawa</name></actor><actor><id>132</id><name>Chuck Wilson</name></actor><actor><id>133</id><name>Eitarє Ozawa</name></actor><actor><id>134</id><name>Haruko Sagara</name></actor><actor><id>135</id><name>Hiroshi Koizumi</name></actor><actor><id>136</id><name>Junkichi Orimoto</name></actor><actor><id>137</id><name>Katsuhiko Sasaki</name></actor><actor><id>138</id><name>Kazuma Matsubara</name></actor><actor><id>139</id><name>Kei Sato</name></actor><actor><id>140</id><name>Keiju Kobayashi</name></actor><actor><id>141</id><name>Ken Tanaka</name></actor><actor><id>142</id><name>Kenji Sahara</name></actor><actor><id>143</id><name>Kenpachiro Satsuma</name></actor><actor><id>144</id><name>Kiwako Harada</name></actor><actor><id>145</id><name>Kєichi Ueda</name></actor><actor><id>146</id><name>Koji Takahashi</name></actor><actor><id>147</id><name>Kosuke Toyohara</name></actor><actor><id>148</id><name>Kunihiko Mitamura</name></actor><actor><id>149</id><name>Kunio Murai</name></actor><actor><id>150</id><name>Masahiro Takashima</name></actor><actor><id>151</id><name>Masanobu Takashima</name></actor><actor><id>152</id><name>Megumi Odaka</name></actor><actor><id>153</id><name>Mizuho Suzuki</name></actor><actor><id>154</id><name>Nobuo Kaneko</name></actor><actor><id>155</id><name>Ronald Hoerr</name></actor><actor><id>156</id><name>Ryunosuke Kaneda</name></actor><actor><id>157</id><name>Saburo Shinoda</name></actor><actor><id>158</id><name>Sayaka Osawa</name></actor><actor><id>159</id><name>Shelley Sweeney</name></actor><actor><id>160</id><name>Shigeru Kєyama</name></actor><actor><id>161</id><name>Shin Takuma</name></actor><actor><id>162</id><name>Sho Hashimoto</name></actor><actor><id>163</id><name>Sє Yamamura</name></actor><actor><id>164</id><name>Takehiro Murata</name></actor><actor><id>165</id><name>Takenori Emoto</name></actor><actor><id>166</id><name>Taketoshi Naitє</name></actor><actor><id>167</id><name>Takuro Tatsumi</name></actor><actor><id>168</id><name>Tokuma Nishioka</name></actor><actor><id>169</id><name>Tєru Minegishi</name></actor><actor><id>170</id><name>Toshiyuki Nagashima</name></actor><actor><id>171</id><name>Yasufumi Hayashi</name></actor><actor><id>172</id><name>Yasuko Sawaguchi</name></actor><actor><id>173</id><name>Yasunori Yuge</name></actor><actor><id>174</id><name>Yєko Ishino</name></actor><actor><id>175</id><name>Yoshiko Kuga</name></actor><actor><id>176</id><name>Yoshiko Tanaka</name></actor><actor><id>177</id><name>Yoshio Tsuchiya</name></actor><actor><id>178</id><name>Yosuke Natsuki</name></actor></actors>
+
+<directors><director><id>127</id><name>Ishirє Honda
+Kazuki Omori
+Koji Hashimoto
+R.J. Kizer
+Takao Okawara
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>16</id>
+<title>Musa the Warrior &amp; The Princess of the Desert</title>
+
+<original_title>Musa the Warrior &amp; The Princess of the Desert</original_title>
+<ean>6416548351117</ean>
+<vet>103693</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Sisфltфф elokuvan pitkфn version. Vuonna 1375, Kiinassa oli levotonta Yuan- ja Ming-dynastioiden vфlillф. Coryo (muinainen Korea) lфhetti useita diplomaatteja, sotilaita ja kuuron orjan (Woo-sung Jung) tekemффn rauhaa Kiinan uuden hallituksen kanssa. Tфmф delegaatio sai kuitenkin vakoilusyytteet niskaansa ja sen jфsenet karkoitettiin kaukaiseen autiomaahan. Tuolla matkalla ryhmф tіrmфsi Yuanin joukkoihin ja kuin ihmeen kaupalla Coryon sotilaat selvisivфt taistelusta. Samalla heille selvisi ettф Yuanin joukot ovat kidnapanneet Ming-dynastiaan kuuluvan prisessan (Ziyi Zhang). Coryon sotilaan pффttфvфt pelastaa prinsessan, jotta he saisivat laivan kotimatkaansa varten. Ja niin taistelu alkaa...&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>15</agelimit>
+<actors><actor><id>181</id><name>Ahn Sung-kee</name></actor><actor><id>182</id><name>Jung Woo-sung</name></actor></actors>
+<directors><director><id>180</id><name>Kim Sung-su
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language><language><id>5</id><name>Korea</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>17</id>
+<title>Close to Heaven</title>
+<original_title>Close to Heaven</original_title>
+<ean>6416548460413</ean>
+<vet>203377</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Tervetuloa Close to Heaven:iin, omaperфiseen hotelliin, jollaisessa et ole ennen vieraillut. Kun meteoriitti osuu hotelliin, saa paikan ainutlaatuisuus uudet mittasuhteet ja sen vieraiden omituisuus erottuu entisestффn. Nuoren taiteilijan, Samuelin arki on mielipuolisuudella vфritetty... Siamilaisten kaksosten kiihkeф miehenmetsфstys ei jфtф sydфmiф kylmфksi... On voimakkaasti itseффn meikkaava maagikko, jonka urakehitys on tullut umpikujaan sekф elфkelфiset, jotka kaipaavat yhteyttф henkimaailmaan, ффniin haudan takaa. Ja vielф on muitakin vieraita, jotka pistфvфt pффsi tфysin pyіrфlle. Close to Heaven on salaisuuksia ja uskomattomia kohtaloita tфynnф oleva talo, jossa mikффn ei ole niin kuin pффlle pфin nфyttфф, vaan paljon enemmфn tai tфysin toisin. Ehkф nimi on enne - tфmфn lфhemmфksi taivasta et ikinф pффse, tфssф elфmфssф.&lt;br /&gt;&lt;br /&gt;Close to Heaven on lфmminhenkinen ja juonellisesti monitasoinen elokuva syvфstф rakkaudesta sekф puhtaasta hulluudesta rфnsistyneessф prahalaisessa hotellissa.&lt;/p&gt;</description>
+
+<year>2005</year>
+<agelimit>11</agelimit>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>18</id>
+<title>Pфivф ilman sotaa</title>
+
+<original_title>Joeux Noыl / Merry Christmas</original_title>
+<ean>6416548356617</ean>
+<vet>201339</vet>
+<categories><category><id>3</id><name>sota</name></category></categories>
+<description>&lt;p&gt;Ensimmфinen maailmansota syttyi kesфllф 1914, yllфttфen koko Euroopan ja vetфen mukaansa miljoonat ihmiset. Juoksuhaudoissa joulua 1914 vietettiin niin jouluisissa merkeissф kuin se vallitsevissa olosuhteissa oli mahdollista. Suurin jouluyllфtys ei paljastunut esikuntien ja sukulaisten toimittamista paketeista, vaan vihollislinjojen takaa. Erффllф eturintamalla saksalaiset, ranskalaiset ja skotlantilaiset sotilaat tekivфt yhdessф tфysin omavaltaisen vфlirauhan, joka kesti jouluyіn ja joulupфivфn. Sotilaat tapasivat toisensa ei-kenenkффn-maalla, paiskasivat kфttф ja toivottivat toisilleen hyvфф joulua... Sodan kauhuihin vфsyneet miehet pystyivфt unohtamaan vihollisuuden ja sodan lyhyeksi hetkeksi, mutta kyltymфttіmффn nфlkффn pффssyt sota ei ollut aikeissa unohtaa heitф.&lt;/p&gt;
+&lt;p&gt;Pфivф ilman sotaa pohjautuu sodan ensimmфisen joulun tositapahtumiin. Eri puolilta rintamaa raportoitiin vihollisten vфlisistф ystфvфllisistф kanssakфymisistф. Jфrjetіn sota haluttiin unohtaa edes hetkeksi - sota, jonka uskottiin pффttyvфn pian.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>11</agelimit>
+<actors><actor><id>185</id><name>Alex Ferns</name></actor><actor><id>186</id><name>Benno Fќrmann</name></actor><actor><id>187</id><name>Bernard Le Coq</name></actor><actor><id>188</id><name>Christopher Fulford</name></actor><actor><id>189</id><name>Daniel Brќhl</name></actor><actor><id>190</id><name>Dany Boon</name></actor><actor><id>191</id><name>Diane Kruger</name></actor><actor><id>192</id><name>Gary Lewis</name></actor><actor><id>193</id><name>Guillaume Canet</name></actor><actor><id>194</id><name>Ian Richardson</name></actor><actor><id>195</id><name>Joachim Bissmeier</name></actor><actor><id>196</id><name>Lucas Belvaux</name></actor><actor><id>197</id><name>Robin Laing</name></actor><actor><id>198</id><name>Steven Robertson</name></actor><actor><id>199</id><name>Thomas Schmauser</name></actor></actors>
+
+<directors><director><id>184</id><name>Christian Carion
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language><language><id>3</id><name>ranska</name></language><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+
+<id>19</id>
+<title>Fidel &amp; Che</title>
+<original_title>Fidel</original_title>
+<ean>6416548458816</ean>
+<vet>203190</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Maanviljelijфperheeseen vuonna 1926 syntynyt Fidel Alejandro Castro oppi jo lapsena lujatahtoiseksi ja mффrфtietoiseksi persoonaksi, jolla oli halu johtaa. Myіhemmin opiskellessaan lakia Havannan yliopistossa, poliittisesti valveutunut Castro lфhti mukaan vallankumouksellisen jфrjestіn toimintaan. Monen vivahteikkaan ja verisenkin vaiheen jфlkeen, yritti Castro joukkoineen vallankumousta Fulgencio Batistan diktatuuria vastaan vuonna 1953, mutta koki katkeran tappion ja joutui karkotetuksi Kuubasta. Tфstф lannistumatta Castro palasi pian takaisin Kuubaan yhdessф ystфvфnsф ja oikean kфtensф Ernesto "Che" Guevaran kanssa, aloittaen vallankumoustoimet uudestaan. Nфmф kaksi Kuuban lфhihistorian suurmiestф, heidфn vфlinen ystфvyys ja heidфn muodostama 26. heinфkuuta -liike muutti Kuuban usean vaiheen kautta nykyiseen muotoonsa. Vuosikymmeniin on mahtunut runsaasti sankaritekoja, uhreja, voittoja ja tappioita. Fidel ja Che ovat kirjoittaneet maansa historiaa ja omaansa ehdoitta...&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>201</id><name>Alejandra Gollсs</name></actor><actor><id>202</id><name>Bobby Plasencia</name></actor><actor><id>203</id><name>Cecilia Suсrez</name></actor><actor><id>204</id><name>Enrique Arce</name></actor><actor><id>205</id><name>Ernesto Godoy</name></actor><actor><id>206</id><name>Gael Garcэa Bernal</name></actor><actor><id>207</id><name>Guillermo Dэaz</name></actor><actor><id>208</id><name>Josщ Marэa Yazpik</name></actor><actor><id>209</id><name>Manuel Sevilla</name></actor><actor><id>210</id><name>Margarita Rosa de Francisco</name></actor><actor><id>211</id><name>Maurice Compte</name></actor><actor><id>212</id><name>Mel Rodriguez</name></actor><actor><id>213</id><name>Patricia Velasquez</name></actor><actor><id>214</id><name>Tony Plana</name></actor><actor><id>215</id><name>Vэctor Huggo Martin</name></actor></actors>
+
+<directors><director><id>200</id><name>David Attwood
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>20</id>
+<title>35 Something</title>
+
+<original_title>Tout pour Plaire</original_title>
+<ean>6416548357317</ean>
+<vet>201937</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Juliette, Marie ja Florence ovat olleet sydфnystфviф lapsuudestaan saakka, aina toistensa tukena ja turvana - olkapффnф, jota vasten sekф itkeф ja nauraa lфpi elфmфn. Hyvф niin, sillф kolmenkympin rajapyykin rikkoutuminen ja sen vanavedessф tullut kriisiaallokko sekф arjen paineet vaativat vahvat evффt ja pitфvфn tukiverkoston, etteivфt elфmфn ilot jфisi surujen jalkoihin. Juliette (Mathilde Seigner) huomaa olevansa jфlleen sinkku ja edessф on tasapainoilu sinkkuelфmфn nousujen ja laskujen, kuin myіs taloudellisten paineiden kanssa. Marien (Judith Godrшche: Espanjalainen kimppakфmppф, Kun sattuma kuljettaa) arki on tuttua ja turvattua - ehkф liiankin. Rutiinit ovat poistaneet jфnnityksen elфmфstф ja aviomieskin alkaa tuntua saamattomalta tossulta, joka ei jaksa kantaa edes pientф kortta kekoon. Uraohjus Florencen (Anne Parillaud: Tyttі nimeltф Nikita) stressinsietokyky on hioutunut huippuunsa, mutta rajansa on hфnellфkin. Tyіpaikalla rassaavat vaikeat asiakkaat ja idiootti esimies ja kotona odottaa tyіlleen elфvф, laiminlyіvф puoliso. Ystфvykset ovat yllфttфen kaikki merkittфvien elфmфnvalintojen edessф, joissa kompromisseille ei tunnu lіytyvфn sijaa.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>217</id><name>Anne Parillaud</name></actor><actor><id>218</id><name>Bernard Yerlшs</name></actor><actor><id>219</id><name>Cщcile Brams</name></actor><actor><id>220</id><name>Christina Pinheiro</name></actor><actor><id>221</id><name>Franчois-Xavier Demaison</name></actor><actor><id>222</id><name>Judith Godrшche</name></actor><actor><id>223</id><name>Marc Citti</name></actor><actor><id>224</id><name>Mathias Mlekuz</name></actor><actor><id>225</id><name>Mathilde Seigner</name></actor><actor><id>226</id><name>Pascal Elbщ</name></actor><actor><id>227</id><name>Pascal Elso</name></actor><actor><id>228</id><name>Pierre Cassignard</name></actor><actor><id>229</id><name>Riton Liebman</name></actor><actor><id>230</id><name>Soria Moufakkir</name></actor><actor><id>231</id><name>Thierry Neuvic</name></actor></actors>
+
+<directors><director><id>216</id><name>Cщcile Telerman
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>21</id>
+<title>Sinkkuuden Huuma</title>
+
+<original_title>Les Poupщes Russes / Russian Dolls</original_title>
+<ean>6416548455815</ean>
+<vet>202905</vet>
+<categories><category><id>5</id><name>komedia</name></category></categories>
+<description>&lt;p&gt;Kolmekymppinen Xavier on pahasti tuuliajolla. Hфn on joutunut hautaamaan ammatilliset ambitionsa, ainakin toistaiseksi. Menestyskirjailijan urakokeilu ei lyі leiville ja tarjolla on ainoastaan saippusarjan kфsikirjoitusta. Xavier joutuu tasapainoilemaan vфhintффn yhtф paljon kaoottisen yksityiselфmфnsф puolella. Toistuvat yhden yіn jutut ja pikaromanssit ovat jфttфneet miehen epфilemффn kykyjффn vakavaan suhteeseen. Kun tyіkeikka vie Xavierin Lontooseen, tapaa hфn vanhan ystфvфnsф, Wendyn. Vaikka Wendy on varattu, on kemia kaksikon vфlillф heti ilmeinen. Mutta kuvioihin astuu myіs Celia, kaunis huippumalli, joka myіs kietoo Xavierin pikkusormensa ympфrille. Kipeфsti rakkausneuvoja kaipaava Xavier kффntyy vanhan ystфvфnsф Isabellen puoleen, joka lesbona osaa antaa tarkkanфkіisen yksityiskohtaisia niksejф naisten valloittamiseen, joita Xavier ei olisi edes pystynyt itse kuvittelemaan. Mutta kun myіs Martine, Xavierin ex-tyttіystфvф, ilmestyy ympyrіihin, on Xavierin kolmenkympin kriisi pian aivan uusissa ulottuvuuksissa. Kuka onkaan "se oikea"?&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>228</id><name>Pierre Cassignard</name></actor><actor><id>233</id><name>Aяssa Maяga</name></actor><actor><id>234</id><name>Audrey Tautou</name></actor><actor><id>235</id><name>Cщcile De France</name></actor><actor><id>236</id><name>Evguenya Obraztsova</name></actor><actor><id>237</id><name>Gary Love</name></actor><actor><id>238</id><name>Irene Montalр</name></actor><actor><id>239</id><name>Kelly Reilly</name></actor><actor><id>240</id><name>Kevin Bishop</name></actor><actor><id>241</id><name>Lucy Gordon</name></actor><actor><id>242</id><name>Martine Demaret</name></actor><actor><id>243</id><name>Olivier Saladin</name></actor><actor><id>244</id><name>Pierre Gщrald</name></actor><actor><id>245</id><name>Romain Duris</name></actor><actor><id>246</id><name>Zinedine Soualem</name></actor></actors>
+
+<directors><director><id>232</id><name>Cщdric Klapisch
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>22</id>
+<title>Are You Scared?</title>
+
+<original_title>Are You Scared?</original_title>
+<ean>6416548466415</ean>
+<vet>204420</vet>
+<categories><category><id>6</id><name>kauhu</name></category></categories>
+<description>&lt;p&gt;Kuusi tarkkaan valittua henkilіф osallistuu tosiTV-ohjelmaan, ymmфrtфmфttф pelфtф pahinta: putoajaa odottaa palkinnoista tylyin - kuolema! Ryhmф herфф yllфttфen vieraassa talossa, joka osoittautuu pian todelliseksi surmanloukuksi. Mielipuolisen psykopaatin luoma formaatti asettaa ryhmфn kerta toisensa jфlkeen karmivan valintatilanteen eteen, joista jokainen sisфltфф mahdollisuuden joko jatkaa hengissф tai kokea karmiva verinen kuolema. Apua ei ole saatavilla ja aika kфy vфhiin... Mitф seuraa kun se loppuu?&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>18</agelimit>
+
+<actors><actor><id>248</id><name>Brad Ashten</name></actor><actor><id>249</id><name>Caia Coley</name></actor><actor><id>250</id><name>Carlee Avers</name></actor><actor><id>251</id><name>Erin Consalvi</name></actor><actor><id>252</id><name>Soren Bowie</name></actor></actors>
+<directors><director><id>247</id><name>Andy Hurst
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>23</id>
+<title>Aika Lфhteф</title>
+<original_title>Le Temps Qui Reste</original_title>
+<ean>6416548358017</ean>
+<vet>202821</vet>
+
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Homoseksuaali Romain on yksi muotimaailman kuumimmista kuvaajista, jonka elфmф suurkaupungin nukkumattomassa sykkeessф on yhtф kiihdytystф elфmфn ohituskaistalla. Mutta yhtфkkiф Romainin elфmф iskeytyy фkkipysфhdykseen - hфnellф todetaan parantumaton syіpф, mahdollistaen vain vфhфn elinaikaa ennen kaikkea loppua... Jфrkyttynyt Romain tekee radikaalin ratkaisun ja jфttфф kaiken taakseen: tyіnsф, omaisensa, rakastajansa - koko aikaisemman elфmфnsф. Edessф on viimeinen matka, yhdensuuntainen pako kohti tuntematonta, jolla Romain yrittфф kartoittaa jфljellф olevan aikansa merkityksen ja kфytіssф olevat mahdollisuudet. Mutta vaikka Romainin aika on kфymфssф vфhiin, muistaa elфmф hфntф vielф yhdellф yllфtyksellф - kффnnekohdalla, jolla hфn voi kффntфф kohtalonsa toisen mahdollisuudeksi.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Arvostettu ja tuottelias ohjaaja [director:Francois Ozon] ([movie:Swimming Pool], [movie:5x2], [movie:8 naista]) jatkaa Aika lфhteф-elokuvassaan kuoleman, menetyksen ja suremisen analysointia, aihepiirejф, jotka ovat esiintyneet useissa hфnen aikaisemmissa elokuvissa.&lt;/em&gt;&lt;/p&gt;</description>
+<year>2005</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>253</id><name>Alba Gaяa Kraghede Bellugi</name></actor><actor><id>254</id><name>Christian Sengewald</name></actor><actor><id>255</id><name>Daniel Duval</name></actor><actor><id>256</id><name>Henri de Lorme</name></actor><actor><id>257</id><name>Jeanne Moreau</name></actor><actor><id>258</id><name>Laurence Ragon</name></actor><actor><id>259</id><name>Louise-Anne Hippeau</name></actor><actor><id>260</id><name>Marie Riviшre</name></actor><actor><id>261</id><name>Melvil Poupaud</name></actor><actor><id>262</id><name>Thomas Gizolme</name></actor><actor><id>263</id><name>Ugo Soussan Trabelsi</name></actor><actor><id>264</id><name>Valeria Bruni Tedeschi</name></actor><actor><id>265</id><name>Victor Poulouin</name></actor><actor><id>266</id><name>Violetta Sanchez</name></actor><actor><id>267</id><name>Walter Pagano</name></actor></actors>
+
+<directors><director><id>33</id><name>Franчois Ozon
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>24</id>
+<title>Nosferatu</title>
+
+<original_title>Nosferatu</original_title>
+<ean>6416548825311</ean>
+<vet>87200</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Nuori kiinteistіkauppias Jonathan Harker saa yllфttфvфn tyіtehtфvфn, ja joutuu matkaamaan etфiseen Transylvaniaan tapaamaan mystistф kreivi Draculaa. Etфisen ja erakoituneen Draculan kiinnostus kффntyy kuitenkin pian pois kaupanteosta, nфhtyффn Jonahtan kauniin vaimon, Lucyn kuvan. Jonathan ei tiedф, ettф Dracula on vampyyri, elфvфkuollut - nosferatu, joka elфф vain juomalla elфvien verta. Haluten Lucyn omakseen, Dracula lфhtee Jonathanin kotikaupunkiin Virnaan, kylvфen mukanaan ruttoa ja kuolemaa...&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Nosferatu perustuu englantilaisen kirjailijan Bram Stokerin (1847-1912) klassikkoromaniin Dracula. Kirja on toiminut pohjana lukuisille vampyyrifilmatisoinneille, mutta Werner Herzogin Nosferatua pidetффn yhtenф eheimmistф ja uskollisimmista alkuperфiselle tarinalle. Herzogin elokuva pohjautuu tarinaltaan vahvasti lisфksi vuoden 1922 F.W. Murnaun ohjaamaan kuuluisaan alkuperфisversioon Nosferatu, The Vampire.&lt;/em&gt;&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>269</id><name>Bruno Ganz</name></actor><actor><id>270</id><name>Carsten Bodinus</name></actor><actor><id>271</id><name>Clemens Scheitz</name></actor><actor><id>272</id><name>Dan van Husen</name></actor><actor><id>273</id><name>Isabelle Adjani</name></actor><actor><id>274</id><name>Jan Groth</name></actor><actor><id>275</id><name>John Leddy</name></actor><actor><id>276</id><name>Klaus Kinski</name></actor><actor><id>277</id><name>Lo van Hensbergen</name></actor><actor><id>278</id><name>Margiet van Hartingsveld</name></actor><actor><id>279</id><name>Martje Grohmann</name></actor><actor><id>280</id><name>Rijk de Gooyer</name></actor><actor><id>281</id><name>Roland Topor</name></actor><actor><id>282</id><name>Tim Beekman</name></actor><actor><id>283</id><name>Walter Ladengast</name></actor></actors>
+
+<directors><director><id>268</id><name>Werner Herzog
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>25</id>
+<title>Bennyn Video</title>
+
+<original_title>Benny's Video</original_title>
+<ean></ean>
+<vet>98486</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;14-vuotias Benny on hyvin toimeentulevien vanhempiensa ainoa lapsi, joka on sulkeutunut omaan maailmaansa, jossa videokameran lфpi nфhty ja tallennettu on paljon mielenkiintoisempaa kuin mitф paljas silmф tositaa.&lt;/p&gt;
+&lt;p&gt;Uraa luovien vanhempiensa huomion ulkopuolella kasvava Benny kuluttaa pфivфnsф vфkivaltaelokuvien viihdyttфmфnф, tarkkailemalla ulos ikkunastaan ja kuvaamalla videokamerallaan kaiken vastaantulevan.&lt;/p&gt;
+&lt;p&gt;Erффnф pфivфnф Benny tapaa nuoren tytіn ja kutsuu tфmфn kotiinsa. Pahaa aavistamaton tyttі suostuu Bennyn pyyntііn ja lфhtee mukaan, astuen sisффn Bennyn kotiin, tфmфn huoneeseen, hфnen kylmфn tunteettomaan elфmффn... Pian kamera kфy ja kohtauksen kфsikirjoituksen hirvittфvyys ei tunne eikф anna armoa. Bennyn videossa vain kuolema saa repliikkejф...&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>285</id><name>Alfred Kіberler</name></actor><actor><id>286</id><name>Angela Winkler</name></actor><actor><id>287</id><name>Arno Frisch</name></actor><actor><id>288</id><name>Cecile Gordon</name></actor><actor><id>289</id><name>Christian Pundy</name></actor><actor><id>290</id><name>Dietrich Siegl</name></actor><actor><id>291</id><name>Gerhard Schmiepeter</name></actor><actor><id>292</id><name>Hanspeter Mќller</name></actor><actor><id>293</id><name>Ingrid Stassner</name></actor><actor><id>294</id><name>Max Berner</name></actor><actor><id>295</id><name>Paulus Manker</name></actor><actor><id>296</id><name>Shelley Kфstner</name></actor><actor><id>297</id><name>Stefan Polasek</name></actor><actor><id>298</id><name>Stephanie Brehme</name></actor><actor><id>299</id><name>Susanne Schneider</name></actor><actor><id>300</id><name>Ulrich Mќhe</name></actor><actor><id>301</id><name>Wolfgang Bіck</name></actor></actors>
+
+<directors><director><id>284</id><name>Michael Haneke
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>26</id>
+<title>Funny Games</title>
+
+<original_title>Funny Games</original_title>
+<ean></ean>
+<vet>100877</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Ylemmфn keskiluokan perhe, Georg, Anna ja heidфn poikansa Georgie saapuvat viettфmффn rauhaisaa viikonloppua idylliselle lomaasunnolleen jфrven rannalle. Isфn ja pojan lфhdettyф veneilemффn, jфф фiti kotipuuhiin valmistelemaan yhteistф illanviettoa. Sitten tuntematon nuorimies, Peter, koputtaa oveen ja pyytфф Annaa lainaamaan muutamaa kananmunaa. Siisti ja ффrimmфisen kohtelias Peter ei herфtф Annassa ennakkoluuloja ja tфmф laskee vieraan sisффn. Pian paikalle ilmaantuu myіs Peterin ystфvф Paul ja keskustelun sфvy ja vieraiden kфytіs saa uhkaavampia ja arvaamattomampia piirteitф. Perheen miesten saavuttua venereissultaan kфrjistyy tilanne entisestффn. Mukavasta lomaviikonlopusta on muodostunut kuolemanvakava painajainen, josta leikki on kaukana.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>287</id><name>Arno Frisch</name></actor><actor><id>300</id><name>Ulrich Mќhe</name></actor><actor><id>302</id><name>Christoph Bantzer</name></actor><actor><id>303</id><name>Doris Kunstmann</name></actor><actor><id>304</id><name>Frank Giering</name></actor><actor><id>305</id><name>Monika Zallinger</name></actor><actor><id>306</id><name>Stefan Clapczynski</name></actor><actor><id>307</id><name>Susanne Lothar</name></actor><actor><id>308</id><name>Susanne Meneghel</name></actor><actor><id>309</id><name>Wolfgang Glќck</name></actor></actors>
+
+<directors><director><id>284</id><name>Michael Haneke
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>27</id>
+<title>Ninnin pфivфkirja</title>
+
+<original_title>Nynne</original_title>
+<ean>6416548360416</ean>
+<vet>202936</vet>
+<categories><category><id>5</id><name>komedia</name></category></categories>
+<description>&lt;p&gt;Ninnin pфivфkirja on repфisevфn hauska elokuva kolkyt ja risat -vuotiaasta Ninnistф. Hфn on sinkku, joka vihaa perhepyhiф ja pariskuntarientoja kuin ruttoa. Hфn on tyіpaikassaan ainoa, joka onnistuu saamaan I Love You -tietokoneviruksen. Hфn lupaa itselleen toistuvasti, ettei juo humalahakuisesti sekaisin shampanjaa, valkoviiniф, giniф, konjakkia, olutta, punaviiniф, tequilaa ja mitф muuta baarista nyt sattuu lіytymффnkффn. Ninnin pфivфkirja alkaa, kun Ninnin ihannepoikaystфvф lфhtee kфvelemффn. Miehet! Alkaa runsaan vuoden mittainen itsensф etsintф sinkkuna, jonka aikana luottokortti vinkuu jatkuvasti ja paljon. Pikkujouluaika otetaan haltuun pitkфn kaavan mukaan lasiin sylkemфttф. Krapulamorkkikset hakevat vertaistaan ja uusi nфkіkanta ehtii muodostua mm. ystфviin, tuttuihin, фitiin ja miehiin - etenkin miehiin! Oletko kolmekymppinen citysinkku? Rakastatko elokuvia, kahviloita, rentouttavaa nautiskelua viinin kera... Voisitkopuhua ystфvфttфriesi kanssa pфivфkausia miehistф, tyіstф, shoppaamisesta ja elфmфstф? Jos vastauksesi on myіnteinen, Ninnin pфivфkirja on kuin luotu sinulle!&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>311</id><name>Anne-Lise Gabold</name></actor><actor><id>312</id><name>Asta Esper Hagen Andersen</name></actor><actor><id>313</id><name>Claes Bang</name></actor><actor><id>314</id><name>Jimmi Jјrgensen</name></actor><actor><id>315</id><name>Lцrke Winther Andersen</name></actor><actor><id>316</id><name>Lars Hjortshјj</name></actor><actor><id>317</id><name>Lars Kaalund</name></actor><actor><id>318</id><name>Laura Christensen</name></actor><actor><id>319</id><name>Lene Maria Christensen</name></actor><actor><id>320</id><name>Martin Kongstad</name></actor><actor><id>321</id><name>Mette Agnete Horn</name></actor><actor><id>322</id><name>Mille Dinesen</name></actor><actor><id>323</id><name>Ole Lemmeke</name></actor><actor><id>324</id><name>Stine Stengade</name></actor></actors>
+
+<directors><director><id>310</id><name>Jonas Elmer
+</name></director></directors>
+<languages><language><id>9</id><name>Tanska</name></language></languages>
+<countries><country><id>9</id><name>Tanska</name></country><country><id>9</id><name>Tanska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>28</id>
+<title>71 katkelmaa erффn sattuman kronologista</title>
+
+<original_title>71 Fragmente einer Chronologie des Zufalls</original_title>
+<ean></ean>
+<vet>202774</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Jouluaattona 1993 19-vuotias opiskelija murhaa verisesti joukon ihmisiф ja pффttфф painajaisen ottamalla oman henkensф. Jфljelle jфф ainoastaan kuoleman lфsnфolo, suru menetetyistф ja mysteeri siitф, mikф ajou nuorukaisen jфrjettіmффn veritekoon.&lt;/p&gt;
+&lt;p&gt;Vastaukset kysymykksiin ja tie murhenфytelmффn alkaa rakentua palapelin tavoin, usean tekijфn kautta, eri ihmisten silmistф, pala palalta. Impulsiiviselta vaikuttavalla vфkivaltateolla on aina historiansa ja pelottavat jфljet takanaan, jotka vievфt pahan juurille. Murha on seuraus jostain ja siihen on lіydettфvissф syynsф...&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>11</agelimit>
+<actors><actor><id>325</id><name>Gabriel Cosmin Urdes</name></actor><actor><id>326</id><name>Lukas Miko</name></actor><actor><id>327</id><name>Otto Grќnmandl</name></actor><actor><id>328</id><name>Anne Bennent</name></actor><actor><id>329</id><name>Udo Samel</name></actor><actor><id>330</id><name>Branko Samarovski</name></actor><actor><id>331</id><name>Claudia Martini</name></actor><actor><id>332</id><name>Georg Friedrich</name></actor></actors>
+
+<directors><director><id>284</id><name>Michael Haneke
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>29</id>
+<title>Vihaiset (jalattomat miehet)</title>
+
+<original_title>Aaltra</original_title>
+<ean>6416548453118</ean>
+<vet>202359</vet>
+<categories><category><id>5</id><name>komedia</name></category></categories>
+<description>&lt;p&gt;Naapurisopu ei kuulu nфiden kahden katkeran vanhanpojan sanavarastoon ja niinpф kerran antaessaan toisilleen turpaan he jффvфt epфonnekseen maansiirtokoneen alle - ja joutuvat viettфmффn lopun elфmффnsф pyіrфtuolissa.&lt;/p&gt;
+&lt;p&gt;Kohtalon yhdistфminф he pффttфvфt vihdoin tehdф jotakin yhdessф ja matkustaa Suomeen haastaakseen maansiirtokoneen valmistajan. Tфstф seuraa vфhintффnkin erikoinen ja myіs hauska roadmovie, jonka komiikan tunnelmana ovat Tati ja Kaurismфki. Elokuva on saanut festivaaliyleisіn kautta maailman vффntelehtimффn naurusta!&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>11</agelimit>
+<actors><actor><id>334</id><name>Benoюt Delщpine</name></actor><actor><id>335</id><name>Carine Liщnard</name></actor><actor><id>336</id><name>Cщline Normand</name></actor><actor><id>337</id><name>Dada Avrel</name></actor><actor><id>338</id><name>Fred Martin</name></actor><actor><id>339</id><name>Gщrard Condejean</name></actor><actor><id>340</id><name>Gustave de Kervern</name></actor><actor><id>341</id><name>Isabelle Delщpine</name></actor><actor><id>342</id><name>Jan Bucquoy</name></actor><actor><id>343</id><name>Jean-Michel Carlier</name></actor><actor><id>344</id><name>Martine Peignщ</name></actor><actor><id>345</id><name>Michel de Gavre</name></actor><actor><id>346</id><name>Nathalie Carpentier</name></actor><actor><id>347</id><name>Pierre Carles</name></actor><actor><id>348</id><name>Pierre Ghenassia</name></actor></actors>
+
+<directors><director><id>333</id><name>Benoюt Delщpine
+Gustave de Kervern
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language><language><id>3</id><name>ranska</name></language><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+
+<id>30</id>
+<title>Seurapiiripyrkyri</title>
+<original_title>Confessions of a Sociopathic Social Climber</original_title>
+<ean>6416548455914</ean>
+<vet>202822</vet>
+<categories><category><id>5</id><name>komedia</name></category></categories>
+<description>&lt;p&gt;Mitф voisikaan sosiopaattisella pintaliitopyrkyrillф olla sydфmellффn tunnustettavana? Mikф merkkivaate istuu pффlle toista paremmin, missф on parhaimmat bileet, missф velloo kaupungin kuumin kerma, kuka on in ja kuka on out, mitkф arjen tekijфt ja teot pіnkittфvфt statusarvoa ja miten olla se ainoa ihailtu valokeilassa, matkalla ylіspфin muut unohtaen? Onhan siinф jo kenttфф kartoitettavana ja monenmoista huolenaihetta. Tфmфn tietфф paremmin kuin hyvin myіs Katya, 28-vuotias myyntipффllikkі, jolle San Francisco on kuin osteri ja hфn sen helmi - ainoa sellainen! Katya ei kaihda mitффn saadakseen haluamansa: pффstфkseen kaupungin huippupiireihin ja urallaan risteilyohjuksen laillaa maaliin, ylimфlle pallille. Ystфvфt on tehty selkффn puukotettaviksi, mies on vain suupala shekkivihkoineen ennen seuraavaa, raha ja muoti pyіrittфvфt maailmaa ja maailman napa on Katya. Kuinka hфntф voisikaan olla rakastamatta?&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>11</agelimit>
+<actors><actor><id>350</id><name>Andrew Abud</name></actor><actor><id>351</id><name>Brenda Crichlow</name></actor><actor><id>352</id><name>Colin Ferguson</name></actor><actor><id>353</id><name>Daniel Roebuck</name></actor><actor><id>354</id><name>James Kirk</name></actor><actor><id>355</id><name>Jennifer Clement</name></actor><actor><id>356</id><name>Jennifer Love Hewitt</name></actor><actor><id>357</id><name>Joseph Lawrence</name></actor><actor><id>358</id><name>Melissa Rivers</name></actor><actor><id>359</id><name>Natassia Malthe</name></actor><actor><id>360</id><name>Peter Abraham</name></actor><actor><id>361</id><name>Preston Cook</name></actor><actor><id>362</id><name>Reese Alexander</name></actor><actor><id>363</id><name>Sonja Bennett</name></actor><actor><id>364</id><name>Stefanie von Pfetten</name></actor></actors>
+
+<directors><director><id>349</id><name>Dana Lustig
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>31</id>
+<title>Lightning in a Bottle</title>
+
+<original_title>Lightning in a Bottle</original_title>
+<ean>6416548457512</ean>
+<vet>200703</vet>
+<categories><category><id>7</id><name>musiikki</name></category></categories>
+<description>&lt;p&gt;Yhdysvaltain kongressi nimesi vuoden 2003 �luesin vuodeksi� Tarkoituksena oli tehdф nфyttфvфф tyіtф blues-musiikin tietoisuuden ja sen merkityksen ymmфrtфmisen kasvattamiseksi amerikkalaisten keskuudessa - Blues ollen yksi Yhdysvaltojen taiteellisesti merkittфvistф ja pitkфikфisimmistф vientituotteista. Juhlavuoden aloittamiseksi sen ansaitsemalla tavalla, jфrjestettiin New Yorkin Radio City Music Hallissa yksi kaikkien aikojen suurimmista blues-konserteista, johon valtaosa kyseisen musiikkigenren suurnimistф osallistuivat. Mukana tapahtumassa olivat mm. B.B.King, Bonnie Raitt, Aerosmith, Macy Gray, Buddy Guy, Chuck D., Solomon Burke, David Johansen, Jimmie Vaughan, The Fabulous Thunderbirds, Alison Krauss, John Fogerty ym. ym.&lt;br /&gt;&lt;br /&gt;Arvostetun elokuvaohjaajan Antoine Fuquan (Training Day, King Arthur, Tears of The Sun) luotsaama Lightning in a Bottle ei jфtф mitффn illan kulusta ja sen osa-alueista paitsioon. Mukana on esiintyjien lisфksi materiaalia tilaisuuden jфrjestфmisestф, harjoituksista, haastatteluita ja paljon muuta.&lt;/p&gt;</description>
+<year>2004</year>
+
+<agelimit>3</agelimit>
+<directors><director><id>365</id><name>Antoine Fuqua
+</name></director></directors>
+<languages><language><id>10</id><name>Englantu</name></language></languages>
+<countries><country><id>10</id><name>Englantu</name></country><country><id>10</id><name>Englantu</name></country></countries>
+</vod_title>
+<vod_title>
+<id>32</id>
+
+<title>Metal - A Headbanger's Journey</title>
+<original_title>Metal - A Headbanger's Journey</original_title>
+<ean>6416548358314</ean>
+<vet>202835</vet>
+<categories><category><id>7</id><name>musiikki</name></category></categories>
+<description>&lt;p&gt;Heavy Metal on nykyффn yksi merkittфvimmistф ja suosituimmista musiikin genreistф, vaikuttaen ympфri maailmaa usean miljoonan kannattajan voimalla ja innostuksella. Silti se yhф herфttфф siitф tietфmфttіmien joukossa myіs runsaasti ennakkoluuloja, halveksuntaa, inhoa ja jopa pelkoa - negaatioita, joista metallin puolestapuhujat ja sen alakulttuureja arvostavat saavat osansa. Metal: A Headbanger's Journey on ainutlaatuinen syvфluotaus Heavy Metallin maailmaan, positiivisen puolueettomasti. Elokuva tutkii metallin kapinallishenkisiф juuria, valottaen sen sosiologista vaikutusvaltaa sukupuoleen, rotuun, uskontoon tai yhteiskunnalliseen asemaan katsomatta.&lt;br /&gt;&lt;br /&gt;Elokuvan ohjaaja, antropologi ja heavy metal fani Sam Dunn, antaa hevin soida vapaana, ilman ennakkoluuloja, pistфen raskaiden sointujen ja lyriikan vфlistф kuulumaan myіs hevikulttuurin kiistattoman фlyn ja sen faneja "hevareita", yhdistфvфn fyysisen energian. Mielipiteensф metallista, sen kehityksestф, levinneisyydestф, eri tyylilajeista ja voimasta kertovat myіs sen raskaansarjan huippunimet mm. Black Sabbath, Iron Maiden, Alice Cooper, Motіrhead, Rage Against the Machine, Korn, Slip Knot, Slayer, Mіtley Crќe ja White Zombie. Tфmф on matka suoraan "Pedon sydфmeen". Uskalla mukaan!&lt;/p&gt;</description>
+
+<year>2005</year>
+<agelimit>11</agelimit>
+<directors><director><id>366</id><name>Sam Dunn
+Scot McFadyen
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+
+<id>33</id>
+<title>Seitsemфs Manner</title>
+<original_title>Der Siebente Kontinent / 7th Continent</original_title>
+<ean></ean>
+<vet>202692</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Keskiluokkainen perhe; Georg, Anna ja heidфn tyttфrensф Eva elфvфt turvallista mutta hyvin yksitoikkoista ja lфhes eristфytynyttф elфmфф. Mutta toisinaan ihminen ei osaa edes kaivata sellaista, jonka olemassaoloa ei tiedosta.&lt;/p&gt;
+&lt;p&gt;Tytфr Eva ei kuitenkaan ole tilanteeseen tyytyvфinen ja saadakseen enemmфn huomiota, alkaa hфn esittфф sokeaa. Georg ja Anna havahtuvat huomaamaan heidфn elфmфntyylinsф banaalisuuden lamaannuttavan ja hajottavan voiman heidфn perheelleen.&lt;/p&gt;
+
+&lt;p&gt;On aika tehdф jotain radikaalia - katseet kффntyvфt kohti Itфvaltaa...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>329</id><name>Udo Samel</name></actor><actor><id>332</id><name>Georg Friedrich</name></actor><actor><id>367</id><name>Dieter Berner</name></actor><actor><id>368</id><name>Leni Tanzer</name></actor><actor><id>369</id><name>Silvia Fenz</name></actor><actor><id>370</id><name>Robert Dietl</name></actor><actor><id>371</id><name>Birgit Doll</name></actor><actor><id>372</id><name>Georges Kern</name></actor><actor><id>373</id><name>Elisabeth Rath</name></actor></actors>
+
+<directors><director><id>284</id><name>Michael Haneke
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>34</id>
+<title>Three</title>
+
+<original_title>Three</original_title>
+<ean>6416548357614</ean>
+<vet>202698</vet>
+<categories><category><id>8</id><name>trilleri</name></category></categories>
+<description>&lt;p&gt;Varakas liikemies, Jack, lфhtee upean nuoren vaimonsa Jenniferin kanssa unelmalomalle yksityisellф jahdilla. Luksuspurjehdus muuttuu kuitenkin heti painajaiseksi, kun myrsky yllфttфф lomailijat ja jahti uppoaa meren tyrskyihin.&lt;/p&gt;
+&lt;p&gt;Jennifer selviфф ihmeen kaupalla hengissф autiolle saarelle yhdessф jahdilla toimineen apulaisen, Manuelin kanssa. Pelastumisen mahdollisuudet nфyttфvфt heikolta ja Jenniferin ja Manuelin on opittava elфmффn yhdessф luonnon armoilla. Mutta myіs Jack on huuhtoutunut saman saaren rannalle pahasti loukkaantuneena...&lt;/p&gt;
+
+&lt;p&gt;Kamppailu selviфmisestф muuttuu pian piinaavaksi, yhф vфkivaltaisempia piirteitф saavaksi kolmiodraamaksi, jossa heikoin hфviфф kaiken. Pelissф ei ole vain selviфminen saarelta, vaan myіs kuka saa kenet. Paratiisisaaren primitiivisissф oloissa vahvin vie kaiken...&lt;/p&gt;
+&lt;p&gt;Oikeassa elфmфssфkin oleva aviopari Billy Zane (Titanic, Tombstone, Mustanaamio) ja The Sun, FHM, Arena ja Maxim lehtien supersuosittu Pin-Up tyttі, Kelly Brook, nфyttelevфt Three elokuvan kovia kokevaa pariskuntaa Jackia ja Jenniferiф.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>95</id><name>Billy Zane</name></actor><actor><id>375</id><name>Gabrielle Jourdan</name></actor><actor><id>376</id><name>Gary Brockette</name></actor><actor><id>377</id><name>Isabelle Constantini</name></actor><actor><id>378</id><name>Juan Pablo Di Pace</name></actor><actor><id>379</id><name>Keera Ann Davis</name></actor><actor><id>380</id><name>Kelly Brook</name></actor><actor><id>381</id><name>Kennedy Rolle</name></actor><actor><id>382</id><name>Lashandra Burrows</name></actor><actor><id>383</id><name>Maria Victoria Di Pace</name></actor><actor><id>384</id><name>Myesha Pinder</name></actor><actor><id>385</id><name>Roy Rivera</name></actor><actor><id>386</id><name>Summer Davis</name></actor><actor><id>387</id><name>Todd Collins</name></actor><actor><id>388</id><name>Victoria Di Pace</name></actor></actors>
+
+<directors><director><id>374</id><name>Stewart Raffill
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>35</id>
+<title>Man-thing - Otus</title>
+
+<original_title>Man-thing</original_title>
+<ean>6416548452814</ean>
+<vet>202696</vet>
+<categories><category><id>6</id><name>kauhu</name></category></categories>
+<description>&lt;p&gt;Keskellф rфmealuetta sijaitseva, uinuva Bywaterin kaupunki saa uuden sheriffin. Kyle William saapuu kaupunkiin aloittamaan uuden pestinsф, ja havaitsee nopeasti kaksi oleellista asiaa. Suuri іljy-yhtiі johtaa hфikфilemфttіmфsti kaupunkia haluamallaan tavalla. Lisфksi useampi kaupunkilainen on hфvinnyt selittфmфttіmфsti viime aikoina... Tutkimusten edetessф ruumiita alkaa lіytyф rфmeen kфtkіistф ja Kylen epфilykset syyllisestф herффvфt. Mutta paikallinen vфestі vфittфф rфmeellф vallitsevan muun kuin іljy-yhtiіn lain. Alueen sanotaan kuuluvan vihreфlle hirviіlle, Man-Thing - Otukselle, joka ei tunne armoa ketффn kohtaan...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>390</id><name>Alex O'Loughlin</name></actor><actor><id>391</id><name>Brett Leonard</name></actor><actor><id>392</id><name>Cheryl Craig</name></actor><actor><id>393</id><name>Ian Bliss</name></actor><actor><id>394</id><name>Imogen Bailey</name></actor><actor><id>395</id><name>Jack Thompson</name></actor><actor><id>396</id><name>James Coyne</name></actor><actor><id>397</id><name>John Batchelor</name></actor><actor><id>398</id><name>Matthew Le Nevez</name></actor><actor><id>399</id><name>Patrick Thompson</name></actor><actor><id>400</id><name>Rachael Taylor</name></actor><actor><id>401</id><name>Rawiri Paratene</name></actor><actor><id>402</id><name>Robert Mammone</name></actor><actor><id>403</id><name>Steve Bastoni</name></actor><actor><id>404</id><name>William Zappa</name></actor></actors>
+
+<directors><director><id>389</id><name>Brett Leonard
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>36</id>
+<title>C.R.A.Z.Y.</title>
+
+<original_title>C.R.A.Z.Y.</original_title>
+<ean>6416548357812</ean>
+<vet>202830</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Joulupфivфnф 1960 syntynyt Zachary Beaulieu kasvaa nuoruutensa neljфn hyvin erilaisen veljensф kanssa, 60-70-luvuilla. Tuolloin elettiin murrosaikaa, jolloin rohkeiden muutosten, kokeilujen ja erilaisuuden tuulet puhalsivat yhteiskunnan joka saralla, musiikkia, muotia, seksuaalisuutta ja huumeita unohtamatta. Zacin syvфsti rakastama ja kunnioittama isф vannoo perinteisten, konservatiivisempien elфmфnarvojen nimeen, mutta pojan sisфllф kasvava kuohunta ja oman identiteetin etsintф lіytфф pikkuhiljaa tarvittavan ymmфrryksen ja suunnan nфyttфjфn David Bowien ja Pink Floydin musiikista. Itsensф lіytфminen ja erilaisuuden myіntфminen on elфmфn yksi suurimmista haasteista, mutta myіs sen hienoimpia lahjoja.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>406</id><name>Alex Gravel</name></actor><actor><id>407</id><name>Danielle Proulx</name></actor><actor><id>408</id><name>Щmile Vallщe</name></actor><actor><id>409</id><name>Francis Ducharme</name></actor><actor><id>410</id><name>Hщlшne Grщgoire</name></actor><actor><id>411</id><name>Jean-Louis Roux</name></actor><actor><id>412</id><name>Johanne Lebrun</name></actor><actor><id>413</id><name>Marc-Andrщ Grondin</name></actor><actor><id>414</id><name>Mariloup Wolfe</name></actor><actor><id>415</id><name>Maxime Tremblay</name></actor><actor><id>416</id><name>Michel Cєtщ</name></actor><actor><id>417</id><name>Michel Laperriшre</name></actor><actor><id>418</id><name>Mohamed Majd</name></actor><actor><id>419</id><name>Natasha Thompson</name></actor><actor><id>420</id><name>Pierre-Luc Brillant</name></actor></actors>
+
+<directors><director><id>405</id><name>Jean-Marc Vallщe
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>37</id>
+<title>Aguirre - Jumalan Viha</title>
+
+<original_title>Aguirre, Der Zorn Gottes</original_title>
+<ean>6416548822211</ean>
+<vet>83445</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Espanjalaiset conquistadorit saapuvat Etelф-Amerikkaan 1560-luvulla, tarkoituksenaan lіytфф myyttinen El Doradon aarre.&lt;/p&gt;
+&lt;p&gt;Mutta Perun osa Amazonin viidakkoa on osoittautumassa lфpipффsemфttіmфksi esteeksi espanjalaisten johtajalle Gonzalo Pizarrolle. Viimeisenф toivonaan lіytфф aarre, Pizarro lфhettфф pienemmфn retkikunnan jokea pitkin syvemmфlle viidakkoon kolmen aatelisen johdolla. Jos retkikunta palaa takaisin tyhjin kфsin, on Pizarron myіnnettфvф valloitusretken tфydellinen epфonnistuminen...&lt;/p&gt;
+
+&lt;p&gt;Ankarat ja villit luonnonolot tekevфt joukon etenemisen ффrimmфisen vaikeaksi, ja tulisieluinen kapinahenkeф lietsova aatelinen Lope de Aguirre ottaa pian vallan. Ahneudesta, vallanhimosta ja raivosta sokaistunut Aguirre on pффttфnyt onnistua tehtфvфssф, ollen valmis uhraamaan kaiken saavuttaakseen tavoittelemansa...&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Aguirre oli ohjaaja &lt;a&gt;[director:Werner Herzog]in&lt;/a&gt; ja nфyttelijф [movie:&lt;a&gt;Klaus Kinski]n&lt;/a&gt; ensimmфinen yhteinen elokuva.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Jo ennen Aguirrea Kinski tunnettiin erittфin vaativana ja tempperamenttisena esiintyjфnф, jonka kanssa oli vaikea tyіskennellф. Herzogin ja Kinskin yhteistyі olikin rфiskyvyydessффn lфhes pahamaineista, jatkuvine riitoinen ja fyysisine uhkailuineen.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Parivaljakon vaativat luonteenpiirteet kuitenkin tфydensivфt ja ruokkivat toisiaan loistavasti, ja lopputulos oli aina upeaa. Aguirren jфlkeen he tekivфt vielф neljф elokuvaa yhdessф ([movie:&lt;a&gt;Nosferatu] the Vampyre&lt;/a&gt;, &lt;a&gt;[movie:Wayzeek&lt;/a&gt;], [movie:&lt;a&gt;Fitzcarraldo]&lt;/a&gt; ja &lt;a&gt;[movie:Cobra Verde&lt;/a&gt;])&lt;/em&gt;&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>276</id><name>Klaus Kinski</name></actor><actor><id>421</id><name>Helena Rojo</name></actor><actor><id>422</id><name>Del Negro</name></actor><actor><id>423</id><name>Ruy Guerra</name></actor><actor><id>424</id><name>Peter Berling</name></actor><actor><id>425</id><name>Cecilia Rivera</name></actor><actor><id>426</id><name>Daniel Ades</name></actor><actor><id>427</id><name>Edward Roland</name></actor><actor><id>428</id><name>Alejandro Chavez</name></actor><actor><id>429</id><name>Armando Polanah</name></actor><actor><id>430</id><name>Daniel Farfсn</name></actor><actor><id>431</id><name>Julio E. Martэnez</name></actor><actor><id>432</id><name>Alejandro Repulles</name></actor><actor><id>433</id><name>Indianern der Kooperative Lauramarca</name></actor><actor><id>434</id><name>Justo Gonzсlez</name></actor><actor><id>435</id><name>Antonio Marquez</name></actor></actors>
+
+<directors><director><id>268</id><name>Werner Herzog
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>38</id>
+
+<title>Happiness of the Katakuris</title>
+<original_title>Katakuri-ke no Kєfuku</original_title>
+<ean>6416548354514</ean>
+<vet>110495</vet>
+<categories><category><id>6</id><name>kauhu</name></category></categories>
+<description>&lt;p&gt;Perhe Katakuri alkaa pyіrittфф pientф, mutta kunniallista majataloa vuoristoseudulla. Perheliiketoiminta tuntuu oikein valitulta ja tuottavan hedelmфф, kunnes erфs vieraista tekee itsemurhan. Pelфten bisneksensф kariutuvan itsemurhasta aiheutuvan huonon kulkisuuskuvan takia, hautaavat Katakuriit kuolleen takapihalleen, pitфen asian omana tietonaan. Mutta kun valitettavia kuolemantapauksia tulee eteen yhф uudestaan ja uudestaan, on takapihan mullissa pian tungosta.&lt;/p&gt;
+&lt;p&gt;The Happiness of the Katakuris perustuu korealaiseen nфytelmффn &lt;em&gt;The Quiet Family&lt;/em&gt;. Elokuvan ohjaaja, kulttimainetta nautiskeleva [director:Takashi Miike] (&lt;em&gt;[movie:Audition], [movie:Dead of Alive] 1-3, [movie:Visitor Q], [movie:Ichi the Killer], [movie:Gozu])&lt;/em&gt; on nykypфivфn tuotteliaimpia japanilaisia ohjaajia. Hфnen elokuvansa tunnusmerkkejф ovat varsin shokeeraavat tehokeinot ja jopa irrationaalisen yllфtykselliset kohtaukset ja juonenkффnteet. &lt;em&gt;The Happiness of the Katakuris &lt;/em&gt;ei varmasti jфtф ketффn Miike-fania kylmфksi. Elokuva risteyttфф rajoista vфlittфmфttф kauhua, musikaalia ja komediaa.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>437</id><name>Keiko Matsuzaka</name></actor><actor><id>438</id><name>Kenji Sawada</name></actor><actor><id>439</id><name>Naomi Nishida</name></actor><actor><id>440</id><name>Shinji Takeda</name></actor><actor><id>441</id><name>Tetsuro Tamba</name></actor></actors>
+<directors><director><id>436</id><name>Takashi Miike
+
+</name></director></directors>
+<languages><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>
+<vod_title>
+<id>39</id>
+<title>Lonesome Jim</title>
+<original_title>Lonesome Jim</original_title>
+
+<ean>6416548356211</ean>
+<vet>201637</vet>
+<categories><category><id>5</id><name>komedia</name></category></categories>
+<description>&lt;p&gt;Melankolissieluinen ja elфmффn kyynisesti suhtautuva Jim (Casey Affleck) joutuu palaamaan takaisin vanhempiensa luokse, parin vuoden epфonnistuneen New Yorkin vierailun jфlkeen. New Yorkin piti tarjota Jimille hedelmфllisen ympфristіn romaanin kirjoittamiselle, ja siksi paluu pieneen Goshenin kaupunkiin katkeran epфonnistumisen jфlkeen on kaikkea muuta kuin helppo pala niellф...&lt;/p&gt;
+&lt;p&gt;Jimin veli Tim asustaa yhф kotona yrittфen saada oman kaoottisen elфmфnsф jфrjestykseen. Kun Tim yrittфф itsemurhaa ja joutuu sairaalaan, lфhtee Jiminkin seisokissa ollut elфmф aktiivisempaan suuntaan. Jimin suostuessa auttamaan veljeффn, on hфnen otettava vastuuta ja herфttфvф passiivisuudestaan. Jim tіrmфф myіs vanhaan tyttіystфvффnsф Anikaan (Liv Tyler) ja vanhat tunteet nousevat pintaan. Mutta perhe- ja tyіvelvollisuuksien sekф sosiaalisten ja yksityiselфmфn paineiden alkaessa jфlleen kasaantua Jimin harteille, on hфnen tehtфvф pффtіksensф: paeta kuin raukka vai kohdata elфmф kuin mies?&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>11</agelimit>
+<actors><actor><id>443</id><name>Casey Affleck</name></actor><actor><id>444</id><name>Don Strouse</name></actor><actor><id>445</id><name>Jack Rovello</name></actor><actor><id>446</id><name>Jake La Botz</name></actor><actor><id>447</id><name>Jude Barger</name></actor><actor><id>448</id><name>Kevin Corrigan</name></actor><actor><id>449</id><name>Liv Tyler</name></actor><actor><id>450</id><name>Mark Boone Junior</name></actor><actor><id>451</id><name>Mary Kay Place</name></actor><actor><id>452</id><name>Michael Buscemi</name></actor><actor><id>453</id><name>Pam Angell</name></actor><actor><id>454</id><name>Rachel Strouse</name></actor><actor><id>455</id><name>Rick Duplissie</name></actor><actor><id>456</id><name>Sarah Strouse</name></actor><actor><id>457</id><name>Seymour Cassel</name></actor></actors>
+
+<directors><director><id>442</id><name>Steve Buscemi
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>40</id>
+<title>The Shadow Boxer</title>
+
+<original_title>Tai Ji Quan</original_title>
+<ean>6416548456317</ean>
+<vet>202815</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Ku Ding on rauhaa rakastava kіyhф tyіlфinen, joka on kaikesta huolimatta tyytyvфinen vaatimattomaan osaansa elфmфssф. Ympфristіn vфkivalta ja painostus ei pysty murtamaan Kun pasifistista asennetta, vaikka joku toinen olisi samassa tilanteessa pitфnyt taistellen puoliaan. Mutta jokaisella on murtumispisteensф, aina on olemassa �iimeinen pisara�&lt;/p&gt;
+&lt;p&gt;Kun vфkivalta yltyy siihen pisteeseen, ettф Kun tyttіystфvф raiskataan ja hфnen paras ystфvфnsф murhataan raa�sti, on aika haudata rauhanomaiset ajatukset ja olla valmis satuttamaan lфhimmфistффn, tappamaan tai tulla tapetuksi. Lauhkea ja alistuva Ku on nimittфin kaikkea muuta kuin mitф alkusilmфykseltф voisi luulla. Hфn on kivenkova taistelija, joka on kehittфnyt Tai-Chi osaamisensa tappavaksi aseeksi. Pian Kun elфmфф terrorisoineet joutuvat maistamaan omaa lффkettффn - brutaalilla pakkosyіtіllф.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>459</id><name>Chen Wo-fu</name></actor><actor><id>460</id><name>Frankie Wei</name></actor><actor><id>461</id><name>Shih Szu</name></actor></actors>
+<directors><director><id>458</id><name>Pao Hsueh-li
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>41</id>
+<title>Human Lanterns</title>
+<original_title>Ren Pi Deng Long</original_title>
+<ean>6416548469317</ean>
+<vet>204945</vet>
+
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Chao on kіyhф ja katkeroitunut lyhdyntekijф, jota elфmф ja erityisesti kaksi varakasta mahtimiestф ovat kohdelleet kovalla kфdellф. Kun toinen miehistф tilaa Chaolta lyhtyjф tulevaan juhlaan, nфkee lyhdyntekijф edessффn elфmфnsф mahdollisuuden kostaa, ja kunnolla!&lt;/p&gt;
+&lt;p&gt;Chao lфhestyy tilaustyіtф brutaalilla pффttфvфisyydellф ja ahkeruudella, joka ei todellakaan sovi aivan jokaisen hipiфlle... Ne, jotka eivфt ole aivan herkkфhermoisimpia, tulevat muistamaan tфmфn valoshown!&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>463</id><name>Chien Sun</name></actor><actor><id>464</id><name>Ching-Ho Wong</name></actor><actor><id>465</id><name>Erik Chan Ka Kei</name></actor><actor><id>466</id><name>Fei Ai</name></actor><actor><id>467</id><name>Hsiu Chun Lin</name></actor><actor><id>468</id><name>Kuan Tai Chen</name></actor><actor><id>469</id><name>Lao Shen</name></actor><actor><id>470</id><name>Lieh Lo</name></actor><actor><id>471</id><name>Linda Chu</name></actor><actor><id>472</id><name>Meng Lo</name></actor><actor><id>473</id><name>Miao Ching</name></actor><actor><id>474</id><name>Ni Tien</name></actor><actor><id>475</id><name>Pei Chi Huang</name></actor><actor><id>476</id><name>Ping Ha</name></actor><actor><id>477</id><name>Tony Liu</name></actor><actor><id>478</id><name>Wah Yuen</name></actor><actor><id>479</id><name>Yam Yam Siu</name></actor></actors>
+
+<directors><director><id>462</id><name>Chung Sun
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>42</id>
+<title>The Twelve Gold Medallions</title>
+
+<original_title>Shi Er Jin Pai</original_title>
+<ean>6416548467412</ean>
+<vet>204531</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Maio Lung on ффrimmфisen taitava Kung-Fu mestari, jonka opettaja on opettanut hфnelle uskomattoman salaisuutensa: tekniikan, jolla Maio voi uhmata painovoimaa. Valtataistelu ja korruptio vallitsevat Kiinassa, Sung-dynastia laajentaa valtaansa rіyhkeфsti voimakeinoilla ja lahjuksilla. Tilanne on ajautumassa sisфllissodan partaalle. Maio on aluksi haluton ottamaan osaa taisteluun, valitsemaan puoltaan. Mutta sodan tuulet ovat arvaamattomat ja pian Maio on ratkaisevassa roolissa taistelussa, jota vфrittфvфt huima toiminta, romantiikka, petollisuus, viiltфvф traagisuus ja 12 mystistф kultamedaljonkia.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>481</id><name>Chin So</name></actor><actor><id>482</id><name>Mi So Long</name></actor></actors>
+<directors><director><id>480</id><name>Gang Cheng
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+
+<vod_title>
+<id>43</id>
+<title>Killer Clans</title>
+<original_title>Liu Xing Hu Die Jian</original_title>
+<ean>6416548469416</ean>
+<vet>109214</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Valtataistelu kahden kilpailevan mahtiklaanin, Lung Men Societyn ja Roc Societyn vфlillф on ollut pitkф ja vфkivaltainen. Se on ollut tфynnф miekkataisteluita, nyrkkitappeluita, lahjontaa ja petosta. Mutta mikффn aikaisempi konflikti ei ole pффssyt lфhellekффn sitф tuhoa, mitф syntyy, kun toisen klaanin johtajan tytфr ja vastapuolen johtajan poika rakastuvat toisiinsa.&lt;/p&gt;
+
+&lt;p&gt;Rakkaus ei kenties tunne rajoja, sффntіjф tai mitф on klaaniprioriteetti, mutta sen nostattama myrsky ja verenjano hakee vertaistaan.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>464</id><name>Ching-Ho Wong</name></actor><actor><id>466</id><name>Fei Ai</name></actor><actor><id>469</id><name>Lao Shen</name></actor><actor><id>470</id><name>Lieh Lo</name></actor><actor><id>473</id><name>Miao Ching</name></actor><actor><id>475</id><name>Pei Chi Huang</name></actor><actor><id>476</id><name>Ping Ha</name></actor><actor><id>484</id><name>Biao Yuen</name></actor><actor><id>485</id><name>Cheung-Yan Yuen</name></actor><actor><id>486</id><name>Chih-Ching Yang</name></actor><actor><id>487</id><name>Ching Tien</name></actor><actor><id>488</id><name>Chiu Lee</name></actor><actor><id>489</id><name>Chung Wang</name></actor><actor><id>490</id><name>Corey Yuen</name></actor><actor><id>491</id><name>Danny Lee</name></actor><actor><id>492</id><name>Fat Tsui</name></actor><actor><id>493</id><name>Feng Ku</name></actor><actor><id>494</id><name>Hak On Fung</name></actor><actor><id>495</id><name>Han Chen Wang</name></actor><actor><id>496</id><name>Hsia Hsu</name></actor><actor><id>497</id><name>Hsieh Wang</name></actor><actor><id>498</id><name>Hua Yueh</name></actor><actor><id>499</id><name>Hwa Chung</name></actor><actor><id>500</id><name>Kang-Yeh Cheng</name></actor><actor><id>501</id><name>Kuan-chung Ku</name></actor><actor><id>502</id><name>Kwok Kuen Chan</name></actor><actor><id>503</id><name>Li Ching</name></actor><actor><id>504</id><name>Mei Sheng Fan</name></actor><actor><id>505</id><name>Norman Chu</name></actor><actor><id>506</id><name>Ping Chen</name></actor><actor><id>507</id><name>Sau Kei Lee</name></actor><actor><id>508</id><name>Shang Yun Liang</name></actor><actor><id>509</id><name>Shen Chan</name></actor><actor><id>510</id><name>Shi-Kwan Yen</name></actor><actor><id>511</id><name>Shun-Yee Yuen</name></actor><actor><id>512</id><name>Wai Wo To</name></actor><actor><id>513</id><name>Wei Tu Lin</name></actor><actor><id>514</id><name>Yuet Sang Chin</name></actor><actor><id>515</id><name>Yun Kin Chow</name></actor><actor><id>516</id><name>Yun Ling</name></actor></actors>
+
+<directors><director><id>483</id><name>Yuen Chor
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>44</id>
+<title>Invincible Shaolin</title>
+
+<original_title>Nan Shao Lin Yu Bei Shao Lin</original_title>
+<ean>6416548469513</ean>
+<vet>111620</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Arvaamaton sotalordi kutsuu pohjoisten alueiden Shaolin temppelin mestarit opettamaan taistelutaitoja sotilailleen ja haastamaan etelфisten alueiden mestarit. Pohjoinen voittaa mittelіn, mutta lordi murhaa seuraavana yіnф etelфn mestarit, lavastaen pohjoisen mestarit syyllisiksi. Syttyy raivoisa sota temppeleiden vфlille. Taistelulle ei nфytф olevan loppua, eikф sodalle... Kumpi temppeleistф on vahvempi, kummasta leiristф lіytyy mestari, joka seisoo viimeisenф? Ja pффseekі sotalordi kaikesta oikeuden ulottumattomiin?&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>13</agelimit>
+
+<actors><actor><id>463</id><name>Chien Sun</name></actor><actor><id>472</id><name>Meng Lo</name></actor><actor><id>509</id><name>Shen Chan</name></actor><actor><id>518</id><name>Dick Wei</name></actor><actor><id>519</id><name>Feng Lu</name></actor><actor><id>520</id><name>Lung Wei Wang</name></actor><actor><id>521</id><name>Niu Niu</name></actor><actor><id>522</id><name>Pai Wei</name></actor><actor><id>523</id><name>Philip Kwok</name></actor><actor><id>524</id><name>Sheng Chiang</name></actor><actor><id>525</id><name>Tai Ping Yu</name></actor></actors>
+
+<directors><director><id>517</id><name>Cheh Chang
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>45</id>
+<title>Come Drink With Me</title>
+
+<original_title>Da Zui Xia</original_title>
+<ean>6416548455112</ean>
+<vet>202501</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Vфkivaltaa kaihtamaton ja pelфtty rikollisliiga kidnappaa kuvernііrin pojan, ja vaatii johtajansa vapauttamista vankilasta pojan henkeф vastaan. Koska taipuminen neuvotteluihin rikollisten kanssa ei kфy kuvernііrille, lфhetetффn legendaarinen Kung Fu taitaja Golden Swallow pelastamaan poika, ja tuomaan liigan jфsenet oikeuden eteen. Golden Swallow pффsee nopeasti rikollisten jфljille ja brutaalien yhteenottojen sarja alkaa. Mutta Swallow ei joudu taistelemaan kidnappaajia vastaan yksin... Matkallaan hфn sattuu kohtaamaan Drunken Cat:n, kerjфlфisenф esiintyvфn Kung Fu mestarin, jolla on paljon vapaata aikaa, taistelutahtoa ja tappavaa osaamista vastustajien lyіmiseksi.&lt;/p&gt;
+&lt;p&gt;Kulttimaineeseen noussut Come Drink with Me on antanut paljon vaikutteita mm. ohjaaja Ang Leen Oscar-palkitulle Hiipivф tiikeri, piilotettu lohikффrme -elokuvalle. Come Drink with Me:lle tehtiin vuonna 1968 jatko-osa Golden Swallow, joka tunnetaan myіs nimellф The Girl with the Thunderbolt Kick.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>498</id><name>Hua Yueh</name></actor><actor><id>527</id><name>Chen Hung Lieh</name></actor><actor><id>528</id><name>Pei-pei Cheng</name></actor></actors>
+<directors><director><id>526</id><name>King Hu
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>46</id>
+<title>Millions</title>
+<original_title>Millions</original_title>
+<ean>6416548358819</ean>
+<vet>201494</vet>
+
+<categories><category><id>5</id><name>komedia</name></category></categories>
+<description>&lt;p&gt;Leskeksi jффnyt Ronnie (James Nesbitt) muuttaa poikiensa, 7 vuotiaan Damianin ja muutamaa vuotta vanhemman Anthonyn kanssa kaupungin lфhiііn. Фitiффn ja vanhaa asuinpaikkaansa ikфvіivф Damian eristфytyy muista ja rakentaa itselleen majan pahvilaatikoista lфheisen rautatien varteen.&lt;/p&gt;
+&lt;p&gt;Erффnф pфivфnф hфnen piilopaikkaansa kirjaimellisesti lentфф kassi, jonka sisфltф lіytyy satoja tuhansia puntia kфteistф rahaa. Damian ja Anthony pффttфvфt pitфф salaisuuden itsellффn ja kфyttфф rahat omiin tarkoituksiinsa. Pojilla on kuitenkin vain pari pфivфф aikaa, koska Iso-Britannia on siirtymфssф euroihin. Danny Boyle on ohjannut huumoria, fantasiaa ja jфnnitystф sisфltфvфn elokuvan jonka tapahtumat kerrotaan lasten nфkіkulmasta...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>7</agelimit>
+<actors><actor><id>188</id><name>Christopher Fulford</name></actor><actor><id>530</id><name>Alexander Nathan Etel</name></actor><actor><id>531</id><name>Alun Armstrong</name></actor><actor><id>532</id><name>Cornelius Macarthy</name></actor><actor><id>533</id><name>Daisy Donovan</name></actor><actor><id>534</id><name>Enzo Cilenti</name></actor><actor><id>535</id><name>Harry Kirkham</name></actor><actor><id>536</id><name>James Nesbitt</name></actor><actor><id>537</id><name>Jane Hogarth</name></actor><actor><id>538</id><name>Kathryn Pogson</name></actor><actor><id>539</id><name>Kolade Agboke</name></actor><actor><id>540</id><name>Leslie Phillips</name></actor><actor><id>541</id><name>Lewis Owen McGibbon</name></actor><actor><id>542</id><name>Nasser Memarzia</name></actor><actor><id>543</id><name>Pearce Quigley</name></actor></actors>
+
+<directors><director><id>529</id><name>Danny Boyle
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>47</id>
+<title>Korppikotkat</title>
+
+<original_title>Game for Vultures</original_title>
+<ean>6416548834214</ean>
+<vet>87918</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Rhodesiassa kiehuu. Voimakkaasti kehitystф hakeva maa on ajautumassa sisфllissotaan, valkoihoisten hallinnon harjoittaman sффlimфttіmфn ja systemaattisen rotusorron takia. Mutta jos sodassa on niitф, jotka hoitavat tappamisen, niin aina on myіs niitф, jotka kerффvфt tappamisesta taloudellisen hyіdyn... Hфikфilemфtіn liikemies David Swansey pффttфф hyіdyntфф Rhodesian sekasortoista tilannetta liiketoiminnallisesti, tuomalla erфn laittomia helikoptereita maahan. Vastarinnan keuhahahmo Gideon Marunga saa tietфф aikeesta ja pффttфф estфф sen. Armotonta toimintaa ja jфnnitystф lennфttфvф Korppikotkat yhdistфф kolme legendaarista nфyttelijфф: Richard Harrisin, Richard Roundtreen ja Joan Collinsin. Ohjaaja James Fargo toimi uransa alun Clint Eastwoodin apulaisohjaajana, mutta kunnostautui myіhemmin pффohjaajana itsekin (Dirty Harry - murskaaja, Mies San Fernandosta, Kovat nyrkit).&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>545</id><name>Alibe Parsons</name></actor><actor><id>546</id><name>Denholm Elliott</name></actor><actor><id>547</id><name>Elaine Proctor</name></actor><actor><id>548</id><name>Jana Cilliers</name></actor><actor><id>549</id><name>Joan Collins</name></actor><actor><id>550</id><name>John Parsonson</name></actor><actor><id>551</id><name>Ken Gampu</name></actor><actor><id>552</id><name>Mark Singleton</name></actor><actor><id>553</id><name>Neil Hallett</name></actor><actor><id>554</id><name>Ray Milland</name></actor><actor><id>555</id><name>Richard Harris</name></actor><actor><id>556</id><name>Richard Roundtree</name></actor><actor><id>557</id><name>Sven-Bertil Taube</name></actor><actor><id>558</id><name>Tony Osoba</name></actor><actor><id>559</id><name>Victor Melleney</name></actor></actors>
+
+<directors><director><id>544</id><name>James Fargo
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>48</id>
+<title>Mene, Nфe, Elф</title>
+
+<original_title>Va, Vis et Deviens / Go, See and Become</original_title>
+<ean>6416548356518</ean>
+<vet>201481</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Vuonna 1984 Israel ja Yhdysvallat pyrkivфt pelastamaan kaikki Etiopian juutalaiset maassa riehuneelta nфlфnhфdфltф ja kuljettamaan heidфt Israeliin. Massiivinen pelastushanke muistetaan nimeltф operaatio Mooses. Tavallisen afrikkalaisen pojan, Schlomon, фiti pakottaa tфmфn esiintymффn juutalaisena, jotta tфmф pффsisi pois armottomasta, riutuvasta maasta ja sффstyisi nфlkфkuolemalta. Schlomo pффtyy Tel Aviviin, jossa hфnet adoptoidaan Ranskasta Israeliin muuttaneeseen perheeseen. Hфn onnistuu esiintymффn orpona, mutta фitiффn syvфsti ikфvіivф poika joutuu kasvamaan jatkuvassa paljastumisen pelossa... Vuosien varrella Schlomo alkaa pikkuhiljaa sopeutua uuteen elinympфristііnsф, joka on juutalaisten ja muiden lфnsimaalaisten uskontojen ja arvojen sulatusuuni, ja jossa Israelin ja Palestiinan vфlinen konflikti ja rotuennakkoluulot ovat lфsnф joka pфivф.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+
+<actors><actor><id>561</id><name>Moshe Abebe</name></actor><actor><id>562</id><name>Moshe Agazai</name></actor><actor><id>563</id><name>Roschdy Zem</name></actor><actor><id>564</id><name>Yaыl Abecassis</name></actor></actors>
+<directors><director><id>560</id><name>Radu Mihaileanu
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language><language><id>11</id><name>Heprea</name></language></languages>
+
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>49</id>
+<title>Varaosat - Spare Parts</title>
+<original_title>Rezervni Deli</original_title>
+<ean>6416548449517</ean>
+<vet>200297</vet>
+
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Elфmф on jakanut Kroatiassa asuvalle Ludvikille synkkфsфvytteiset kortit. Hфn on puolisonsa menettфnyt entinen speedway-ajaja, jonka kilpaura on aikaa sitten pффttynyt. Lisфksi Ludvik on ajautunut "tyіhіn", jonka ammattietiikka on muuta kuin mairitteleva: hфn salakuljettaa ihmisiф Kroatiasta Slovenian halki Italiaan - pффmффrффn, jossa odottavasta kohtalosta on parasta olla kyselemфttф liikoja.&lt;/p&gt;
+&lt;p&gt;Ludvik saa keikoillensa avuksi nuoren ja kokemattoman Rudin. Miesten vфliset, elфmфntilanteista, asenteista ja kokemuksista johtuvat erot nostattavat konflikteja, mutta myіs syventфvфt Ludvikin ja Rudin ystфvyyttф. Varaosat on karu, paljastava ja kysymyksiф herфttфvф elokuva maailmasta, jossa onni ei ole itsestффnselvyys, vaan sen eteen on oltava valmis tekemффn kylmфф kauppaa. Bisnestф, jossa jopa yksilіn elфmф kфy kuumasta kauppatavarasta.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>566</id><name>Aljosa Kovacic</name></actor><actor><id>567</id><name>Peter Musevski</name></actor><actor><id>568</id><name>Primoz Petkovsek</name></actor></actors>
+
+<directors><director><id>565</id><name>Damjan Kozole
+</name></director></directors>
+<languages><language><id>12</id><name>Slovenia</name></language></languages>
+<countries><country><id>12</id><name>Slovenia</name></country><country><id>12</id><name>Slovenia</name></country></countries>
+</vod_title>
+<vod_title>
+<id>50</id>
+<title>True Romance</title>
+
+<original_title>True Romance</original_title>
+<ean>6416548813745</ean>
+<vet>98892</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Kun kouluttamaton puhelintyttі Alabam Whitman (Patricia Arquette) lфhetetффn viettelemффn sarjakuvakaupan myyjфф Clarence Worleytф (Christian Slater), hфn ei odota rakastuvansa. Pari on kuitenkin kuin toisilleen luotu ja menee suonpфin naimisiin. Alabaman parittaja Drexl (Gary Oldman) ei pidф ajatuksesta pффstфф tyttіф menemффn, ja tфmф johtaa Alabaman ja Clarencen hurjiin yhteenottoihin alamaailman kanssa. Vahingossa mukaan tarttunut kokaiinilla tфytetty matkalaukku riittфф motiiviksi yhdelle jos toiselle gangsterille tappaa ihastuksen sokaisema pariskunta.&lt;br /&gt;&lt;br /&gt;True Romance perustuu Quentin Tarantinon (Kill Bill, Pulp Fiction) kфsikirjoitukseen. Elokuva on tyylikkффn moderni rakkaustarina, joka sykkii urbaania huumoria, rakkautta ja vфkivaltaa.&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>18</agelimit>
+<actors><actor><id>570</id><name>Anna Levine</name></actor><actor><id>571</id><name>Brad Pitt</name></actor><actor><id>572</id><name>Bronson Pinchot</name></actor><actor><id>573</id><name>Christian Slater</name></actor><actor><id>574</id><name>Christopher Walken</name></actor><actor><id>575</id><name>Conchata Ferrell</name></actor><actor><id>576</id><name>Dennis Hopper</name></actor><actor><id>577</id><name>Gary Oldman</name></actor><actor><id>578</id><name>James Gandolfini</name></actor><actor><id>579</id><name>Michael Rapaport</name></actor><actor><id>580</id><name>Patricia Arguette</name></actor><actor><id>581</id><name>Patricia Arquette</name></actor><actor><id>582</id><name>Samuel L. Jackson</name></actor><actor><id>583</id><name>Saul Rubinek</name></actor><actor><id>584</id><name>Val Kilmer</name></actor><actor><id>585</id><name>Victor Argo</name></actor></actors>
+
+<directors><director><id>569</id><name>Tony Scott
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>51</id>
+<title>Zulu Dawn</title>
+
+<original_title>Zulu Dawn</original_title>
+<ean>6416548825915</ean>
+<vet>89015</vet>
+<categories><category><id>3</id><name>sota</name></category></categories>
+<description>&lt;p&gt;Eletффn vuotta 1879 ja valtataistelu Afrikan siirtomaista kфy kiivaana. Iso-Britannia hallitsee omia siirtomaakansojaan raudanlujalla otteella, luottaen aseidensa, keksintіjensф ja sodankфyntitaitonsa ylivoimaan. Kun Iso-Britannia kokee, ettф pieni Zulun valtio saattaisi muodostaa sille uhkan, pффttфф se toimia ensin ja aggressiivisesti - hyіkkффmфllф zulujen maahan. Mutta britit joutuvat karvaasti kokemaan, mikф hinta on maksettava liiallisesta itsevarmuudesta ja nфennфisesti heikomman vastustajan taitojen, voiman ja rohkeuden aliarvioimisesta. Taistelu Isandlwnassa jфttфф historian lehdille synkфn ja verisen jфljen.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>546</id><name>Denholm Elliott</name></actor><actor><id>587</id><name>Bob Hoskins</name></actor><actor><id>588</id><name>Burt Lancaster</name></actor><actor><id>589</id><name>Christopher Cazenove</name></actor><actor><id>590</id><name>David Bradley</name></actor><actor><id>591</id><name>Donald Pickering</name></actor><actor><id>592</id><name>Ian Yule</name></actor><actor><id>593</id><name>James Faulkner</name></actor><actor><id>594</id><name>Nicholas Clay</name></actor><actor><id>595</id><name>Paul Copley</name></actor><actor><id>596</id><name>Peter J. Elliott</name></actor><actor><id>597</id><name>Peter Vaughan</name></actor><actor><id>598</id><name>Phil Daniels</name></actor><actor><id>599</id><name>Simon Ward</name></actor></actors>
+
+<directors><director><id>586</id><name>Douglas Hickox
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>52</id>
+<title>Frankie Mac - 16 Years of Alcohol</title>
+
+<original_title>16 Years of Alcohol</original_title>
+<ean>6416548452616</ean>
+<vet>201664</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Frankie Mac on nuorimies, jolle vakavat ongelmat ovat aina olleet osa arkipфivфф. Frankien lapsuus kului tyіlфisperheessф, 1950-luvun Edinburghissa. Perheen isф on rappioalkoholisti, jonka elфmфntyylistф kфrsi raskaasti koko muu perhe, Frankietф unohtamatta. Tullessaan teini-ikффn, Frankie lіytфф uuden kotinsa kadulta ja turvan sen rankoista, vфkivaltaisista laeista... Isфltф opittu alkoholin kulutus ja jatkuva taipumus taistella ongelmia vastaan nyrkein ajavat Frankien elфmфn yhф syvempффn syіksykierteeseen, jonka ainoastaan hфn itse voi katkaista...&lt;br /&gt;&lt;br /&gt;Elokuvan on ohjannut punkbфndi, The Skidsin, entinen sanoittaja ja laulaja, Richard Jobson, ja se pohjautuu hфnen omaelфmфkerralliseen romaaniinsa...&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>15</agelimit>
+<actors><actor><id>601</id><name>Elaine C. Smith</name></actor><actor><id>602</id><name>Ewen Bremner</name></actor><actor><id>603</id><name>Gerald Lepkowski</name></actor><actor><id>604</id><name>Iain De Caestecker</name></actor><actor><id>605</id><name>Jim Carter</name></actor><actor><id>606</id><name>Kate Robbins</name></actor><actor><id>607</id><name>Kevin McKidd</name></actor><actor><id>608</id><name>Laura Fraser</name></actor><actor><id>609</id><name>Lewis Macleod</name></actor><actor><id>610</id><name>Lisa May Cooper</name></actor><actor><id>611</id><name>Marcia Rose</name></actor><actor><id>612</id><name>Michael Moreland</name></actor><actor><id>613</id><name>Russell Anderson</name></actor><actor><id>614</id><name>Stuart Sinclair Blyth</name></actor><actor><id>615</id><name>Susan Lynch</name></actor></actors>
+
+<directors><director><id>600</id><name>Richard Jobson
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>53</id>
+<title>The Blood Brothers</title>
+
+<original_title>Ci Ma</original_title>
+<ean>6416548467313</ean>
+<vet>204540</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Vallankahvasta kiinni saanut brutaali diktaattori johtaa alaisiaan pelon ja vфkivallan armottoman kylmфllф ja rautaisella otteella. Ihmishengen hinta on inflaatiossa ja sorrettujen osa nфyttфф hautakiveen kirjoitetulta, kunnes pieni porukka Kung-Fu mestareita pффttфф laittaa lopun hirmuhallinnolle. Tehtфvф tuntuu kuitenkin itsemurhalta: vastassa on diktaattorin joukot, joille vфkivallan kфyttі ja kuolemantuottamus ovat arkipфivфn suolaa. Edessф on �ahvimman lain�oppitunti, jossa armolla ei ole sijaa ja vangitut rukoilevat nopeaa kuolemaa. Elфmфstф ja kuolemasta taisteltaessa on vain voittajia ja hфviфjiф, joille фkkikuolemaratkaisu on armollisin. Veri on luotu virtaamaan ja vфkivalta murtuu vain vфkivallalla...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>617</id><name>David Chiang</name></actor><actor><id>618</id><name>Ti Lung</name></actor></actors>
+<directors><director><id>616</id><name>Chang Cheh
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+
+<vod_title>
+<id>54</id>
+<title>The Super Inframan</title>
+<original_title>Chung Kuo Chao Ren</original_title>
+<ean>6416548469218</ean>
+<vet>204936</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Kaiken pahan ruumiillistuma, prinsessa Dragon Mom, aikoo valloittaa maan rautaisella joukolla raivopфisiф mutanttihirviіitф! Kaikki varaamaan hautapaikkoja, olemme tuhoon tuomittuja! Vai olemmeko?&lt;/p&gt;
+
+&lt;p&gt;Professori Chang on luonut pelastuksen ja tehnyt vapaaehtoisesta nuorukaisesta Infra-miehen, joka pelastaa maailman vaikka silmфt kiinni! Mutta sitten Dragon Mom kidnappaa Changin tyttфren...&lt;/p&gt;
+&lt;p&gt;Mitф tekee Infra-mies? Pystyykі hфn pelastamaan neidon ja maailman sekф nфyttфmффn Dragon Momille kaapin paikan? Piece of cake!&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+<actors><actor><id>491</id><name>Danny Lee</name></actor><actor><id>497</id><name>Hsieh Wang</name></actor><actor><id>620</id><name>Bruce Lee</name></actor><actor><id>621</id><name>Chien-Lung Huang</name></actor><actor><id>622</id><name>Dana</name></actor><actor><id>623</id><name>Lam Man Wai</name></actor><actor><id>624</id><name>Lin Wen-wei</name></actor><actor><id>625</id><name>Lu Sheng</name></actor><actor><id>626</id><name>Man-Tzu Yuan</name></actor><actor><id>627</id><name>Terry Liu</name></actor><actor><id>628</id><name>Wai Lo</name></actor><actor><id>629</id><name>Yang Chiang</name></actor></actors>
+
+<directors><director><id>619</id><name>Shan Hua
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>55</id>
+<title>Disciples of the 36th Chamber</title>
+
+<original_title>Pi Li Shi Jie</original_title>
+<ean>641654867214</ean>
+<vet>204543</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Fong Sai Yuk on kuriton nuorukainen, joka on tottunut voittamaan vaikeudet nyrkeillффn. Koska Yuk ei ole muukalainen vaikeuksille, menee hфn erффnф pфivфnф liian pitkфlle otteissaan, traagisin seurauksin. Poikaa odottaa teloitustuomio, minkф takia hфnen vanhempansa lфhettфvфt hфnet piiloon etфiseen Shaolin temppelin 36. huoneeseen. Temppelin mestari yrittфф murtaa Fong Sai Yukin kapinallisuuden - tuloksetta. Ei aikaakaan, kun Yuk on taas vaikeuksissa, ja tфllф kertaa hфn on saanut pahimman mahdollisen miehen raivoihinsa: pormestarin. Kostoksi pormestari pффttфф hoitaa Yukin ja koko temppelin vфestіn pфiviltф.&lt;/p&gt;</description>
+<year>1985</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>631</id><name>Gordon Liu</name></actor><actor><id>632</id><name>Hsiao Ho</name></actor><actor><id>633</id><name>Jason Pai-Piao</name></actor><actor><id>634</id><name>Lily Li</name></actor></actors>
+<directors><director><id>630</id><name>Lau Kar Leung
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>56</id>
+<title>The Mighty Peking Man</title>
+<original_title>Xing Xing Wang</original_title>
+<ean>6416548454719</ean>
+<vet>202437</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Huhut kaukana Intian viidakoissa asustavasta kerrostalon kokoisesta apinasta kantautuvat Hong Kongiin ahneiden liikemiesten ja metsфstфjien korviin. Pieni joukko ффrimmфisen kokeneita metsфstфjiф lфhteekin heti matkaan, toiveenaan vangita apina ja kerфtф sen avulla suuret setelit Hong Kongissa. Mukaan lфhtee myіs Johnny Feng, joka murehtii pieleen menneitф naisasioitaan. Vaarallinen metsфstysretki vaatiin veronsa, mutta Johnnyn onnistuu lіytфmффn apinan. Tosin tфmф ei asusta viidakossa yksin, vaan seuranaan apinalla on hehkeф nainen nimeltф Samantha... Samanthaan tulisesti rakastuvan Johnnyn pitфisi muistaa, ettei jфttilфismфistф villielфintф sovi фrsyttфф tai viedф pois sen elinympфristіstф. Tфmфn nimittфin tulee varmasti muistamaan koko Hong Kong, joka on pian yhtф tuhoaluetta.&lt;br /&gt;&lt;br /&gt;&lt;em&gt;The Mighty Peking Man&lt;/em&gt;, joka tunnetaan myіs nimellф Goliathon, on puhdas camp-elokuva. Sen hфpeilemфtіn King Kong -imitointi on tehnyt siitф kulttielokuvan. Elokuva on vuoden 1975 ilmestyneen &lt;em&gt;[movie:Infra-Man]&lt;/em&gt;:in epфvirallinen jatko-osa.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>491</id><name>Danny Lee</name></actor><actor><id>493</id><name>Feng Ku</name></actor><actor><id>636</id><name>Evelyne Kraft</name></actor></actors>
+<directors><director><id>635</id><name>Meng-Hwa Ho
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>57</id>
+<title>The Five Venoms</title>
+<original_title>Wu Du</original_title>
+<ean>6416548467115</ean>
+<vet>204535</vet>
+
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Viisi muukalaista. Uskomaton aarre kфden ulottuvilla. Mikф voisi mennф pieleen? Kuolemaisillaan oleva taistelulajien opettaja kфskee etsimффn ja tuhoamaan viisi hфnen aikaisempaa oppilasta, joille hфn opetti viisi myrkynvahvaa Kung-Fu:n tyylisuuntaa. Nфmф pelфtyt tyylisuunnat olivat tuhatjalkainen, kффrme, skorpioni, lisko ja sammakko. Opettajan viimeisin oppilas saa tehtфvфn hoidettavakseen, ja hфnen on oltava valmis kaikkeen. Mutta ahneus ja petollisuus pesii jopa itse koulussa, sen oppilaiden keskuudessa. Voimatta luottaa keneenkффn, on valitun taistelijan kфytфvф yksin taisteluun pahuutta vastaan.&lt;br /&gt;&lt;br /&gt;&lt;em&gt;[movie:Kill Bill] Vol. 1&lt;/em&gt;:stф lіytyy suora viittaus tфhфn vuoden 1978 [tag:Shaw Brothers] -klassikkoon, &lt;em&gt;The Five Venoms&lt;/em&gt;:iin.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>637</id><name>Chiang Sheng</name></actor><actor><id>638</id><name>Kuo Chue</name></actor><actor><id>639</id><name>Lo Meng</name></actor><actor><id>640</id><name>Sun Chien</name></actor></actors>
+<directors><director><id>616</id><name>Chang Cheh
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>58</id>
+<title>The Magnificient Trio</title>
+<original_title>Bian Cheng San Xia</original_title>
+<ean>6416548455716</ean>
+<vet>202647</vet>
+
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Ming-dynastian valta on murenemassa ja viimeisenф keinona hallinto koventaa hфikфilemфttф otetan ja keinojaan pitфф aisoissa vapaampia aikoja toivovat alamaisensa. Aikojen kovuus tunnetaan nahoissa myіs erффssф pikkukylфssф, jonka asukkaat ovat kyllфstyneet hirmuvaltaan ja valmistelevat kansalaisaddressia vastalauseeksi.&lt;/p&gt;
+&lt;p&gt;Hallinto pitфф kylфlфisten suunnitelmaa aggression eleenф ja pффttфф lфhettфф sotajoukot taltuttamaan kapinahengen, keinoja kaihtamatta. Kylфlфisten pelko verilіylystф on aiheellinen, ja turvatakseen addressin lфpiviemisen, palkkaavat he kolme kokenutta Kung Fu-mestaria suojelijoikseen. Kolmikko tietфф, ettei tilanteesta selvitф rauhanomaisin keinoin. Neuvotteluiden aika on ohi, edessф on vфistфmфttф armoton taistelu ylivoimaista vihollista vastaan...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>470</id><name>Lieh Lo</name></actor><actor><id>485</id><name>Cheung-Yan Yuen</name></actor><actor><id>493</id><name>Feng Ku</name></actor><actor><id>510</id><name>Shi-Kwan Yen</name></actor><actor><id>628</id><name>Wai Lo</name></actor><actor><id>641</id><name>Ping Chin</name></actor><actor><id>642</id><name>Margaret Tu Chuan</name></actor><actor><id>643</id><name>Yu Wang</name></actor><actor><id>644</id><name>Fanny Fan</name></actor><actor><id>645</id><name>Lei Cheng</name></actor><actor><id>646</id><name>Pei-Shan Chang</name></actor><actor><id>647</id><name>Hung Lieh Chen</name></actor><actor><id>648</id><name>Hsiung Chiao</name></actor><actor><id>649</id><name>Ngai Fung</name></actor><actor><id>650</id><name>Li Jen Ho</name></actor><actor><id>651</id><name>Chia-Liang Liu</name></actor><actor><id>652</id><name>Ying Li</name></actor><actor><id>653</id><name>Yunzhong Li</name></actor><actor><id>654</id><name>Cliff Lok</name></actor><actor><id>655</id><name>Ming Lui</name></actor><actor><id>656</id><name>Yin Tze Pan</name></actor><actor><id>657</id><name>Chia Tang</name></actor><actor><id>658</id><name>Ti Tang</name></actor><actor><id>659</id><name>Feng Tien</name></actor><actor><id>660</id><name>Chang-chi Wang</name></actor><actor><id>661</id><name>Ching-li Wu</name></actor><actor><id>662</id><name>Ma Wu</name></actor><actor><id>663</id><name>Wen Wu</name></actor><actor><id>664</id><name>Woo-ping Yuen</name></actor></actors>
+
+<directors><director><id>517</id><name>Cheh Chang
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>59</id>
+<title>The Boxer from Shantung</title>
+
+<original_title>Ma Yong Zhen</original_title>
+<ean>6416548455013</ean>
+<vet>202401</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Nuori ja omillaan pфrjффvф Ma Yung Cheng jфttфф Shantungin taakseen, lфhteфkseen Shanghaihin paremman elфmфn toivossa. Alku Shanghaissa vaikuttaa lupaavalta. Cheng saa nopeasti ystфviф, lіytфф elфmфnsф rakkauden ja saa tіitф - paikalliselta gangsteripomolta. Cheng tulee kuitenkin hyvin toimeen paikallisen alamaailman kanssa ja pystyy kehittфmффn omaa liiketoimintaansa.&lt;/p&gt;
+&lt;p&gt;Vaikeudet alkavat, kun kilpaileva mafiapomo pффttфф laajentaa aluettaan, ja tuo avukseen neljф Kung Fu mestaria. Cheng pффttфф auttaa alueensa pomoa, kфymфllф taistoon mestareita vastaan. Taistelu saattaisi vaikuttaa itsemurhalta, mutta Cheng on Kung Fu mestari itsekin - ylivoimainen, lyіmфtіn, suvereenisti paras taistelija Shantungista!&lt;br /&gt;&lt;br /&gt;&lt;em&gt;Boxer from Shantung&lt;/em&gt; sai jatkoa heti ilmestyttyффn vuonna 1974 elokuvalla &lt;em&gt;[movie:Kung Fu Queen]&lt;/em&gt;. Elokuva oli [tag:Shaw Brothers] Studion menestyksellisesti tфrkeimpiф elokuvia 1970-luvulla.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>617</id><name>David Chiang</name></actor><actor><id>665</id><name>Chen Kuan-tai</name></actor><actor><id>666</id><name>Chin Li</name></actor></actors>
+<directors><director><id>616</id><name>Chang Cheh
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>60</id>
+<title>The Oily Maniac</title>
+<original_title>Yuo Gui Zi</original_title>
+<ean>6416548456416</ean>
+<vet>202354</vet>
+
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Shen-Yuan on huono-onninen ja sorrettu plantaasin hoitaja, jonka elфmф tuntuu olevan pelkkфф vastoinkфymistф. Shen on fyysisesti rampa, hфnen enonsa on viety teloitettavaksi, hфn on pomonsa jatkuvan inhon ja painostuksen kohde eikф naapurin tyttіkффn lфmpene hфnen ihastuksenosoituksilleen.&lt;/p&gt;
+&lt;p&gt;Mutta jokaisella miehellф on mitta, jonka tфyttymisellф on vakavat seuraamukset...&lt;/p&gt;
+&lt;p&gt;Shen muistaa enonsa hфnelle jфttфmфn pelottavan loitsun, ja katkeruuden vimmassa pффttфф toistaa sen sanat ффneen. Seurauksena Shen muuttuu hirvittфvфksi, іljyiseksi hirviіksi, joka kфy sффlimфttіmффn taistoon kaikkea pahaa vastaan, kaikkien heikkojen puolesta.&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>15</agelimit>
+<actors><actor><id>496</id><name>Hsia Hsu</name></actor><actor><id>506</id><name>Ping Chen</name></actor><actor><id>667</id><name>Alan Chui Chung San</name></actor></actors>
+<directors><director><id>635</id><name>Meng-Hwa Ho
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>61</id>
+<title>Return to the 36th Chamber</title>
+<original_title>Shao Lin Ta Peng Hsiao Tzu</original_title>
+<ean>6416548467511</ean>
+<vet>204541</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Vфrjфystehtaan tyіntekijфt elфvфt kovia aikoja, kun tehtaan johto pффttфф laskea 20% heidфn jo pieniф palkkojaan ja tфydentфф tyіvoimaa palkatuilla rikollisilla. Taistellakseen oikeuksiensa puolesta, palkkaavat tyіlфiset nфyttelijфn, Chu Jen-Chiehin, esittфmффn [tag:Shaolin] temppelin [tag:Kung Fu]-mestaria, toivoen saavan nфin lisфф voimaa vaatimuksilleen.&lt;/p&gt;
+
+&lt;p&gt;Yritys menee kuitenkin pahasti pieleen ja johdon langettama rangaistus on kova. Mutta Chu ei ole tyytyvфinen tilanteeseen ja haluaa auttaa hфdфssф olevia tyіntekijіitф. Ainoa mahdollisuus on liittyф oikeasti Shaolinin temppelin 36. huoneeseen ja tulla todelliseksi Kung-Fu mestariksi.&lt;br /&gt;&lt;br /&gt;&lt;em&gt;Return to the 36th Chamber&lt;/em&gt;, joka tunnetaan myіs nimellф &lt;em&gt;Master Killer II&lt;/em&gt;, on jatkoa vuoden 1978 elokuvalle &lt;em&gt;[movie:36th Chamber of Shaolin]&lt;/em&gt; eli &lt;em&gt;Master Killer&lt;/em&gt;.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>668</id><name>Gordon Lau Kar Fai</name></actor><actor><id>669</id><name>Wong Lung Wai</name></actor></actors>
+<directors><director><id>630</id><name>Lau Kar Leung
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>62</id>
+<title>The Water Margin</title>
+<original_title>Sui Woo Juen</original_title>
+<ean>6416548456614</ean>
+<vet>202844</vet>
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Sung-dynastian kiistaton johtohahmo, mestari Lu, joka tunnetaan myіs Jade-lohikффrmeenф, pidфtetффn tekaistuin syyttein ja toimitetaan vankilaan. Dynastiaan kuuluvan taistelujoukon, 108 lainsuojatonta, riveissф herфф kapinahenki ja tahto mestarinsa vapauttamisen, keinolla millф hyvфnsф. Mutta kyse ei ole ainoastaan Lun saamisesta ulos vankilasta vaan nousemista avoimeen vastarintaan hallitsevaa korruptoitunutta hallintoa vastaan, tarvittaessa verisesti taistellen. 108 lainsuojatonta ovat kuitenkin pффmффrissффn jфrkkymфttіmiф, vффryyttф ei voida korjata ilman taistelua, viimeiseen mieheen asti, jos tarve niin vaatii...&lt;br /&gt;&lt;br /&gt;&lt;em&gt;Water Margin&lt;/em&gt;, joka tunnetaan laajalti nimellф &lt;em&gt;7 Blows of the Dragon&lt;/em&gt;, sai jatko-osan, &lt;em&gt;[movie:7 Soldiers of Kung Fu]&lt;/em&gt; vuonna 1975.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>617</id><name>David Chiang</name></actor><actor><id>618</id><name>Ti Lung</name></actor><actor><id>670</id><name>Lily Ho</name></actor></actors>
+<directors><director><id>616</id><name>Chang Cheh
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>63</id>
+<title>The Heroic Ones</title>
+<original_title>Shi San Tai Bao</original_title>
+<ean>6416548469119</ean>
+<vet>111618</vet>
+
+<categories><category><id>1</id><name>toiminta</name></category></categories>
+<description>&lt;p&gt;Muinaisessa Kiinassa valtataistelu oli kovaa ja armotonta. Maa oli jakautunut useisiin kuningaskuntiin, joka olivat kaikki ahneita kasvattamaan aluettaan, keinolla millф hyvфnsф.&lt;/p&gt;
+&lt;p&gt;Kuningas Jing on kyllфstynyt jatkuvaan taisteluun vihollistensa kanssa, ja kerфф yhteen yhdeksфn pфtevintф kenraalien tehtфviin, joka takaisi kuningaskunnalle suurvoiton. Mutta yhdeksikіn jфsenten vфlillф vallitsee eripura ja kateus - repivфt ja tuhoisat tunteet, jotka pahimmassa tapauksessa voivat tuhota kaiken.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>475</id><name>Pei Chi Huang</name></actor><actor><id>489</id><name>Chung Wang</name></actor><actor><id>493</id><name>Feng Ku</name></actor><actor><id>617</id><name>David Chiang</name></actor><actor><id>628</id><name>Wai Lo</name></actor><actor><id>634</id><name>Lily Li</name></actor><actor><id>671</id><name>Chia Win Pao</name></actor><actor><id>672</id><name>Chia Yung Liu</name></actor><actor><id>673</id><name>Chuen Chan</name></actor><actor><id>674</id><name>Han Chin</name></actor><actor><id>675</id><name>James Nam</name></actor><actor><id>676</id><name>Kang Liu</name></actor><actor><id>677</id><name>Kwong Yue Wong</name></actor><actor><id>678</id><name>Lung Ti</name></actor><actor><id>679</id><name>Tuan Sung</name></actor></actors>
+
+<directors><director><id>517</id><name>Cheh Chang
+</name></director></directors>
+<languages><language><id>4</id><name>Mandariini</name></language></languages>
+<countries><country><id>4</id><name>Mandariini</name></country><country><id>4</id><name>Mandariini</name></country></countries>
+</vod_title>
+<vod_title>
+<id>64</id>
+<title>Padre Padrone</title>
+
+<original_title>Padre Padrone</original_title>
+<ean>6416548831718</ean>
+<vet>87974</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Sardiniassa asuva nuori paimentolaispoika, Gavino, elфф ankaraa ja kіyhфn vaatimatonta elфmфф tyrannimaisen isфnsф kurin alla. Isфn kasvatuksen takia Gavino eristфytyy nuoruusvuosinaan tфysin muusta maailmasta, ja tulevaisuus nфyttфф lohduttoman synkkфsфvytteiseltф... Kutsu sotilaspalvelukseen tarjoaa lopulta Gavinolle uuden mahdollisuuden elфmфn kokemiseen omilla ehdoillaan. Gavinon tukahduksissa ollut elфmфnjano ei aio jфttфф mahdollisuutta kфyttфmфttф. Kaikki on vielф mahdollista.&lt;br /&gt;&lt;br /&gt;&lt;em&gt;Padre Padrone on rohkean kaunistelematon ja koskettavan vфhфeleinen kuvaus 1970-luvun sosiaalisista ongelmista Sardiniassa ja sukupolvien tіrmффmisestф aiheutuneista hфtфhuudoista. Elokuva perustuu Gavino Leddan samannimiseen romaaniin ja palkittiin vuonna 1977 [tag:Cannes]in elokuvajuhlien pффpalkinnolla, Kultaisella palmulla.&lt;/em&gt;&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>681</id><name>Fabrizio Forte</name></actor><actor><id>682</id><name>Marcella Michelangeli</name></actor><actor><id>683</id><name>Omero Antonutti</name></actor><actor><id>684</id><name>Saverio Marconi</name></actor></actors>
+<directors><director><id>680</id><name>Paolo Taviani
+Vittorio Taviani
+</name></director></directors>
+<languages><language><id>13</id><name>Italia</name></language></languages>
+
+<countries><country><id>13</id><name>Italia</name></country><country><id>13</id><name>Italia</name></country></countries>
+</vod_title>
+<vod_title>
+<id>65</id>
+<title>Katseet Ikkunassa</title>
+<original_title>La Finestra di Fronte</original_title>
+<ean>6416548352619</ean>
+<vet>108471</vet>
+
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Roomalainen nuoripari Giovanna ja Filippo kohtaavat kadulla sekavassa tilassa olevan vanhuksen, joka on menettфnyt muistinsa. Hyvфsydфminen pariskunta ottaa Simonen nimeф hokevan ukon yіksi luokseen viedфkseen hфnet aamulla poliisiasemalle. Poliisilla ei ole kuitenkaan mitффn merkintфф kadonneeksi ilmoitetusta vanhuksesta, ja niinpф �imone�jфф edelleen nuorenparin hoiviin.&lt;/p&gt;
+&lt;p&gt;Giovanna on jo pitkффn salaa seurannut vastapфisessф asunnossa elфvфn nuorukaisen, Lorenzon elфmфф. Giovanna on ilmiselvфn ihastunut komeaan mieheen. Kun Simone yhtфkkiф katoaa, tarjoaa Lorenzo apuaan miehen lіytфmiseksi. Odotettavissa on kaksi hyvin erilaista ja eri aikoihin sijoittuvaa rakkaustarinaa, jotka liittyvфt toisiinsa niin suurin tuntein ja salaisuuksin kuin myіs ihanan makein leivoksin.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Turkkilaissyntyisen ohjaajan [director:Ferzan Ozpetek]in uusi koskettava italialainen rakkausdraama on palkittu monilla festivaaleilla. Kotimaassaan Italiassa, elokuva sai viisi Donatello-palkintoa (paras elokuva, paras miespффosa, paras naispффosa, paras musiikki ja paras opetuselokuva).&lt;/em&gt;&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>11</agelimit>
+<actors><actor><id>686</id><name>Filippo Nigro</name></actor><actor><id>687</id><name>Giovanna Mezzogiorno</name></actor><actor><id>688</id><name>Massimo Girotti</name></actor><actor><id>689</id><name>Raoul Bova</name></actor><actor><id>690</id><name>Serra Yilmaz</name></actor></actors>
+<directors><director><id>685</id><name>Ferzan Ozpetek
+
+</name></director></directors>
+<languages><language><id>13</id><name>Italia</name></language></languages>
+<countries><country><id>13</id><name>Italia</name></country><country><id>13</id><name>Italia</name></country></countries>
+</vod_title>
+<vod_title>
+<id>66</id>
+<title>Hiroshima, rakkaani</title>
+<original_title>Hiroshima Mon Amour</original_title>
+
+<ean>6416548832715</ean>
+<vet>52002</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;&lt;em&gt;Hiroshima, rakastettuni&lt;/em&gt; tapahtuu kahdessa eri ajassa, vuosissa 1945 ja 1954. Ranskalainen nфyttelijфtфr kohtaa 1954 tyіmatkallaan japanilaisen miehen, joka aikoinaan selvisi Hiroshiman ydinpommituksesta. Naisen muistot sodasta ovat elфminen miehitetyssф maassa ja rakkaus vihollisjoukkoihin kuuluvaa sotilasta kohtaan.&lt;/p&gt;
+&lt;p&gt;Kaksikon hetken suhde avaa oven menneisyyden ja nykyisyyden vфlille: muistoille, unohdetuille asioille, toiveille ja peloille. Toisinaan, vaikka elфmф menee eteenpфin, aika pysyy paikoillaan...&lt;/p&gt;
+
+&lt;p&gt;Pitkфn linjan ranskalaisen ohjaajan, [director:Alain Resnais]in (&lt;em&gt;[movie:Viime vuonna Marienbadissa], [movie:Yі ja usva]&lt;/em&gt;) &lt;em&gt;Hiroshima, rakastettuni&lt;/em&gt;, pysyy hфnen arvostetuimpana ja kunnioitetuimpana tyіnффn - elokuvana, jota pidetффn yhtenф ranskalaisen elokuvan "uuden aallon" (&lt;em&gt;French New Wave 1958-1964&lt;/em&gt;) kiistattomampana merkkiteoksena. Uusi aalto haki voiman elokuviinsa panostamalla teostensa ja niiden esittelemien kohtausten, ympфristіn ja nфyttelijіiden autenttisuuteen, sekф tфhtффmфllф elokuvantekijіiden arvostuksen nostamiseen, samalle tasolle kuin kirjailijoilla, sфveltфjillф ja taidemaalareilla. Tфmф uusi lфhestymistapa tiesi valtavaa vastustusta perinteisemmфn elokuvan kannattajilta, mutta myіs vastakaikua: elokuvateollista, -teknistф ja -taiteellista murrosta, joka lopulta sai globaalin kannatuksen.&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>15</agelimit>
+<actors><actor><id>692</id><name>Eiji Okada</name></actor><actor><id>693</id><name>Emanuelle Riva</name></actor></actors>
+<directors><director><id>691</id><name>Alain Resnais
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>67</id>
+<title>The Over-Eater</title>
+<original_title>L'outremangeur</original_title>
+<ean>6416548353814</ean>
+<vet>112031</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Yksinфinen ja onneton Richard Selena on poliisi Marseillesissa, jonka elфmф pyіrii rikoksen ja ruuan ympфrillф. Vakavasti ylipainoisen, yli 150 kiloa painavan ja hengitysvaikeuksista kфrsivфn Richardin lффkфri joutuu jatkuvasti varoittamaan tфtф ylensyіnnin ja ylipainon vaaroista. Mutta kaikesta huolimatta Richard ei pysty lopettamaan hallitsevaa suhdettaan syіmiseen. On vain ajan kysymys, koska hфn kirjaimellisesti syі itsensф hengiltф...&lt;br /&gt;&lt;br /&gt;Sitten Richard ja hфnen parinsa, Marc, mффrфtффn tutkimaan vaikutusvaltaisen yritysjohtajan murhaa. Tutkimusten edetessф Richard alkaa epфillф teosta johtajan veljentytфrtф Elsaa, vaikka Marc onkin asiasta eri mieltф. Richard ei kuitenkaan halua pidфttфф Elsaa, vaikka onkin vakuuttunut tфmфn syyllisyydestф. Sen sijaan hфn pakottaa Elsan tulemaan luokseen joka ilta, katsomaan kun hфn syі. Richardin ja Elsan vфlille kehittyy nopeasti varsin omaperфinen ja pakkomielteinen suhde.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Entinen Manchester Unitedin kuumapфф ja Ranskan jalkapallojoukkueen kapteeni [actors:Eric Cantona]&lt;/em&gt; &lt;em&gt;tunnettiin pelaaja-aikanaan lempinimellф "The King". Jalkapalloilijana Cantona oli huippulahjakas, joka sai pelaajataitojensa lisфksi paljon huomiota rфiskyvфn tempperamenttinsa vuoksi. Samalla ehdottomalla "kaikki tai ei mitффn" asenteella Cantona jatkaa elokuvaurallaankin: Over-Eateria varten hфn suostui lihottamaan itseффn useita kymmeniф kiloja! Over-Eater perustuu ranskalaisten Jacques Ferrandezin ja Tonino Banacquistan samannimiseen sarjakuvaan.&lt;/em&gt;&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>11</agelimit>
+<actors><actor><id>695</id><name>Caroline Sihol</name></actor><actor><id>696</id><name>Eric Cantona</name></actor><actor><id>697</id><name>Rachida Brakni</name></actor></actors>
+
+<directors><director><id>694</id><name>Thierry Binisti
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>68</id>
+<title>Sophie Scholl - Viimeiset pфivфt</title>
+
+<original_title>Sophie Scholl - Die Letzten Tage</original_title>
+<ean>6416548355511</ean>
+<vet>201037</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Eletффn vuotta 1943 Mќnchenissф, toisen maailmansodan raivotessa ympфri Eurooppaa. Saksan kфydessф raskasta kahden rintaman sotaa herфф pieni mutta sisukas vastarintaliekki kotirintamallakin.&lt;/p&gt;
+&lt;p&gt;Ylioppilaat ja sisarukset Sophie ja Hans Scholl ovat natsihallintoa vastustavan Valkoinen Ruusu vastarintaliikkeen jфseniф. Molemmat ovat tottuneet toimimaan jatkuvan kiinnijффmisen riskin alla kylmфn suunnitelmallisesti ja rohkeasti, mutta levittфessффn propagandalehdykіitф yliopiston kфytфville, kффntyy onni heitф vastaan ja he jффvфt kiinni. Edessф on pфivфkausia kestфvф, armottoman Gestapon johtama kuulustelu...&lt;br /&gt;&lt;br /&gt;Intensiivinen Sophie Scholl - viimeiset pфivфt voitti Parhaan ohjaajan ja naispффosan palkinnot [tag:Berliini]n elokuvajuhlilla vuonna 2005. Elokuva sai lisфksi viisi [tag:European Film Awards] -ehdokkuutta (mm. paras elokuva, ohjaus ja naispффosa), joista se lopulta voitti Parhaan naispффosan. Elokuva on valittu myіs Saksan Oscar-ehdokkaaksi vuodelle 2006.&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>699</id><name>Andrщ Hennicke</name></actor><actor><id>700</id><name>Fabian Hinrichs</name></actor><actor><id>701</id><name>Gerald Alexander Held</name></actor><actor><id>702</id><name>Johanna Gastdorf</name></actor><actor><id>703</id><name>Julia Jentsch</name></actor></actors>
+<directors><director><id>698</id><name>Marc Rothemund
+
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>69</id>
+<title>Peltirumpu</title>
+<original_title>Die Blechtrommel</original_title>
+
+<ean>6416548355047</ean>
+<vet>87543</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Pikkupoika Oskarin lapsuus sijoittuu yhteiskunnan muutoksista kuohuvaan Saksaan, 1920-30 -luvuille. Varhaiskypsф Oskar joutuu jo ensimmфisinф vuosinaan todistamaan aikuisten kylmфn kyynisyyden ja raadollisuuden, minkф takia hфn tekee pффtіksen olla koskaan kasvamatta isoksi...&lt;/p&gt;
+&lt;p&gt;Kansallissosialistien saavuttaessa vuosi vuodelta enemmфn kannatusta ja valtaa, pelon ja terrorin ottaessa voimakkaammin jalansijaa ja natsien fanatismin viedessф maan lopulta sotaan, vaikuttaa aikuisten maailma yhф korruptoituneemmalta ja mielipuolisemmalta. Oskar jatkaa elфmффnsф lapsena lфpi toisen maailmansodan raivon sekф Natsi-Saksan nousun ja tuhon, kapinoiden ympфrіivфф hulluutta vastaan aseenaan ainoastaan syntymфpфivфlahjaksi saamansa peltirumpu sekф kyky kiljua niin korvia vihlovan korkealta, ettф lasit sфrkyvфt kuin illuusiot...&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Elokuva voitti 1979 [tag:Cannes]in elokuvafestivaalien pффpalkinnon Kultaisen palmun, jota seurasi seuraavana vuonna parhaan ulkomaisen elokuvan [tag:Oscar]-palkinto. Klassikko oli syntynyt.&lt;/em&gt;&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>286</id><name>Angela Winkler</name></actor><actor><id>705</id><name>Andrщa Ferrщol</name></actor><actor><id>706</id><name>Berta Drews</name></actor><actor><id>707</id><name>Daniel Olbrychski</name></actor><actor><id>708</id><name>David Bennent</name></actor><actor><id>709</id><name>David Bennett</name></actor><actor><id>710</id><name>Heinz Bennent</name></actor><actor><id>711</id><name>Helmut Brasch</name></actor><actor><id>712</id><name>Ilse Pagщ</name></actor><actor><id>713</id><name>Kфte Jaenicke</name></actor><actor><id>714</id><name>Katharina Thalbach</name></actor><actor><id>715</id><name>Mario Adorf</name></actor><actor><id>716</id><name>Roland Teubner</name></actor><actor><id>717</id><name>Tadeusz Kunikowski</name></actor><actor><id>718</id><name>Tina Engel</name></actor><actor><id>719</id><name>Werner Rehm</name></actor></actors>
+
+<directors><director><id>704</id><name>Volker Schlіndorff
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>70</id>
+<title>Myyntitykit</title>
+
+<original_title>Glengarry Glen Ross</original_title>
+<ean>6416548845012</ean>
+<vet>98184</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;He valehtelevat, varastelevat, huijaavat ja pettфvфt. He kuuluvat valittuun joukkoon, joka pelaa omien sффntіjensф mukaan. Heille jokainen pфivф on taistelua elфmфstф ja kuolemasta tфydellisen sopimuksen aikaansaamiseksi.&lt;br /&gt;&lt;br /&gt;Myyntitykit pohjautuu David Mametin [tag:Pulitzer]-palkittuun nфytelmффn. Harvoin nфin monta kovaa nфyttelijфф on saatu samaan elokuvaan. [actor:Al Pacino] sai roolistaan [tag:Oscar]-ehdokkuuden ja muissa rooleissa nфhdффn loistavat Kevin Spacey, Alan Arkin, Alec Baldwin, Jack Lemmon ja Ed Harris.&lt;/p&gt;</description>
+<year>0</year>
+
+<agelimit>11</agelimit>
+<actors><actor><id>721</id><name>Al Pacino</name></actor><actor><id>722</id><name>Alan Arkin</name></actor><actor><id>723</id><name>Alec Baldwin</name></actor><actor><id>724</id><name>Barry Rossen</name></actor><actor><id>725</id><name>Bruce Altman</name></actor><actor><id>726</id><name>Ed Harris</name></actor><actor><id>727</id><name>George Cheung</name></actor><actor><id>728</id><name>Jack Lemmon</name></actor><actor><id>729</id><name>Jonathan Pryce</name></actor><actor><id>730</id><name>Jude Ciccolella</name></actor><actor><id>731</id><name>Kevin Spacey</name></actor><actor><id>732</id><name>Leigh French</name></actor><actor><id>733</id><name>Lori Tan Chinn</name></actor><actor><id>734</id><name>Neal Jones</name></actor><actor><id>735</id><name>Paul Butler</name></actor></actors>
+
+<directors><director><id>720</id><name>James Foley
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+</vod_title>
+<vod_title>
+<id>71</id>
+<title>Suoraan Seinффn</title>
+
+<original_title>Gegen Die Wand</original_title>
+<ean>6416548353517</ean>
+<vet>111033</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Cahit ja Sibel ovat Saksassa asuvia turkkilaisia, tunteillaan voimakkaasti elфviф sieluja. Cahitin elфmф on menossa lujaa vauhtia alaspфin menetetyn rakkauden takia. Alkoholi ja itsetuhoisuus ohjaavat hфnen elфmффnsф. Sibel tulee erittфin rajoittavasta perheestф, ja voimakas kahlittuna olemisen tunne on ajanut hфnetkin epфtoivoon. Cahitin ja Sibelin kohdatessa, pyytфф Sibel yllфttфen Cahittiф menemффn naimisiin kanssaan, pффstфkseen eroon perheestффn. Koska myіs Cahit haluaa muuttaa elфmффnsф, suostuu hфn ehdotukseen. Suunnitelman pohjana ollee ystфvyys, ei rakkaus... Kuitenkin kulissiavioliiton tuoman vapauden sekф yhteiselфmфn luomien tilanteiden ja vaateiden vaikutukset alkavat pian nфkyф Cahitistф ja Sibelistф. Tфysillф elфmisellф on veronsa, eikф ihminen voi tunteilleen mitффn...&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Suoraan seinффn voitti 2004 [tag:Berliini]n elokuvafestivaaleilla parhaan elokuvan palkinnon - Kultaisen Karhun. Elokuva on myіs voittanut kaikki tфrkeimmфt Saksan "oscarit": parhaan elokuvan, ohjaajan, mies- ja naispффosan sekф kuvauksen palkinnot. Para&lt;/em&gt;s Eurooppalainen Filmi 2004 - [tag:European Film Academy].&lt;/p&gt;</description>
+
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>737</id><name>Birol мnel</name></actor><actor><id>738</id><name>Catrin Striebeck</name></actor><actor><id>739</id><name>Cem Akin</name></actor><actor><id>740</id><name>Demir Gіkgіl</name></actor><actor><id>741</id><name>Francesco Fiannaca</name></actor><actor><id>742</id><name>Gќven Kirac</name></actor><actor><id>743</id><name>Hermann Lause</name></actor><actor><id>744</id><name>Karin Niwiger</name></actor><actor><id>745</id><name>Meltem Cumbul</name></actor><actor><id>746</id><name>Mona Mur</name></actor><actor><id>747</id><name>Philipp Baltus</name></actor><actor><id>748</id><name>Ralph Misske</name></actor><actor><id>749</id><name>Sibel Kekilli</name></actor><actor><id>750</id><name>Stefan Gebelhoff</name></actor><actor><id>751</id><name>Zarah McKenzie</name></actor></actors>
+
+<directors><director><id>736</id><name>Fatih Akin
+</name></director></directors>
+<languages><language><id>6</id><name>saksa</name></language></languages>
+<countries><country><id>6</id><name>saksa</name></country><country><id>6</id><name>saksa</name></country></countries>
+</vod_title>
+<vod_title>
+<id>72</id>
+<title>Kфtketty</title>
+
+<original_title>Cachщ</original_title>
+<ean>6416548357218</ean>
+<vet>201872</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Georg na Anne elфvфt rauhallista keskiluokkaista perhe-elфmфф. Georg on televisiossa pyіrivфn suositun kirjallisuusohjelman juontaja, pariskunnalla on teini-ikфinen poika ja tiivis ystфvфverkosto. Avioliitto ja arki ovat turvallista ja onnentфytteistф, kunnes...&lt;/p&gt;
+&lt;p&gt;Erффnф pфivфnф postiluukusta tipahtaa videokasetti. Nauha saa lфhipфivinф jatkoa. Tallenteet kestфvфt aina pari tuntia ja kuvaavat pariskunnan asuntoa ulkopuolelta. Poliisi ei voi asialle mitффn, koska varsinaista uhkaa ei voida todistaa...&lt;/p&gt;
+
+&lt;p&gt;Sitten videokasetteja seuraa sarja hфiriintyneitф piiroksia ja muuta materiaalia, jotka tuntuisivat viittaavan Georgen historiaan - menneisyyteen, josta hфn ei ole kertonut kenellekффn, ei edes Annelle. Illuusiot alkavat murtua uhan alla.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ylistetyn itфvaltalaisen ohjaajan [director:Michael Haneke]n psykologinen trilleri &lt;/em&gt;Kфtketty &lt;em&gt;palkittiin 2005 [tag:European Film Awards] palkinnoilla: Euroopan paras elokuva, ohjaaja, kфsikirjoitus, miespффosa sekф leikkaaja. Elokuva voitti myіs 2005 [tag:Cannes]in elokuvajuhlilla Parhaan ohjaajan palkinnon.&lt;/em&gt;&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>187</id><name>Bernard Le Coq</name></actor><actor><id>233</id><name>Aяssa Maяga</name></actor><actor><id>255</id><name>Daniel Duval</name></actor><actor><id>752</id><name>Daniel Auteuil</name></actor><actor><id>753</id><name>Juliette Binoche</name></actor><actor><id>754</id><name>Maurice Bщnichou</name></actor><actor><id>755</id><name>Annie Girardot</name></actor><actor><id>756</id><name>Walid Afkir</name></actor><actor><id>757</id><name>Lester Makedonsky</name></actor><actor><id>758</id><name>Nathalie Richard</name></actor><actor><id>759</id><name>Denis Podalydшs</name></actor><actor><id>760</id><name>Caroline Baehr</name></actor><actor><id>761</id><name>Christian Benedetti</name></actor><actor><id>762</id><name>Philippe Besson</name></actor><actor><id>763</id><name>Loic Brabant</name></actor></actors>
+
+<directors><director><id>284</id><name>Michael Haneke
+</name></director></directors>
+<languages><language><id>3</id><name>ranska</name></language></languages>
+<countries><country><id>3</id><name>ranska</name></country><country><id>3</id><name>ranska</name></country></countries>
+</vod_title>
+<vod_title>
+<id>73</id>
+<title>Zero Day - Nuoret Tappajat</title>
+
+<original_title>Zero Day</original_title>
+<ean>6416548352015</ean>
+<vet>107908</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Kaverukset Andre ja Cal vaikuttavat normaaleilta nuorilta, jotka vain viihtyvфt paremmin omissa oloissaan, erossa muista. Mutta poikien sisфllф kiehuu, ja heillф on suuria suunnitelmia. Andre ja Cal aikovat antaa raskaan opetuksen kaikille koulussaan... Pojat alkavat pitфф videopфivфkirjaa, johon he tallentavat suunnitelmansa etenemisen ja valmistautumisensa vaiheineen. Mutta mitkф ovat syyt laskennan alkamiselle? Olisivatko he valmiit muunlaiseen ratkaisuun, kuin mitф heidфn julma suunnitelma nyt edellyttфф? Kysymyksiф, joihin vain Andre ja Cal voivat antaa vastaukset videollaan... Lopulta kuitenkin teot puhuvat puolestaan. Edessф on H-hetki: Zero Day.&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+
+<actors><actor><id>765</id><name>Andre Keuck</name></actor><actor><id>766</id><name>Christopher Coccio</name></actor><actor><id>767</id><name>David Futernick</name></actor><actor><id>768</id><name>Rachel Benichak</name></actor></actors>
+<directors><director><id>764</id><name>Ben Coccio
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language></languages>
+<countries><country><id>2</id><name>englanti</name></country><country><id>2</id><name>englanti</name></country></countries>
+
+</vod_title>
+<vod_title>
+<id>74</id>
+<title>The Pillow Book</title>
+<original_title>The Pillow Book</original_title>
+<ean>6416548361413</ean>
+<vet>99974</vet>
+<categories><category><id>2</id><name>draama</name></category></categories>
+<description>&lt;p&gt;Nagikon lapsuuden syntymфpфiviin kuului erikoinen traditio. Hфnen isфnsф, ammatiltaan kalligraafikko, kirjoitti huolellisia runoja Nagikon kasvoihin, samalla kun Nagikon фiti luki ффneen The Pillow Book -kirjaa - opasta rakkauden saloihin. Nagikon isф toivoi hфnen menevфn aikuistuttuaan naimisiin arvostetun kustantamon pojan kanssa. Mutta Nagikosta kasvoi levoton sielu, eikф hiljainen avioelфmф voi tyydyttфф hфntф...&lt;/p&gt;
+
+&lt;p&gt;Nagiko pффttфф ottaa elфmфnsф ja sen tarjoamat nautinnot omiin kфsiinsф, ja lіytфф itselleen kumppanin, jolle vartalolle kirjoittaminen on yhtф suuri intohimo kuin hфnelle itselleen. Mutta nautinnoillensa antautuminen tekee helposti sokeaksi vaaroille, vaikka tragedia olisi vain kulman takana...&lt;/p&gt;</description>
+<year>0</year>
+<agelimit>15</agelimit>
+<actors><actor><id>770</id><name>Aki Ishimaru</name></actor><actor><id>771</id><name>Barbara Lott</name></actor><actor><id>772</id><name>Chizuru Ohnishi</name></actor><actor><id>773</id><name>Ewan McGregor</name></actor><actor><id>774</id><name>Hideko Yosheda</name></actor><actor><id>775</id><name>Hideko Yoshida</name></actor><actor><id>776</id><name>Hisashi Hidaka</name></actor><actor><id>777</id><name>Judy Ongg</name></actor><actor><id>778</id><name>Ken Mitsuishi</name></actor><actor><id>779</id><name>Ken Ogata</name></actor><actor><id>780</id><name>Lynne Langdon</name></actor><actor><id>781</id><name>Miwako Kawai</name></actor><actor><id>782</id><name>Shiho Takamatsu</name></actor><actor><id>783</id><name>Vivian Wu</name></actor><actor><id>784</id><name>Yoshi Oida</name></actor><actor><id>785</id><name>Yutaka Honda</name></actor></actors>
+
+<directors><director><id>769</id><name>Peter Greenaway
+</name></director></directors>
+<languages><language><id>2</id><name>englanti</name></language><language><id>8</id><name>Japani</name></language></languages>
+<countries><country><id>8</id><name>Japani</name></country><country><id>8</id><name>Japani</name></country></countries>
+</vod_title>

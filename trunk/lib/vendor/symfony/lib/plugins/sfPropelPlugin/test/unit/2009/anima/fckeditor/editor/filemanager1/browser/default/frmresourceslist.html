@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link href="browser.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript">
+
+var userFilePath = "/pnbhelp/helpimg";
+var oListManager = new Object() ;
+
+oListManager.Clear = function()
+{
+	document.body.innerHTML = '' ;
+}
+
+oListManager.GetFolderRowHtml = function( folderName, folderPath )
+{
+	// Build the link to view the folder.
+	var sLink = '<a href="#" onclick="OpenFolder(\'' + folderPath.replace( /'/g, '\\\'') + '\');return false;">' ;
+
+	return '<tr>' +
+			'<td width="16">' +
+				sLink +
+				'<img alt="" src="images/Folder.gif" width="16" height="16" border="0"></a>' +
+			'</td><td nowrap colspan="2">&nbsp;' +
+				sLink + 
+				folderName + 
+				'</a>' +
+		'</td></tr>' ;
+}
+
+oListManager.GetFileRowHtml = function( fileName, userFilePathPrefix, fileUrl, fileSize )
+{
+
+	// Get the file icon.
+	var sIcon = oIcons.GetIcon( fileName ) ;
+
+	var sizeString = (fileSize == "-1") ? "" : fileSize + ' KB';
+	var tmpFileUrl = (fileSize == "-1") ? fileUrl : userFilePathPrefix + fileUrl;
+
+	// Build the link to view the folder.
+	var sLink = '<a href="#" onClick="previewImage(\'' + fileUrl.replace( /'/g, '\\\'') + '\'); return false;" onDblClick="OpenFile(\'' + fileUrl.replace( /'/g, '\\\'') + '\');return false;">' ;
+	//var sLink = '<a href="#" onclick="OpenFile(\'' + tmpFileUrl.replace( /'/g, '\\\'') + '\');return false;">' ;
+
+	return '<tr>' +
+			 '<td width="16">' +
+				sLink + 
+				'<img alt="" src="images/icons/' + sIcon + '.gif" width="16" height="16" border="0"></a>' +
+			'</td><td>&nbsp;' +
+				sLink + 
+				fileName + 
+				'</a>' +
+			'</td><td align="right" nowrap>&nbsp;' +
+				sizeString + 
+		'</td></tr>' ;
+}
+
+function previewImage( fileUrl ) 
+{
+	parent.testFrame.setImage(fileUrl);
+}
+
+
+function OpenFolder( folderPath )
+{
+	// Load the resources list for this folder.
+	window.parent.frames['frmFolders'].LoadFolders( folderPath ) ;
+}
+
+function OpenFile( fileUrl )
+{
+	window.top.opener.SetUrl( fileUrl ) ;
+	window.top.close() ;
+	window.top.opener.focus() ;
+}
+
+function LoadResources( resourceType, folderPath )
+{
+	oListManager.Clear() ;
+	oConnector.ResourceType = resourceType ;
+	oConnector.CurrentFolder = folderPath ;
+	oConnector.SendCommand( 'GetFoldersAndFiles', null, GetFoldersAndFilesCallBack ) ;
+}
+
+function Refresh()
+{
+	LoadResources( oConnector.ResourceType, oConnector.CurrentFolder ) ;
+}
+
+function GetFoldersAndFilesCallBack( fckXml )
+{
+	if ( oConnector.CheckError( fckXml ) != 0 )
+		return ;
+
+	// Get the current folder path.
+	var oFolderNode = fckXml.SelectSingleNode( 'Connector/CurrentFolder' ) ;
+	if ( oFolderNode == null )
+	{
+		alert( 'The server didn\'t reply with a proper XML file\r\nCheck your configuration.' ) ;
+		return ;
+	}
+	var sCurrentFolderPath	= oFolderNode.attributes.getNamedItem('path').value;
+	var sCurrentFolderUrl	= oFolderNode.attributes.getNamedItem('url').value;
+
+//	var dTimer = new Date() ;
+
+	var oHtml = new StringBuilder( '<table id="tableFiles" cellspacing="1" cellpadding="0" width="100%" border="0">' ) ;
+
+	// Add the Folders.	
+	var oNodes ;
+	oNodes = fckXml.SelectNodes( 'Connector/Folders/Folder' ) ;
+
+	for ( var i = 0 ; i < oNodes.length ; i++ )
+	{
+		var sFolderName = oNodes[i].attributes.getNamedItem('name').value ;
+		var oFileUrlAtt = oNodes[i].attributes.getNamedItem('id') ;
+		if (oFileUrlAtt != null) {
+			var id = oFileUrlAtt.value;
+			oHtml.Append( oListManager.GetFolderRowHtml( sFolderName, "/" + id ) ) ;	
+		} else {
+			oHtml.Append( oListManager.GetFolderRowHtml( sFolderName, sCurrentFolderPath + sFolderName + "/" ) ) ;		
+		}
+	}
+
+	// Add the Files.	
+	oNodes = fckXml.SelectNodes( 'Connector/Files/File' ) ;
+	for ( var j = 0 ; j < oNodes.length ; j++ )
+	{
+		var oNode = oNodes[j] ;
+		var sFileName = oNode.attributes.getNamedItem('name').value ;
+		var sFileSize = oNode.attributes.getNamedItem('size').value ;
+
+		// Get the optional "url" attribute. If not available, build the url.
+		var oFileUrlAtt = oNodes[j].attributes.getNamedItem('url') ;
+		
+		var aaa = window.location.href;
+		var sFileUrl = oFileUrlAtt != null ? oFileUrlAtt.value : sCurrentFolderUrl + sFileName ;
+		
+		oHtml.Append( oListManager.GetFileRowHtml( sFileName, userFilePath, sFileUrl, sFileSize ) ) ;
+	}
+
+	oHtml.Append( '<\/table>' ) ;
+	
+	document.body.innerHTML = oHtml.ToString() ;
+
+//	window.top.document.title = 'Finished processing in ' + ( ( ( new Date() ) - dTimer ) / 1000 ) + ' seconds' ;
+
+}
+
+window.onload = function()
+{
+	window.top.IsLoadedResourcesList = true ;
+}
+	</script>
+</head>
+<body class="FileArea" bottommargin="10" leftmargin="10" topmargin="10" rightmargin="10">
+</body>
+</html>

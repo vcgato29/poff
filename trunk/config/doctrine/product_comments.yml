@@ -1,0 +1,17 @@
+
+ProductComment:
+    actAs:
+     Timestampable: ~
+    columns:
+     product_id:   { type: integer, notnull: true }
+     name:         { type: string(255), notnull: true }
+     message:      { type: string(500), notnull: true }
+     ip:           { type: string(255), notnull: false }
+     host:         { type: string(255), notnull: false }
+    relations:
+     Product:
+       local: product_id
+       foreign: id
+       foreignAlias: Comments
+       onDelete: CASCADE
+       onUpdate: CASCADE

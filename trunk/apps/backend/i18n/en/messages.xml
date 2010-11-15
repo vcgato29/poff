@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2010-02-04T12:01:03Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Settings</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Username</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Logout</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>User list</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>No result</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Actions</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>[0] no result|[1] 1 result|(1,+Inf] %1% results</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Choose an action</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Delete</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>go</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Checked</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>%%username%% - %%created_at%% - %%updated_at%% - %%last_login%%</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Created at</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Updated at</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Last login</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>language</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Structure</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Add</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Copy</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Move</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Edit</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Rights</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>folder</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

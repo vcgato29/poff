@@ -1,0 +1,117 @@
+news=
+~
+<delimiter>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="300">
+	<tr> 
+		<td rowspan="2" width="48%" valign="top">
+			
+<b>UUDISED</b>
+<br><br>
+$_01 <br>
+<b><a href="?p=news">UUDISTE ARHIIV</a></b><br><br>
+<a href="http://www.animaster.ee" target="_blank"><img border="0" src="img/animaster.gif" width="308" height="112"></a>						
+						
+		</td>
+		<td width="1" bgcolor="#000000"></td>
+		<td width="20">&nbsp;</td>
+		<td valign="top">
+
+
+11. animafilmide festival <strong>ANIMATED DREAMS</strong> toimub 18.-22. novembril 2009.<br><br>
+
+&Uuml;leskutse filmitegijatele! Esita oma animafilm animafestivalile.<br>
+<a href="?b=1&dyn=17">Reeglid</a> ja <a href="docs/Osalusvorm_AD2009.doc">osalusvormi</a> leiad siit.<br>
+T&auml;htaeg: 15 august 2009!<br><br><br>
+
+Animafestivalile saab akrediteeruda alates 1. oktoobrist 2009.
+
+<br><br><br>
+
+<img style="margin-left:0px" src="img/b/animateek10.jpg" width="345">
+
+
+		</td>
+	</tr>
+
+</table>
+<br><delimiter> 
+~
+
+
+news_e=
+~
+
+<delimiter>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="270">
+	<tr>
+		<td width="48%" valign="top"><b>NEWS</b><br><br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-right:25">
+	<tr>
+		<td valign="top">
+		$_01
+		<br>
+		<b><a href="?l=eng&p=news">NEWS ARCHIVE</a></b><br><br>
+	<a href="http://www.animaster.ee" target="_blank"><img border="0" src="img/animaster.gif" width="308" height="112"></a>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align=right><br>
+		
+		
+		</td>
+	</tr>
+</table>
+
+
+		</td>
+		<td width="1" bgcolor="#000000"></td>
+		<td width="20">&nbsp;</td>
+		<td valign="top">
+		
+
+11th Animation Film Festival <strong>ANIMATED DREAMS</strong> will take place from 18 to 22 November 2009 in Tallinn, Estonia. 
+<br>
+<br>
+<br>
+Call for entries! Submit your animated film to international competition.<br>
+Please click here for the <a href="?b=1&dyn=34&l=eng">regulations</a> and <a href="docs/Entry_Form_AD2009.doc">entry form</a>.<br>
+Deadline: <strong>15 August 2009!</strong>
+<br>
+<br>
+<br>
+Accreditation forms will be downloadable from <strong>1 October, 2009</strong>. 
+
+
+
+
+
+
+
+<br><br><br><br>
+<img style="margin-left:0px" src="img/b/animateek10.jpg" width="345">
+
+		</td>
+	</tr>
+</table>
+<br><br><br><br><delimiter> 
+~
+
+news_content=
+~
+
+<delimiter>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="270">
+	<tr>
+		<td width="48%" valign="top" style="padding-right:12px"><b>$_01</b><br><br>
+		$_02
+		</td>
+		<td width="1" bgcolor="#000000"></td>
+		
+		<td width="20">&nbsp;</td>
+		<td valign="top"><br>$_03&nbsp;
+		</td>
+	</tr>
+</table>
+<br><delimiter> 
+~

@@ -1,0 +1,21 @@
+ShippingZone:
+    actAs:
+        I18n:
+            fields: [name]
+    columns:
+        name: { type: string(255), notnull: false }
+        fake: { type: string(255), notnull: false }
+        
+ShippingZoneInterval:
+    columns:
+        my_zone_id: { type: integer, notnull: true }
+        start:   { type: integer, notnull: true }
+        end:     { type: integer, notnull: true }
+        price:   { type: float, notnull: true }
+    relations:
+     ShippingZone:
+      local: my_zone_id
+      foreign: id
+      foreignAlias: Intervals
+      onDelete: CASCADE
+      onUpdate: CASCADE

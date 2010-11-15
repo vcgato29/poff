@@ -1,0 +1,232 @@
+package Form;
+use Field;
+use Data::Dumper;
+use Mrt::Util;
+use Mrt::Carrier;
+use strict;
+our @ISA = qw( Mrt::Carrier );
+
+sub new {
+   my $classname = shift;
+	my $this  = {};
+   bless($this, $classname);
+   
+   $this->{table_name} = shift;
+   $this->{g} = shift;
+   $this->{button} = 'add';
+   
+   return $this;
+}
+
+sub set_button{ my $this = shift; $this->{button} = shift; }
+sub set_record_id{ my $this = shift; $this->{record_id} = shift; }
+sub set_follow_handler{ 	my $this = shift; 	$this->{follow_handler} = shift; }
+sub set_rank{ my $this = shift; $this->{rank} = shift; }
+
+sub get_record_id{ my $this = shift; return $this->{record_id}; }
+
+sub add_field {
+	my $this = shift;
+	my $f = shift;
+	$f->set_global($this->{g});
+	push @{$this->{fields}}, $f;
+}
+
+sub handle_params {
+	my $this = shift;
+	foreach my $s (@{$this->{sections}}){
+		$s->handle_params();
+	}
+}
+
+sub add_section {
+	my $this = shift;
+	my $s = shift;
+	#$s->set_parent($this);
+	push @{$this->{sections}}, $s;
+}
+
+sub as_html {
+	my $this = shift;
+	my $fields_html;
+	foreach my $field (@{$this->{fields}}) {
+		$fields_html .= $this->_field_html_row($field);
+	}
+	
+	foreach my $section (@{$this->{sections}}){
+		$fields_html .= $section->as_html();
+	}
+	
+	$this->_get_form_template(\$fields_html);
+}
+
+sub _field_html_row {
+	my $this = shift;
+	my $f = shift;
+	return if ($f->is_read_only());
+	return $f->as_edit_html_row();
+}
+
+sub _get_submit_button {
+	my $this = shift;
+	my $h_ref = {};
+	
+	$h_ref->{form_name} = $this->{table_name};
+	$h_ref->{cmd} = $this->{button} eq 'add' ? 'add' : 'update';
+	$h_ref->{label} = $this->{button} eq 'add' ? 'Lisa' : 'Update';
+
+	return $this->{g}->tmpl('form.button',$h_ref);
+}
+
+sub _get_cancel_button {
+	my $this = shift;
+	return $this->{g}->tmpl('form.cancel',{ href=>$this->_add_base_path('FormCmd=cancel')});
+}
+
+sub _get_form_template {
+	my $this = shift;
+	my $fields = shift;
+	
+	my $buttons = $this->_get_cancel_button();
+	$buttons .= $this->_get_submit_button();
+	
+	my $h;
+	$h->{name} = $this->{table_name};
+	$h->{record_id_name} = $this->{table_name}. "_id";
+	$h->{record_id_value} = $this->{record_id};
+	$h->{rows} = $$fields;
+	$h->{buttons} = $buttons;
+	$h->{hiddens} = $this->_make_hiddens();
+	
+	return $this->{g}->tmpl('form.form',$h);
+}
+
+sub update_form(){
+	my $this = shift;
+	$this->save_form(1);
+}
+
+# returns insertion id
+sub save_form {
+	my $this = shift;	
+	my $is_update = shift;
+	
+	my $p = $this->{g}->vars; # nii saab cgi-st parmeetrid modifitseerimata k?te ka zero delimined stringi
+
+	foreach my $field (@{$this->{fields}}){
+		my $value = $p->{$field->get_fname};
+		
+		Mrt::Util::text_to_html(\$value) if (not $field->is_html());
+		$value = $this->{g}->quote($value);
+		$value =~ s/(?<!\\)"/\\"/g; # escape quotes (server version don't escape them but local does for some reason)
+											 #	\\" fools this
+		$value =~ s/^'//; # DBH->quote($value); puts quotes around also
+		$value =~ s/'$//;
+		
+		$field->set_value($value , 1); # ,1 means value comes from form
+	}
+
+	my $qs;
+	if ($is_update){
+		$qs = $this->_make_update_query();
+	}else{
+		$qs = $this->_make_add_query();
+	}
+
+	my $sth = $this->{g}->execute($qs);
+	return $this->{g}->insert_id();
+}
+
+sub load_form() {
+	my $this = shift;
+	my $qs = $this->_make_get_query();
+	my $sth = $this->{g}->execute($qs);
+	
+	my @values = $sth->fetchrow_array();
+	@values = map { s/\\%/%/g; Mrt::Util::html_to_text($_); } @values;
+	foreach my $field (@{$this->{fields}}){
+		if (! $field->goes_to_db()){
+			$field->set_value('');
+			next;
+		};
+		my $value = shift @values;
+		$field->set_value( $value );
+#		print $field->get_fname();
+#		print $field->get_value();
+#		print "<br>";
+	}
+}
+
+sub _make_get_query { # makes update query from array of field objects	
+	my $this = shift;
+	my $qs = "SELECT ";
+	my $f = 0;
+	my $fields;
+	
+	foreach my $field (@{$this->{fields}}){
+		next unless ($field->goes_to_db());
+		if ($f++) { $fields .= ", "}; # no , for firstone
+		$fields .= $field->get_db_fname();
+	}
+	$qs .= "$fields FROM ".$this->{table_name};
+	$qs .= " WHERE ". $this->{table_name} . "_id='" . $this->{record_id}."'";
+	return $qs;
+}
+
+sub _make_add_query { # makes add query from array of field objects
+	my $this = shift;
+
+	if ($this->{rank}) {
+		my $max = $this->_get_max_order_nr();
+		my $pseudo = new Field('', $this->{rank});  # make field for super class method
+		$pseudo->set_value($max+1);					  # which makes insert string out of it
+		$this->add_field($pseudo);
+	}
+
+	my $qs = "INSERT INTO ".$this->{table_name};
+	my $f = 0;
+	my ($fields,$values) = (' (',' VALUES (');
+	
+	foreach my $field (@{$this->{fields}}){
+		next unless ($field->goes_to_db());
+		if ($f++) { $fields .= ", "; $values .= ", ";};
+		$fields .= $field->get_db_fname();
+		$values .= '"'.$field->get_value().'"';
+	}
+ 	
+ 	$fields .= ')';$values .= ')';
+
+	if ($this->{rank}){
+		pop @{$this->{fields}}; # remove pseudo	
+	}
+
+	return $qs.$fields.$values;
+}
+
+sub _make_update_query{  # makes update query from array of field objects	
+	my $this = shift;
+	my $qs = "UPDATE ".$this->{table_name}." SET ";
+	my $f = 0;
+
+	foreach my $field (@{$this->{fields}}){
+		next if ($field->is_file() and ($field->get_value() eq "/" or $field->get_value() eq "")); # we don't update file fields when they are empty
+		next if ($field->is_pass() and $field->get_value() eq "");
+		next if ( ! $field->goes_to_db() );
+		if ($f++) { $qs .= ", "};
+		$qs .= $field->get_db_fname()."=";
+		$qs .= '"'.$field->get_value().'"';
+	}
+
+	my $id_field = $this->{table_name}."_id";
+	$qs .= " WHERE $id_field='" . $this->{g}->param($id_field)."'";
+	return $qs;
+}
+
+sub _get_max_order_nr{
+	my $this = shift;	
+	my $qs = "SELECT MAX(".$this->{rank}.") FROM ". $this->{table_name};
+	my $sth = $this->{g}->execute($qs);
+	return $sth->fetchrow_array(); # get max order nr
+}
+
+1;

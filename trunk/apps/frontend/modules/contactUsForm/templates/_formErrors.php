@@ -1,0 +1,1 @@
+<p class="msg-error"><?php echo __('Error! Your message has not been sent')?>!</p>

@@ -1,0 +1,31 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Banner
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          banner
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+       banner_group_name: {label: Banner Group}
+       pictureImg: {label: Preview}
+       pri_form: { label: Priority}
+      list:
+        display: [name, type, banner_group_name, pictureImg, pri_form]
+        max_per_page: 20
+        sort: [pri]
+        batch_actions: 
+         _delete: ~
+         priority: ~
+      filter:
+        display: [name, banner_group_id, relatives]
+      form:    ~
+      edit:    ~
+      new:     ~

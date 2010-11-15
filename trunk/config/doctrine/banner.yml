@@ -1,0 +1,91 @@
+Banner:
+ columns:
+  name: { type: string(255), notnull: true }
+  pri: { type: integer, notnull: true, default: 0 }
+  type: { type: string(255), notnull: true, default: "default" }
+  link: { type: string(400), notnull: false }
+  content: { type: string(5000), notnull: false, default: "" }
+  flash_vars: { type: string(400), notnull: false }
+  is_active: { type: boolean, notnull: true, default: 1 }
+  displayed: { type: integer, notnull: true, default: 0 }
+  clicked: { type: integer, notnull: true, default: 0 }
+  file: { type: string(255), notnull: false }
+  width: { type: integer, notnull: true, default: 0 }
+  height: { type: integer, notnull: true, default: 0 }
+  banner_group_id: { type: integer, notnull: true }
+ relations:
+   BannerGroup:
+     local: banner_group_id
+     foreign: id
+     foreignAlias: Banners
+     onDelete: CASCADE
+     onUpdate: CASCADE   
+
+BannerGif:
+  inheritance:
+    extends: Banner
+    type: column_aggregation
+    keyField: type
+    keyValue: gif
+    
+BannerFlash:
+  inheritance:
+    extends: Banner
+    type: column_aggregation
+    keyField: type
+    keyValue: flash
+    
+BannerFlash:
+  inheritance:
+    extends: Banner
+    type: column_aggregation
+    keyField: type
+    keyValue: flash
+ 
+BannerHtml:
+  inheritance:
+    extends: Banner
+    type: column_aggregation
+    keyField: type
+    keyValue: html
+ 
+BannerGroup:
+ columns:
+   name: { type: string(255), notnull: true }
+   type: { type: string(255), notnull: true, default: "default" }
+   height: { type: integer, notnull: true, default: 0 }
+   width: { type: integer, notnull: true, default: 0 }
+   is_active: { type: boolean, notnull: true, default: 1 }
+   banners_limit: { type: integer, notnull: true, default: 0 }
+  
+
+BannerGroupVsStructure:
+ columns:
+   banner_group_id: { type: integer, notnull: true, primary: true }
+   structure_id: { type: integer, notnull: true, primary: true }
+ relations:
+   BannerGroup:
+     local: banner_group_id
+     foreign: id   
+     foreignAlias: StructureBannerGroups
+   Structure:
+     local: structure_id
+     foreign: id   
+     foreignAlias: StructureBannerGroups
+     onDelete: CASCADE
+     onUpdate: CASCADE   
+
+
+BannerGroupVsProductGroup:
+ columns:
+   banner_group_id: { type: integer, notnull: true, primary: true }
+   product_group_id: { type: integer, notnull: true, primary: true }
+ relations:
+   BannerGroup:
+     local: banner_group_id
+     foreign: id
+     foreignAlias: BannerGroups
+   ProductGroup:
+     local: product_group_id
+     foreign: id   
+     foreignAlias: BannerGroups

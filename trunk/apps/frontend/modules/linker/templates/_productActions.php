@@ -1,0 +1,1 @@
+<?php echo url_for('product_page_actions', $params)?>

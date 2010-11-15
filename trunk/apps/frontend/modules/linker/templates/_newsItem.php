@@ -1,0 +1,1 @@
+<?php echo url_for('newsItem_page', $params)?>

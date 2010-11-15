@@ -1,0 +1,45 @@
+BackendModule:
+  columns:
+    module_name: { type: string(50), notnull: true }
+    action: { type: string(50), notnull: true, default: index }
+    title: { type: string(50), notnull: true }
+    credential: { type: string(50), notnull: false, default: "" }
+    frontend_module_id: { type: integer, notnull: true }
+  relations:
+    FrontendModule:
+      local: frontend_module_id
+      foreign: id
+      foreignAlias: BackendModules
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      
+    
+FrontendModule:
+  columns:
+   name: { type: string(50), notnull: true }
+   action: { type: string(50), notnull: true, default: render }
+    
+Placeholder:
+ columns:
+   frontend_module_id: { type: integer, notnull: true }
+   structure_id: { type: integer, notnull: true }
+   action: { type: string(50), notnull: true, default: render }
+   name: { type: string(50), notnull: false, default: noname }
+   pri: { type: integer, notnull: true, default: 0 }
+ relations:
+   FrontendModule:
+    local: frontend_module_id
+    foreign: id   
+   Structure:
+    local: structure_id
+    foreign: id   
+    onDelete: CASCADE 
+    onUpdate: CASCADE    
+
+PlaceholdersVsModules:
+  columns:
+   placeholder: { type: string(255), notnull: true }
+   frontend_module_id: { type: integer, notnull: true }
+  relations:
+   FrontendModule: { onDelete: CASCADE, local: frontend_module_id, foreign: id, foreignAlias: FrontendModule }
+   

@@ -1,0 +1,70 @@
+.header {
+  font-family: Verdana;
+  font-size: 11px;
+  color: #acacac;
+}
+.header a {
+  font-family: Verdana;
+  font-size: 11px;
+  text-decoration: none;
+  color: #000000;
+}
+.header a:hover {
+  font-family: Verdana;
+  font-size: 11px;
+  color: #000000;
+}
+
+.data {
+  font-family: Verdana;
+  font-size: 11px;
+  color: #000000;
+}
+.data a {
+  font-family: Verdana;
+  font-size: 11px;
+  text-decoration: none;
+  color: #000000;
+}
+.data a:hover {
+  font-family: Verdana;
+  font-size: 11px;
+  color: #000000;
+}
+.disabled {
+  font-family: Verdana;
+  font-size: 11px;
+  color: #acacac;
+}
+
+TABLE.data
+{
+  border-left: 1px solid #B0B0B0;
+  border-right: 1px solid #B0B0B0;
+  padding-bottom: 5px;
+}
+
+TABLE.header TD.newheader
+{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+TABLE.header TD.newheader a
+{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+TABLE.header TD.newheader a:hover
+{
+  color: #990000;
+  font-weight: bold;
+}
+.commentsTable
+{
+	border-collapse: collapse;
+}
+.commentsTable td
+{
+	padding: 10px 5px 5px 5px;
+	border-bottom: 1px solid #cFcFcF;
+}

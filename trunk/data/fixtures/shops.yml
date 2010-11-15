@@ -1,0 +1,19 @@
+Shop:
+    shop1:
+        title: Viru
+        Translation:
+            et:
+                address: Tallinn, blah, blah EST
+            en:
+                address: Tallinn, blah, blah ENG
+            fr:
+                address: Tallinn, blah, blah FR
+    shop2:
+        title: Solaris
+        Translation:
+            et:
+                address: Tallinn, EST
+            en:
+                address: Tallinn, ENG
+            fr:
+                address: Tallinn, FR

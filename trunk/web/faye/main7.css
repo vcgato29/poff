@@ -1,0 +1,24 @@
+﻿.search .sinput .searchinput{margin-left:-3px;}
+.restext .basketarrow{position:relative; top:8px;}
+.signcontent .signcenter .arrow{position:relative; top:8px;}
+.breadcrumb ul li .arrow{position:relative; top:8px;}
+.maincontent .textbox .top .rightt .arrow{position:relative; top:8px;}
+.center .moreinfo .arrow{position:relative; top:5px;}
+.maincontent .textbox .top .rightt .arrow{position:relative; top:5px;}
+.centerbox .leftmenu ul li .submenu ul li{display:block; position:relative; top:8px;}
+.centerbox .leftmenu ul li .submenu ul li .subarrow{position:relative; top:3px;}
+.basketsisu .smallboxesleft .edit .arrow{position:relative; top:5px;}
+.basketsisu .smallboxesright .box{position:relative; left:70px; float:right;}
+.basketsisu .smallboxesright .proceed{position:relative; left:-70px;}
+.textboxproductmain .recipes .arrow{position:relative; top:5px;}
+.textboxproductmain .userrew .arrow{position:relative; top:5px;}
+.textboxproductmain .writerew .arrow{position:relative; top:5px;}
+.settings .smallboxesleft .edit .arrow{position:relative; top:5px;}
+.settings .smallboxesright .edit .arrow{position:relative; top:5px;}
+.settings .smallboxesright .ship2 .edit2 .arrow{position:relative; top:8px;}
+.basketsisu .tootebox{height:80px;}
+.basketsisu .checktootebox{background-color:#ffffff;}
+.basketsisu .checktooteboxbottom .box{margin-top:21px; height:120px;}
+.basketsisu .subtotal{margin-bottom:15px;}
+.registeredforms{margin-top:-15px;}
+.sharelinkactive {float:left; padding-top:3px;}

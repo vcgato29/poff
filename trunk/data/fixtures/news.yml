@@ -1,0 +1,43 @@
+NewItem:
+  first_new:
+   name: This my first new
+   description: Täna keskpäeval langes Afganistanis NATO operatsioonil lahinguülesandeid täites Eesti jalaväekompanii Estcoy-10 kaitseväelane nooremseersant 20-aastane Herdis Sikka.
+   content: |
+                  Teatavasti peab Eesti oktoobris kaks EM-valikmängu, kui võõrsil kohtutakse Serbiaga ning koduväljakul minnakse vastamisi Sloveeniaga.
+
+                   «Olen otsustanud viisakalt tagasi lükata koondisekutsed selle aasta lõpuni, et keskenduda MLSile. Tunnen, et on esmatähtis aidata Red Bullsil jõuda play-offi ning seejärel heidelda tiitli eest,» vahendab Red Bulls Reader Lindpere sõnu.
+
+                   Veel lisatakse, et Lindpere on seega valmis väljakule jooksma Red Bullsi järgmises mängus Real Salt Lake’i vastu 4. septembril.
+   NewsGroup: first_category
+  second_new:
+   name: This my second new
+   description: Afganistani põhiseadusliku valitsuse vastased mässulised ründasid Eesti jalaväeüksust isevalmistatud lõhkekehaga Lõuna-Afganistanis
+   content: |
+                  Teatavasti peab Eesti oktoobris kaks EM-valikmängu, kui võõrsil kohtutakse Serbiaga ning koduväljakul minnakse vastamisi Sloveeniaga.
+
+                   «Olen otsustanud viisakalt tagasi lükata koondisekutsed selle aasta lõpuni, et keskenduda MLSile. Tunnen, et on esmatähtis aidata Red Bullsil jõuda play-offi ning seejärel heidelda tiitli eest,» vahendab Red Bulls Reader Lindpere sõnu.
+   NewsGroup: first_category
+  third_new:
+   name: This my third new
+   description: Kaasvõitlejad andsid haavatule otsekohe esmaabi ja meedikud toimetasid raskelt haavatu helikopteriga Camp
+   content: |
+                  Teatavasti peab Eesti oktoobris kaks EM-valikmängu, kui võõrsil kohtutakse Serbiaga ning koduväljakul minnakse vastamisi Sloveeniaga.
+
+                   «Olen otsustanud viisakalt tagasi lükata koondisekutsed selle aasta lõpuni, et keskenduda MLSile. Tunnen, et on esmatähtis aidata Red Bullsil jõuda play-offi ning seejärel heidelda tiitli eest,» vahendab Red Bulls Reader Lindpere sõnu.
+   NewsGroup: second_category
+   
+NewsGroup:
+  first_category:
+   name: Category number one
+  second_category:
+   name: Category number two(2)
+   
+
+
+NewsGroupVsStructure:
+ rel1:
+  NewsGroup: first_category
+  Structure: homepage
+ rel2:
+  NewsGroup: second_category
+  Structure: homepage

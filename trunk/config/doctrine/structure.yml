@@ -1,0 +1,60 @@
+Structure:
+ options: { orderBy: lft ASC }
+ actAs:
+  Sluggable:
+    unique: false
+    fields: [title]
+    canUpdate: true
+  Timestampable: ~
+  NestedSet: ~
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+   title: { type: string(255), notnull: true }
+   parameter: { type: string(255), notnull: true, default: "" }
+   picture: { type: string(255), notnull: false }
+   content: { type: text, notnull: false, default: "" }
+   inherits_layout: { type: boolean, notnull: true, default: 1 }
+   type: { type: string(50), notnull: true, default: standard }
+   description: { type: string(700), notnull: false }
+   pageTitle: { type: string(255), notnull: false }
+   layout: { type: string(255), notnull: true, default: "layout" }
+   metaDescription: { type: string(500), notnull: false }
+   metaKeywords: { type: string(700), notnull: false }
+   status: { type: string(255), notnull: true, default: 0 }
+   is_first:  { type: boolean, notnull: true, default: 0 }
+   lang:  { type: string(10), notnull: true }
+   pri: { type: integer, notnull: true, default: 0 }
+   parentID: { type: integer, notnull: false }
+   isHidden: { type: boolean, notnull: true, default: 0 }
+ relations:
+    Parent:
+      class: Structure
+      local: parentid
+      foreign: id
+      foreignAlias: Structure
+      onDelete: CASCADE
+      onUpdate: CASCADE
+
+
+StructureLanguage:
+  actAs: ~
+  inheritance:
+    extends: Structure
+    type: column_aggregation
+    keyField: type
+    keyValue: lang
+
+StructureShop:
+  actAs: ~
+  inheritance:
+    extends: Structure
+    type: column_aggregation
+    keyField: type
+    keyValue: shop
+

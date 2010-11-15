@@ -1,0 +1,192 @@
+category_page_lvl_2:
+    url: /:p0/:p1.c/:c1/:c2/:module/:action
+    param:  { module: categoryPage, action: index, c2: 0 }
+    class:   myCategoryRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+category_page_lvl_3:
+    url: /:p0/:p1/:p2.c/:c1/:c2/:module/:action
+    param:  { module: categoryPage, action: index, c2: 0 }
+    class:   myCategoryRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+product_page_lvl_3:
+    url: /:p0/:p1/:p2/:p3.p/:c1/:product_slug/:module/:action
+    param:  { module: productPage, action: index }
+    class:   myProductRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+      module: [productPage, query]
+
+
+product_page_lvl_2:
+    url: /:p0/:p1/:p2.p/:c1/:product_slug/:module/:action
+    param:  { module: productPage, action: index, c2: false }
+    class:   myProductRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+      module: [productPage, query]
+
+product_page_lvl_1:
+    url: /:p0/:p1.p/:c1/:product_slug/:module/:action
+    param:  { module: productPage, action: index, c2: false }
+    class:   myProductRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+      module: [productPage, query]
+
+
+test_page:
+    url: /stuff1
+    param: { module:productPage, action: test }
+    class: myProductRouter
+    options: { model: Structure, type: object }
+    requirements:
+      sf_method: [get,post]
+
+
+verify_payment_page:
+    url: /:p0/verifyPayment/:orderID
+    param: { module: basketPage, action: verifyPayment, p1: basket }
+    class: myBasketRouter
+    options: { model: Structure, type: object }
+    requirements:
+      sf_method: [get,post]
+
+
+
+basket_page:
+    url: /:p0/:p1/basket/:action
+    param: { module: basketPage, action: index, p2: basket }
+    class: myBasketRouter
+    options: { model: Structure, type: object }
+    requirements:
+      sf_method: [get,post]
+
+
+orders_page:
+    url: /:p0/:p1/orders/:action
+    param: { module: publicUserRegistration, action: orders, p2: orders }
+    class: myProductRouter
+    options: { model: Structure, type: object }
+    requirements:
+      sf_method: [get,post]
+
+my-settings_page:
+    url: /:p0/:p1/my-settings/:action
+    param: { module: publicUserRegistration, action: mySettings, p2: my-settings }
+    class: myProductRouter
+    options: { model: Structure, type: object }
+    requirements:
+      sf_method: [get,post]
+
+register_page:
+    url: /:p0/:p1/register/:action
+    param: { module: publicUserRegistration, action: index, p2: register }
+    class: myProductRouter
+    options: { model: Structure, type: object }
+    requirements:
+      sf_method: [get,post]
+
+
+product_page_actions:
+    url: /:p0/:p1.a/:action/:module
+    param:  { module: query, action: pureIndex }
+    class:   myProductRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+
+structure_actions:
+    url: /:p0/:p1.act/:action/:module
+    param:  { module: contactUsForm, action: contact }
+    class:   myProductRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+
+category_page:
+    url: /:p0/:p1.c/:c1/:c2/:module/:action
+    param:  { module: homepage, action: index, c2: 0 }
+    class:   myCategoryRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+
+newsItem_page:
+    url: /:p0/:p1.n/:slug/:module/:action
+    param:  { module: newsItemPage, action: index }
+    class:   myNewsItemRouter
+    options:
+        model: Structure
+        type: object
+        segment_separators: ['.', '/']
+    requirements:
+      sf_method: [get,post]
+
+
+
+category_actions:
+    url: /category_actions/:module/:action
+    param:  { module: categoryPageActions, action: index}
+    requirements:
+      sf_method: [get,post]
+
+search_page:
+    url: /:p0/search/:action
+    param: {module: searchResults, action: detailed, p1: search}
+    class: mySearchRouter
+    options: {model: Structure, type: object}
+    requirements:
+        sf_method: [get,post]
+
+plain_actions:
+    url: /action/:module/:action
+    param: {}
+    class: myProductRouter
+    options: { model: Structure, type: object }
+    requirements:
+        sf_method: [get,post]
+
+main_dispatcher:
+  url:    /:p0/:p1/:p2/:p3/:p4/:p5
+  param:  { module: homepage, action: index, p0: false, p1: false, p2: false, p3: false, p4: false, p5: false }
+  class:   myProductRouter
+  options: { model: Structure, type: object }
+  requirements:
+    sf_method: [get,post]
+
+
+homepage:
+  url:   /
+  param: { module: homepage, action: index }
+

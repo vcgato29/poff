@@ -1,0 +1,3 @@
+<vod_titles><vod_title><id>1</id><name>Dog Bite Dog</name><images><image><url>/img/vod/dog_bite_dog/front.jpg</url><type>front</type></image><image><url>/img/vod/dog_bite_dog/back.jpg</url><type>back</type></image></images></vod_title>
+<vod_title><id>77</id><name>Langenneet enkelit</name><images><image><url>/img/vod/langenneet_enkelit/front.jpg</url><type>front</type></image><image><url>/img/vod/langenneet_enkelit/back.jpg</url><type>back</type></image></images></vod_title>
+</vod_titles>

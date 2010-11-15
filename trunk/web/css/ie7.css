@@ -1,0 +1,26 @@
+.dropdown .arrows {
+  top: -12px;
+}
+.input .input_content input {
+  height: 16px;
+  padding: 1px 0px 1px 0px;
+}
+.header .linklist ul li img {
+  margin-bottom: 3px;
+}
+.halfbox-183 .block_content {
+  height: 14px;
+}
+.halfbox2-183 .block_content {
+  height: 14px;
+}
+.content.opennews .othernews td.datetime .separator {
+  top: 1px;
+  bottom: 0px;
+}
+.tabbed_news .tabs .separator {
+  top: -3px;
+}
+.tabbed_news .news {
+  margin-top: -3px;
+}

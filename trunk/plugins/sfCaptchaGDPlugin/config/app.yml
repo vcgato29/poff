@@ -1,0 +1,16 @@
+all:
+  sf_captchagd:
+    image_width:                120 # image width in pixels
+    image_height:               35 # image height in pixels
+    chars:                      "1234567890" # possible chars in captcha
+    length:                     4 # length of captcha
+    font_size:                  18 # font size
+    force_new_captcha:          false # if true - captcha regenerated EVERY request, even if user input true value before
+    
+    # possible chars colors
+    font_color:                 ["FFFFFF"]
+    
+    # chars fonts
+    fonts:                      ["whoobub/WHOOBUB_.TTF"] 
+    background_color:           5D5D5D # image background color
+    border_color:               000000 # image border color

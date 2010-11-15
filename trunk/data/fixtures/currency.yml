@@ -1,0 +1,18 @@
+Currency:
+    cur1:
+        name: dollar
+        factor: 12
+        symbol: $
+        abbr: USD
+        prefix: true
+    cur2:
+        name: estonian krone
+        factor: 1
+        abbr: kr
+        prefix: false
+    cur3:
+        name: euro
+        factor: 15
+        abbr: EUR
+        prefix: false
+        

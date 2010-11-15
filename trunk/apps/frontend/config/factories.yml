@@ -1,0 +1,74 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/05-Factories
+
+prod:
+  logger:
+    class: sfAggregateLogger
+    param:
+      level: err
+      loggers:
+        sf_file_debug:
+          class: sfFileLogger
+          param:
+            level: err
+            file: %SF_LOG_DIR%/%SF_APP%_%SF_ENVIRONMENT%.log
+
+test:
+  storage:
+    class: sfSessionTestStorage
+    param:
+      session_path: %SF_TEST_CACHE_DIR%/sessions
+
+  response:
+    class: sfWebResponse
+    param:
+      send_http_headers: false
+
+dev:
+  logger:
+    class: sfAggregateLogger
+    param:
+      level: debug
+      loggers:
+        sf_fire_php:
+          class: sfFirePHPLogger
+          param:
+            level: debug
+            #processor: http://www.faye2.com/sfFirePHPPlugin/js/RequestProcessor.js
+            processor: /sfFirePHPPlugin/js/RequestProcessor.js
+
+
+
+all:
+  routing:
+    class: sfPatternRouting
+    param:
+      generate_shortest_url:            true
+      extra_parameters_as_query_string: true
+
+  view_cache_manager:
+    class: sfViewCacheManager
+    param:
+      cache_key_use_vary_headers: true
+      cache_key_use_host_name:    true
+
+  i18n:
+    class: sfI18N
+    param:
+      charset: utf-8
+      source: MySQL
+      database: "mysql://d765sa38624:kiV3X5@d765.mysql.zone.ee/d765sd32919"
+      debug: false
+      untranslated_prefix: "["
+      untranslated_suffix: "]"
+    cache:
+        class: sfFileCache
+        param:
+          automatic_cleaning_factor: 0
+          cache_dir:                 %SF_I18N_CACHE_DIR%
+          lifetime:                  86400
+          prefix:                    %SF_APP_DIR%
+
+  mailer:
+    param:
+      delivery_strategy: realtime

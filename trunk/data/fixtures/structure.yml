@@ -1,0 +1,114 @@
+Structure:
+ root:
+   title: root
+   type: root
+   pagetitle: root
+   status: 0
+   inherits_layout: 0
+   is_first: 0
+   lang: none
+   ishidden: true
+   children:   
+    est:
+     title: Eesti
+     slug: est
+     type: lang
+     inherits_layout: 0
+     Parent: root
+     pagetitle: est
+     status: 0
+     is_first: 0
+     lang: est
+     ishidden: false
+     children:
+      homepage:
+       title: Homepage
+       parameter: index
+       inherits_layout: 0
+       Parent: est
+       status:     0
+       is_first:     0
+       lang: est
+       ishidden: false
+       children: []
+      about_us:
+       title: About us
+       inherits_layout: 1
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: false
+      products:
+       title: Products
+       parameter: productcatalog
+       inherits_layout: 0
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: false
+      news:
+       title: News
+       inherits_layout: 0
+       parameter: news
+       pageTitle: Uudised
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: false
+      contact:
+       title: Contact
+       inherits_layout: 0
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: false
+       children: []
+      category_page:
+       title: __Category page
+       inherits_layout: 0
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: true
+      product_page:
+       title: __Product page
+       inherits_layout: 0
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: true
+      footer:
+       title: __Footer
+       inherits_layout: 0
+       parameter: footer
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: true
+       content: |
+                  <div class="footer2">
+                      <div class="sert">
+                          <img width="64" height="30" alt="" src="/olly/img/footerimg.jpg">
+                      </div>
+                                      <div class="rights">
+                        <p>&copy; 2010 Olly OÜ</p>
+                      </div>
+                      <div class="footerlinks">
+                        <img width="2" height="13" alt="" src="/olly/img/footerr.png" class="fraz">
+                        <img width="7" height="10" alt="" src="/olly/img/footerarrow.png" class="farrow">
+                        <a href="#">Vaata kontakte</a>
+                      </div>
+                      <div class="footerlinks">
+                        <img width="2" height="13" alt="" src="/olly/img/footerr.png" class="fraz">
+                        <img width="7" height="10" alt="" src="/olly/img/footerarrow.png" class="farrow">
+                        <img width="16" height="16" alt="" src="/olly/img/footerface.png" class="fface">
+                        <a href="#">Jälgi meid Facebookis</a>
+                      </div>
+                    </div>

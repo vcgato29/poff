@@ -1,0 +1,207 @@
+Parameter:
+ actAs: 
+  I18n:
+   fields: [name, unit_name]
+  Timestampable: ~ 
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+  title: { type: string(255), notnull: true }
+  multilang: { type: boolean, notnull: true, default: 0 }
+  group_id: { type: integer, notnull: true }
+  name: { type: string(255), notnull: false }
+  unit_name: { type: string(255), notnull: false }
+  type: { type: string(255), notnull: true }
+  required: { type: boolean, notnull: true, default: 0 }
+  is_filter: { type: boolean, notnull: true, default: 1 }
+  pri: { type: integer, notnull: true, default: 0 }
+ relations:
+  ParameterGroup:
+   local: group_id
+   foreign: id
+   foreignAlias: Parameters
+   onDelete: CASCADE
+   onUpdate: CASCADE  
+
+ParameterSelectionSingle:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: SINGLE_OPTIONS
+
+
+ParameterSelectionMany:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: MANY_OPTIONS
+
+
+ParameterTextfield:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: TEXTFIELD
+
+
+ParameterTextBox:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: TEXTBOX
+
+
+ParameterPicture:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: PICTURE
+
+
+ParameterFile:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: FILE
+    
+ParameterHtml:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: HTML
+
+ParameterArticle:
+  inheritance:
+    extends: Parameter
+    type: column_aggregation
+    keyField: type
+    keyValue: ARTICLE
+
+    
+ParameterGroup:
+ actAs: 
+  Timestampable: ~
+  NestedSet: ~
+  I18n:
+   fields: [name]
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+  name: { type: string(255), notnull: false }
+  title: { type: string(255), notnull: true }
+  
+
+ParameterOption:
+ actAs: 
+  I18n:
+   fields: [name]
+  Timestampable: ~ 
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+  param_id: { type: integer, notnull: true }
+  title: { type: string(255), notnull: false }
+  name: { type: string(255), notnull: false }
+  pri: { type: integer, notnull: true, default: 0 }
+ relations:
+  Parameter:
+   local: param_id
+   foreign: id
+   foreignAlias: ParameterOptions
+   onDelete: CASCADE
+   onUpdate: CASCADE 
+  
+
+ParameterProductValue:
+ actAs: 
+  I18n:
+   fields: [value, filename]
+  Timestampable: ~ 
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+  param_id: { type: integer, notnull: true }
+  product_id: { type: integer, notnull: true }
+  value: { type: string(9999), notnull: false }
+  common_value: { type: string(9999), notnull: false }
+  filename: { type: string(255), notnull: false }
+  common_filename: { type: string(255), notnull: false }
+ relations:
+  Parameter:
+   local: param_id
+   foreign: id
+   foreignAlias: ParameterProductValues
+   onDelete: CASCADE
+   onUpdate: CASCADE
+  Product:
+   local: product_id
+   foreign: id
+   foreignAlias: ParameterProductValues
+   onDelete: CASCADE
+   onUpdate: CASCADE
+
+
+ParameterProductOption:
+ columns:
+  option_id: { type: integer, notnull: true, primary: true }
+  product_id: { type: integer, notnull: true, primary: true }
+  priceadd: { type: float, notnull: true, default: 0.00 }
+ relations:
+  ParameterOption:
+   local: option_id
+   foreign: id
+   foreignAlias: ParameterProductOptions
+   onDelete: CASCADE
+   onUpdate: CASCADE
+  Product:
+   local: product_id
+   foreign: id
+   foreignAlias: ParameterProductOptions
+   onDelete: CASCADE
+   onUpdate: CASCADE
+  
+
+ProductGroupVsParameterGroup:
+ columns:
+  prodgroup_id: { type: integer, notnull: true, primary: true }
+  paramgroup_id: { type: integer, notnull: true, primary: true }
+ relations:
+  ProductGroup:
+   local: prodgroup_id
+   foreign: id
+   foreignAlias: ProductGroupParameterGroups
+   onDelete: CASCADE
+   onUpdate: CASCADE
+  ParameterGroup:
+   local: paramgroup_id
+   foreign: id
+   foreignAlias: ProductGroupParameterGroups
+   onDelete: CASCADE
+   onUpdate: CASCADE

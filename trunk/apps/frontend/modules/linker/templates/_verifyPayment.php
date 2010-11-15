@@ -1,0 +1,1 @@
+<?php echo url_for('verify_payment_page', $params, true) ?>

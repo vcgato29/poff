@@ -1,0 +1,9 @@
+all:
+    javascripts:    [/faye/js/prompt/scripts.js,/faye/js/jquery.mousewheel-3.0.2.pack.js,/faye/js/jquery.fancybox-1.3.1.js]
+    stylesheets:    [/faye/js/prompt/style.css,/faye/jquery.fancybox-1.3.1.css]
+
+dimensionsSuccess:
+    javascripts: [/olly/js/jquery.jcarousel.min.js]
+
+profileSuccess:
+    javascripts: [/olly/js/jquery.jcarousel.min.js]

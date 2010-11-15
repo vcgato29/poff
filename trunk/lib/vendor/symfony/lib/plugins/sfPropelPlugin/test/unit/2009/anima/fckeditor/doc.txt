@@ -1,0 +1,2 @@
+
+localhost/cmm/connector?Command=getfoldersandfiles&type=image&connector=con.cgi&CurrentFolder=%f2

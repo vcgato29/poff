@@ -1,0 +1,1 @@
+<?php include_partial( 'formLanguageEdit', array('form' => $form, 'langNodeID' => $langNodeID ) ) ?>

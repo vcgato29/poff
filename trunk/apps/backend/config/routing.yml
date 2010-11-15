@@ -1,0 +1,234 @@
+trans_unit:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                TransUnit
+    module:               translations
+    prefix_path:          /translations
+    column:               msg_id
+    with_wildcard_routes: true
+
+trans_unit_variable:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                TransUnitVariable
+    module:               variables
+    prefix_path:          /variables
+    column:               id
+    with_wildcard_routes: true
+
+
+currency:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Currency
+    module:               currency
+    prefix_path:          /currency
+    column:               id
+    with_wildcard_routes: true
+
+product_comment:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProductComment
+    module:               comments
+    prefix_path:          /comments
+    column:               id
+    with_wildcard_routes: true
+
+shop:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Shop
+    module:               shop
+    prefix_path:          /shop
+    column:               id
+    with_wildcard_routes: true
+
+shipping_zone:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ShippingZone
+    module:               shipping
+    prefix_path:          /shipping
+    column:               id
+    with_wildcard_routes: true
+
+product_order:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProductOrder
+    module:               orders
+    prefix_path:          /orders
+    column:               id
+    with_wildcard_routes: true
+
+public_user:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PublicUser
+    module:               users
+    prefix_path:          /users
+    column:               id
+    with_wildcard_routes: true
+
+product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Product
+    module:               product
+    prefix_path:          /product
+    column:               id
+    with_wildcard_routes: true
+
+parameter:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Parameter
+    module:               parameter
+    prefix_path:          /parameter
+    column:               id
+    with_wildcard_routes: true
+
+news_group_vs_structure:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NewsGroupVsStructure
+    module:               news_group_vs_structure
+    prefix_path:          /news_group_vs_structure
+    column:               id
+    with_wildcard_routes: true
+
+news_group:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NewsGroup
+    module:               news_group
+    prefix_path:          /news_group
+    column:               id
+    with_wildcard_routes: true
+
+new_item:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NewItem
+    module:               new_item
+    prefix_path:          /new_item
+    column:               id
+    with_wildcard_routes: true
+
+
+
+
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+
+
+
+sf_guard_group_page:
+  url:   /sfGuardGroup/:action
+  param: { module: sfGuardGroup, action: listUserGroups }
+  
+sf_guard_group_page_update:
+  url:   /sfGuardGroup/adminUpdate
+  param: { module: sfGuardGroup, action: adminUpdate }
+  
+sf_guard_group_page_create:
+  url:   /sfGuardGroup/adminCreate
+  param: { module: sfGuardGroup, action: adminCreate }
+
+sf_guard_user_page:
+  url:   /sfGuardUser/:action
+  param: { module: sfGuardUser, action: listUsers }
+  
+sf_guard_user_page_update:
+  url:   /sfGuardGroup/adminUpdate
+  param: { module: sfGuardUser, action: adminUpdate }
+  
+sf_guard_user_page_create:
+  url:   /sfGuardUser/adminCreate
+  param: { module: sfGuardUser, action: adminCreate }
+
+structure_child_create:
+ url: /admin/structure/create
+ param: {module: structure, action: create } 
+ 
+structure_child_update:
+ url: /admin/structure/update
+ param: {module: structure, action: update } 
+
+structure_child_new:
+ url: /admin/structure/new/:parentID
+ param: {module: structure, action: new }
+
+structure_child_edit:
+ url: /admin/structure/edit/:id
+ param: {module: structure, action: edit }
+
+structure_child_delete:
+ url: /admin/structure/delete/:id
+ param: {module: structure, action: delete }
+ 
+ 
+admin_page:
+  url:   /admin/:module/:action/:lang
+  param: { module: structure, action: index, lang: false }
+
+structure_page:
+ url: /admin/structure/:action/:lang
+ param: {module: structure, action: index, lang: false}
+
+
+
+banner_group:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                BannerGroup
+    module:               bannergroup
+    prefix_path:          /bannergroup
+    column:               id
+    with_wildcard_routes: true
+
+banner:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Banner
+    module:               banner
+    prefix_path:          /banner
+    column:               id
+    with_wildcard_routes: true
+
+structure:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Structure
+    module:               structure
+    prefix_path:          /structure
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: structure, action: settings }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

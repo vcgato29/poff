@@ -1,0 +1,139 @@
+Placeholder: # which structures with witch frontend modules are connected
+ body_place1:
+    name: content_provider
+    Structure: root
+    FrontendModule: f_module2
+ body_place2:
+    name: content_provider
+    Structure: root
+    FrontendModule: f_module4
+ body_place3:
+    name: content_provider
+    Structure: root
+    FrontendModule: f_moduleN
+ body_place3_1:
+    name: content_provider
+    Structure: root
+    FrontendModule: f_module3
+ body_place4:
+    name: body
+    Structure: homepage
+    FrontendModule: f_module6
+ body_place5:
+    name: body
+    Structure: homepage
+    FrontendModule: f_module14
+ body_place6:
+    name: body
+    Structure: est
+    FrontendModule: f_module26
+ body_place7:
+    name: body
+    Structure: est
+    FrontendModule: f_module1
+ body_place8:
+    name: body
+    Structure: est
+    FrontendModule: f_module20
+ body_place9:
+    name: body
+    Structure: homepage
+    FrontendModule: f_module20
+ body_place11:
+    name: body
+    Structure: products
+    FrontendModule: f_module28
+ body_place12:
+    name: body
+    Structure: homepage
+    FrontendModule: f_module29
+ body_place13:
+    name: body
+    Structure: homepage
+    FrontendModule: f_module30
+ body_place14:
+    name: body
+    Structure: homepage
+    FrontendModule: f_module31
+ body_place15:
+    name: body
+    Structure: products
+    FrontendModule: f_module20
+ body_place16:
+    name: body
+    Structure: news
+    FrontendModule: f_module10
+ body_place17:
+    name: body
+    Structure: news
+    FrontendModule: f_module32
+ body_place18:
+    name: body
+    Structure: est
+    FrontendModule: f_module32
+ body_place19:
+    name: body
+    Structure: contact
+    FrontendModule: f_module12
+    
+    
+    
+
+PlaceholdersVsModules: # which modules under which placeholder names can be putted
+  body_newsBlockWidget:
+    placeholder: body
+    FrontendModule: f_module29
+  body_calculatorWidget:
+    placeholder: body
+    FrontendModule: f_module30
+  body_facebookWidget:
+    placeholder: body
+    FrontendModule: f_module31
+  body_bannersOnRight:
+    placeholder: body
+    FrontendModule: f_module32
+  body_4:
+    placeholder: body
+    FrontendModule: f_module1
+  body_3:
+    placeholder: body
+    FrontendModule: f_module28
+  body_2:
+   placeholder: body
+   FrontendModule: f_module20
+  body_1:
+   placeholder: body
+   FrontendModule: f_module26
+  body_article:
+   placeholder: body
+   FrontendModule: f_module1
+  body_article:
+   placeholder: body
+   FrontendModule: f_module6
+  body_newslist:
+   placeholder: body
+   FrontendModule: f_module10
+  body_productcatalog:
+   placeholder: body
+   FrontendModule: f_module9
+  body_productgrouppreview:
+   placeholder: body
+   FrontendModule: f_module14
+  body_searchresult:
+   placeholder: body
+   FrontendModule: f_module11
+  body_contactform:
+   placeholder: body
+   FrontendModule: f_module12
+  content_provaider_banners:
+   placeholder: content_provider
+   FrontendModule: f_module2
+  content_provaider_news:
+   placeholder: content_provider
+   FrontendModule: f_module3
+  content_provaider_products:
+   placeholder: content_provider
+   FrontendModule: f_module4
+  content_provaider_public_users:
+   placeholder: content_provider
+   FrontendModule: f_moduleN

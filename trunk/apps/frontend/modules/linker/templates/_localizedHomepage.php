@@ -1,0 +1,1 @@
+<?php echo url_for('main_dispatcher', array( 'p0' => $lang ))?>

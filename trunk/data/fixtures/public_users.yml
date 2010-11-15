@@ -1,0 +1,24 @@
+PublicUser:
+    user1:
+        name: John Smith
+        login: john
+        email: john@smith.com
+        password: smith
+    user2:
+        name: Vasja Pupkin
+        login: vasja
+        email: vasja@pupkin.com
+        password: pupkin
+        
+PublicUserAddresses:
+    addr1:
+        PublicUser: user1
+        name: John Smith
+        address: adres 1
+    addr2:
+        PublicUser: user1
+        name: Ann Smith
+        address: adres 2
+
+    
+        

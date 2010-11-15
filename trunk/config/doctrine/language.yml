@@ -1,0 +1,8 @@
+Language:
+  columns:
+    url: { type: string(255), notnull: true }
+    abr: { type: string(255), notnull: true }
+    title_est: { type: string(255), notnull: true }
+    
+    
+    

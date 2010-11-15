@@ -1,0 +1,145 @@
+body     {
+ background-color: #FFFFFF;
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+body.popup
+{
+ background-color: #efefef;
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+TABLE.navigation TD
+{
+  font: 11px Arial;
+  color: #7C7575;
+}
+TABLE.navigation TD a
+{
+  text-decoration: none;
+  color: #7C7575;
+}
+TABLE.navigation TD a:hover
+{
+  text-decoration: underline;
+}
+TABLE.navigation TD.lastitem
+{
+  color: #DB3B4D;
+}
+
+
+
+.formLabel        {
+                 color: #990000;
+                 font-size: 11px;
+                 font-family: Verdana;
+                 text-decoration: none;
+                }
+.formLabel a       {
+                 color: #990000;
+                 font-size: 11px;
+                 font-family: Verdana;
+                 text-decoration: none;
+                }
+.formLabel a:hover       {
+                 color: #990000;
+                 font-size: 11px;
+                 font-family: Verdana;
+                 text-decoration: underline;
+                }
+.formLabelError        {
+                 color: #FF0000;
+                 font-size: 11px;
+                 font-family: Verdana;
+                 text-decoration: none;
+                }
+.formInput        {
+                 font-family: Verdana;
+                 font-size: 11px;
+                 color: #990000;
+                 background-color: #efefef;
+                 border: 1px solid #777777;
+                }
+.formInputError        {
+                 font-family: Verdana;
+                 font-size: 11px;
+                 color: #ff0000;
+                 background-color: #efefef;
+                 border: 1px solid #777777;
+                }
+.formTextarea        {
+                 font-family: Verdana;
+                 font-size: 11px;
+                 color: #990000;
+                 background-color: #efefef;
+                 border: 1px solid #777777;
+                 overflow: auto;
+                }
+.formSubmit        {
+                 font-family: Verdana;
+                 font-size: 11px;
+                 color: #990000;
+                 background-color: #efefef;
+                 border: 1px solid #777777;
+                }
+.formButton        {
+                 font-family: Verdana;
+                 font-size: 10px;
+                 color: #990000;
+                 background-color: #efefef;
+                 border: 1px solid #777777;
+               }
+.formSelect        {
+                 font-family: Verdana;
+                 font-size: 11px;
+                 color: #990000;
+                 background-color: #efefef;
+                 border: 1px solid #909090;
+                }
+
+.tab {
+  color: #990000;
+  font-size: 11px;
+  font-family: Verdana;
+  text-decoration: none;
+  background-color: #acacac;
+}
+.tab a {
+  color: #990000;
+  font-size: 11px;
+  font-family: Verdana;
+  text-decoration: none;
+}
+.tab a:hover {
+  color: #990000;
+  font-size: 11px;
+  font-family: Verdana;
+  text-decoration: underline;
+}
+.tabactive {
+  color: #990000;
+  font-size: 11px;
+  font-family: Verdana;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #cccccc;
+}
+
+
+.imageList{
+	width: 410px;
+	height: 200px;
+	margin: 7px;
+	overflow: auto;
+	SCROLLBAR-3DLIGHT-COLOR: #fad3d7;
+	SCROLLBAR-ARROW-COLOR: #e6142b;
+	SCROLLBAR-DARKSHADOW-COLOR: #E4E4CB;
+	SCROLLBAR-FACE-COLOR:  #fad3d7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #EEEEDA;
+	SCROLLBAR-TRACK-COLOR: #FFFFFF;
+}

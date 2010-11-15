@@ -1,0 +1,23 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+default:
+  is_secure: false
+  
+order:
+    is_secure: true
+    
+orderSubmit:
+    is_secure: true
+    
+changeShippingZone:
+    is_secure: true
+
+proceedToPayment:
+    is_secure: true
+    
+verifyPayment:
+    is_secure: true
+
+restartOrder:
+    is_secure: true

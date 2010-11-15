@@ -1,0 +1,11 @@
+#order deny,allow
+#deny from all
+#allow from 195.222.29.9
+
+Options +SymLinksIfOwnerMatch
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule .* index.php
+</IfModule>

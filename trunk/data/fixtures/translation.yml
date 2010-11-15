@@ -1,0 +1,10 @@
+TransUnitVariable:
+    var1:
+        variable: site name
+        multilang: false
+    var2: 
+        variable: reminder email
+        multilang: false
+    var3:
+        variable: invoicer email
+        multilang: false

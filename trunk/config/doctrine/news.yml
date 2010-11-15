@@ -1,0 +1,50 @@
+NewItem:
+  actAs:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    name: { type: string(255), notnull: true }
+    description: { type: string(1000), notnull: false }
+    content: { type: string(9999), notnull: false }
+    active_start: { type: timestamp, notnull: false }
+    active_end: { type: timestamp, notnull: false }
+    source: { type: string(255), notnull: false }
+    tags: { type: string(1000), notnull: false }
+    group_id: { type: integer, notnull: true }
+    pri: { type: integer, notnull: true, default: 0 }
+    picture: { type: string(255), notnull: false }
+    type: { type: string(255), notnull: true, default: "default" }
+  relations:
+    NewsGroup:
+      local: group_id
+      foreign: id
+      foreignAlias: GroupNews
+      onDelete: CASCADE
+      onUpdate: CASCADE      
+    
+NewsGroup:
+  columns:
+    name: { type: string(255), notnull: true }
+    type: { type: string(255), notnull: true, default: "default" }
+    pri: { type: integer, notnull: true, default: 0 }
+    is_active: { type: boolean, notnull: true, default: 1 }
+    link_to_struct: { type: integer, notnull: false }
+    
+    
+NewsGroupVsStructure:
+ columns:
+   group_id: { type: integer, notnull: true, primary: true }
+   structure_id: { type: integer, notnull: true, primary: true }
+ relations:
+   NewsGroup:
+    local: group_id
+    foreign: id   
+    foreignAlias: StructureNewsGroup
+   Structure:
+    local: structure_id
+    foreign: id   
+    foreignAlias: StructureNewsGroup
+    onDelete: CASCADE 
+    onUpdate: CASCADE    
