@@ -50,7 +50,7 @@ $tabsArray[] = array('tabId' => 'tabset03-03', 'tabName' => 'NOOR KRIITIK',
                   	  <div style="float: left; width: 440px;"> <h3><?php echo $product['director_name']; ?></h3><br>
 		                  <p><?php echo $product['director_bio']; ?></p> <br>
 							<?php if (!empty($product['director_filmography'])): ?>
-							<h3>Filmograafia</h3><br>
+							<h3><?php echo __('Filmograafia') ?></h3><br>
 							<?php echo $product['director_filmography']; ?>
 							<?php endif; ?>
 		              </div>
