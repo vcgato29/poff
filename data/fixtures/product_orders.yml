@@ -1,0 +1,54 @@
+ProductOrder:
+    order1:
+        PublicUser: user1
+        status: paid
+        price_currency: EUR
+        notes: hea klient
+        title: week order
+        order_number: 12345
+    order2:
+        PublicUser: user1
+        status: canceled
+        price_currency: EUR
+        title: bad order
+        notes: halb klient
+        order_number: 67890
+        
+ProductOrderVsProduct:
+    conn1:
+        Product: prod1
+        ProductOrder: order1
+    conn2:
+        Product: prod2
+        ProductOrder: order1
+        
+ProductOrderShipping:
+    shipping1:
+        information: Solaris keskus, estonia
+        name: Vasja Pupkin
+        cost: 12
+        price_currency: EUR
+        ProductOrder: order1
+        
+ProductOrderItem:
+    oredered_item1:
+        ProductOrder: order1
+        vatrate: 20
+        Product: prod1
+        ProductOrderShipping: shipping1
+        name: product 1
+        quanity: 2
+        price: 123
+        price_currency: EUR
+        
+ProductOrderBilling:
+    billing1:
+        country: Estonia
+        city: Tallinn
+        email: vasja@pupkin.com
+        street: Vaike Ameerika 8
+        zip: 1234A
+        receiver: Priidu Tammeorg
+        ProductOrder: order1
+        
+        

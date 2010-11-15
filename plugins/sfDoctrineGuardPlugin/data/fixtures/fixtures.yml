@@ -1,0 +1,21 @@
+sfGuardUser:
+  sgu_admin:
+    username:       admin
+    password:       super1puper
+    is_super_admin: true
+    AdminUserGroup: group1
+
+
+AdminUserGroup:
+  group1:
+   name: user_group1
+   
+#AdminUserGroupVsStructure:
+# rel1:
+#  Structure: root
+#  AdminUserGroup: group1
+#  permission: 7
+# rel2:
+#  Structure: homepage
+#  AdminUserGroup: group1
+#  permission: 4

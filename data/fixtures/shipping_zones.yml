@@ -1,0 +1,30 @@
+ShippingZone:
+    zone1:
+        Translation:
+            en:
+                name: zone 1 ENG
+            et:
+                name: zone 1 EST
+            fr:
+                name: zone 1 FR
+    zone2:
+        Translation:
+            en:
+                name: zone 2 ENG
+            et:
+                name: zone 2 EST
+            fr:
+                name: zone 2 FR
+                
+ShippingZoneInterval:
+    interval1:
+        ShippingZone: zone1
+        start: 1
+        end: 100
+        price: 10
+    interval2:
+        ShippingZone: zone1
+        start: 101
+        end: 200
+        price: 100
+        

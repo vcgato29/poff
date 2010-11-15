@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           PublicUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          public_user
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+          display: [name,email]
+          params: ~
+          max_per_page: 10
+          sort: [name]
+      filter:
+       display: [name, email]
+      form:    ~
+      edit:    ~
+      new:     ~

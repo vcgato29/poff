@@ -1,0 +1,112 @@
+# Product pictures
+ProductPictures:
+    pic1:
+        file: /product/file1.jpg
+        Product: prod1
+        Translation:
+            et:
+                name: pic 1 name EST 
+            en:
+                name: pic 1 name ENG
+            fr:
+                name: pic 1 name FR
+    pic2:
+        file: /product/file2.jpg
+        Product: prod2
+        Translation:
+            et:
+                name: pic 2 name EST 
+            en:
+                name: pic 2 name ENG
+            fr:
+                name: pic 2 name FR
+    pic3:
+        file: /product/file3.jpg
+        Product: prod3
+        Translation:
+            et:
+                name: pic 3 name EST 
+            en:
+                name: pic 3 name ENG
+            fr:
+                name: pic 3 name FR
+    pic4:
+        file: /product/file4.jpg
+        Product: prod4
+        Translation:
+            et:
+                name: pic 4 name EST 
+            en:
+                name: pic 4 name ENG
+            fr:
+                name: pic 4 name FR
+    pic5:
+        file: /product/file5.jpg
+        Product: prod5
+        Translation:
+            et:
+                name: pic 5 name EST 
+            en:
+                name: pic 5 name ENG
+            fr:
+                name: pic 5 name FR
+    pic6:
+        file: /product/file6.jpg
+        Product: prod6
+        Translation:
+            et:
+                name: pic 6 name EST 
+            en:
+                name: pic 6 name ENG
+            fr:
+                name: pic 6 name FR
+    pic7:
+        file: /product/file7.jpg
+        Product: prod7
+        Translation:
+            et:
+                name: pic 7 name EST 
+            en:
+                name: pic 7 name ENG
+            fr:
+                name: pic 7 name FR
+    pic8:
+        file: /product/file8.jpg
+        Product: prod8
+        Translation:
+            et:
+                name: pic 8 name EST 
+            en:
+                name: pic 8 name ENG
+            fr:
+                name: pic 8 name FR
+    pic9:
+        file: /product/file9.jpg
+        Product: prod9
+        Translation:
+            et:
+                name: pic 9 name EST 
+            en:
+                name: pic 9 name ENG
+            fr:
+                name: pic 9 name FR
+    pic10:
+        file: /product/file10.jpg
+        Product: prod10
+        Translation:
+            et:
+                name: pic 10 name EST 
+            en:
+                name: pic 10 name ENG
+            fr:
+                name: pic 1 name FR
+    pic11:
+        file: /product/file11.jpg
+        Product: prod11
+        Translation:
+            et:
+                name: pic 11 name EST 
+            en:
+                name: pic 11 name ENG
+            fr:
+                name: pic 11 name FR

@@ -1,0 +1,30 @@
+/* LEFT MENU */
+.menu_list {width: 175px;font-size: 14px;padding:1px 15px 0 15px;flaot:left;margin-left:5px;}
+.menu_list .ExpressTranslation {float:right;}
+.menu_list { background:#EAE8E7; border-left:1px solid #C6C6C6;border-right:1px solid #C6C6C6;}
+.menu_list a{display:block;padding:0 0 4px 23px;}
+.menu_link {text-decoration:none;}
+.menu_link .sb-border { background:#CACACA; }
+
+.menu_body{display:block;}
+.menu_body a {display:block;text-decoration:none;padding:0 0 6px 23px;}
+.menu_body a:hover {color: #000000;text-decoration:none;}
+.menu_body .menu_body{display:block;}
+.menu_body .menu_body a {display:block;text-decoration:none;padding:0 0 6px 26px;}
+.menu_body .menu_body .menu_body_item {padding-left: 15px;padding-bottom:0;}
+.menu_body .menu_body .menu_body .menu_body_item {padding-left: 30px;padding-bottom:0;}
+.menu_body .menu_body .menu_body .menu_body .menu_body_item {padding-left: 45px;padding-bottom:0;}
+.menu_body .menu_body .menu_body .menu_body .menu_body .menu_body_item {padding-left: 60px;padding-bottom:0;}
+.menu_attitude {background: url(../img/admin/menu_nu.png) top left no-repeat;}
+.menu_users {background: url(../img/admin/users.gif) 0 0px no-repeat;}
+.menu_settings {background: url(../img/admin/settings.png) 0px -2px no-repeat;}
+.menu_language {background: url(../img/admin/menu_flag.png) top left no-repeat;}
+.menu_folder {background: url(../img/admin/menu_folder.png) 0 3px no-repeat;}
+.menu_folder_opened {background: url(../img/admin/menu_folder.png) 0 3px no-repeat;}
+.menu_body .blockline3 {margin:5px 0 0 0}
+
+.active_menu_link {font-weight: bold;}
+
+.menu_up {background: url(../img/admin/menu_up.png) top right no-repeat;width:208px;height:6px;margin-left:5px;_position:relative;_top:12px;}
+.menu_down {background: url(../img/admin/menu_down.png) top right no-repeat;width:208px;height:6px;margin-left:5px;margin-bottom:3px;}
+/* LEFT MENU */

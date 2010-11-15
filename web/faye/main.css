@@ -1,0 +1,718 @@
+﻿/*==================body====================*/
+
+* { margin:0; padding:0;}
+a img, img{border:0px;}
+body {height:100%; width:100%; background-color:#000000; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333;}
+a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px;}
+
+.clear{clear:both;}
+.mainbox{width:100%; height:100%; background-position:center top; background-image:url(img/.png);  background-repeat: no-repeat;}
+/*==================content====================*/
+
+.topbox{margin:auto; width:999px; padding-top:12px;}
+.logobox{float:left; margin:4px 87px 0px 69px;}
+/*==================Toplinks====================*/
+.toplinksbox{float:left;}
+.toplinks{border-bottom:1px solid #666666; height:16px; width:600px;}
+
+.langselect{float:left; width:86px;}
+.langselect .right{float:left;}
+.langselect .right p.active{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.langselect .right p.nonactive{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.langselect .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.langselect .activebutton{float:left; background:url(img/abutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+#lang{position:relative; top:4px; left:-29px; float:right;}
+#currency{position:relative; top:4px; left:-22px;}
+#search{position:relative; top:0px; left:47px;}
+#user{position:relative; top:4px; left:-87px; float:right;}
+#signin{position:relative; top:-4px; left:-230px; float:right;}
+.hiddenbox{display:none; z-index:1000;}
+.langcontentbox{position:absolute; top:0px; background-color:#000000; border-left:1px solid #333333; border-right:1px solid #333333; border-bottom:1px solid #333333; width:42px;}
+.langcontent{background-position:center top; background-image:url(img/hiddenbg.png);  background-repeat: repeat-x; padding:14px 6px 12px 3px;}
+.langcontent ul{list-style-type:none;}
+.langcontent ul li{padding:0px 0px 0px 3px; height:18px;}
+.langcontent ul li a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.langcontent ul li a:hover{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.langcontent ul li a.active{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+
+.currencyselect{float:left; width:131px;}
+.currencyselect .linkname{float:left;}
+.currencyselect .linkname p{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.currencyselect .right{float:left; padding-left:5px;}
+.currencyselect .right p.active{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.currencyselect .right p.nonactive{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.currencyselect .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.currencyselect .activebutton{float:left; background:url(img/abutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+
+.search{float:left;}
+.search .linkname{float:left;}
+.search .linkname p{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.search .sinput{float:left; background:url(img/searchbg.png) repeat-x; width:133px; height:20px; margin:-4px 0px 0px 6px;}
+.search .sinput .searchinput{float:left; background-color:transparent; border:0px; color:#cccccc; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; width:117px; padding:3px 8px 0px 8px; font-size:10px;}
+.search .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.search .activebutton{float:left; background:url(img/abutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.searchcontentbox{position:absolute; top:0px; background-color:#000000; border-left:1px solid #333333; border-right:1px solid #333333; border-bottom:1px solid #333333; width:197px; z-index:1000;}
+.searchcontent{background-position:center top; background-image:url(img/hiddenbg.png);  background-repeat: repeat-x; padding:14px 0px 12px 0px;}
+.result{padding:8px 0px 8px 3px;}
+.resimg{float:left;}
+.restext{float:left; padding:0px 0px 0px 10px;}
+.restext .tootename{margin-top:-2px; padding-bottom:7px;}
+.restext .tootename a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#999999; letter-spacing:0px; display:block;}
+.restext .tootename a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.restext .maht{float:left; width:59px; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.restext .hind{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.restext .basketarrow{float:left; padding:0px 5px 0px 0px;}
+.restext .basketadd{float:left; padding-top:5px;}
+.restext .basketadd a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; display:block;}
+.restext .basketadd a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+
+.login{float:right;}
+.login .linkname{float:left;}
+.login .linkname p{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.login .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.login .activebutton{float:left; background:url(img/abutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.usercontentbox{position:absolute; top:0px; background-color:#000000; border-left:1px solid #333333; border-right:1px solid #333333; border-bottom:1px solid #333333; width:100px;}
+
+/*==================Signin====================*/
+.signincontentbox{position:absolute; top:0px; width:278px;}
+.signcontent{}
+.signcontent .signtop{background-position:center top; background-image:url(img/signtop.png);  background-repeat: no-repeat; width:280px; height:45px;}
+.signcontent .signcenter{background-position:center top; background-image:url(img/signcenter.png);  background-repeat: repeat-y; width:280px;}
+.signcontent .signbottom{background-position:center top; background-image:url(img/signbottom.png);  background-repeat: no-repeat; width:280px; height:45px;}
+.signcontent .signcenter h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:12px;}
+.signcontent .signcenter p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:11px;}
+.userlogin{padding:0px;}
+.signcontent .signcenter .signcontent{padding:10px 49px 0px;}
+.signcontent .signcenter .arrow{float:left; padding:0px 5px 0px 0px;}
+.signcontent .signcenter .forgot{float:left; padding-top:1px;}
+.signcontent .signcenter .forgot p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#999999; letter-spacing:0px; display:block; cursor:pointer;}
+.signcontent .signcenter .forgot p:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block; cursor:pointer;}
+.signcontent .signcenter .button{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; height:23px; width:auto; float:left; padding:0px 15px 50px;}
+.fbox .inputbox{margin-top:11px; display:none;}
+.fbox .inputbox .forgotpass{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:145px; padding:3px 5px; font-size:12px;}
+.signcontent .signcenter .button a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; display:block; padding-top:4px;}
+.signcontent .signcenter .button2{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; width:auto; height:23px; padding:0px 15px 8px; margin-top:21px; float:left;}
+.signcontent .signcenter .button2 a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; display:block; padding-top:4px;}
+.signcontent .userlogin .inputbox{margin-top:11px;}
+.signcontent .userlogin .inputbox .signin{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:145px; padding:3px 5px; font-size:12px;}
+.signcontent .fbox{padding:5px 0px 10px 0px;}
+
+/*==================Topenu====================*/
+.bottomlinks{padding:65px 0px 0px 3px; width:615px;}
+.bottomlinks ul{list-style-type:none;}
+.bottomlinks ul li{float:left; padding-right:25px;}
+.bottomlinks ul li .topmenulink{border-bottom:1px solid #666666; height:21px; float:left;}
+.bottomlinks ul li .topmenulinkactive{border-bottom:1px solid #999999; height:21px; float:left;}
+.bottomlinks ul li .topmenulink:hover{border-bottom:1px solid #999999; height:21px; float:left;}
+.bottomlinks ul li .topmenulink p a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.bottomlinks ul li .topmenulink p a:hover{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.bottomlinks ul li .topmenulinkactive p a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.bottomlinks  ul li.basket{padding:0px; float:right;}
+.bottomlinks li.basket .topmenulink{border-bottom:1px solid #666666; height:21px;}
+.bottomlinks ul li.basket .topmenulinkactive{border-bottom:1px solid #999999; height:21px; float:left;}
+.bottomlinks li.basket .topmenulink p{float:left;}
+.bottomlinks li.basket .topmenulink p img{padding-right:7px;}
+.bottomlinks li.basket .topmenulink p{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; text-decoration:none; color:#666666; letter-spacing:0px; margin-top:2px;}
+.bottomlinks li.basket .topmenulink p span{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.bottomlinks li.basket .topmenulink p span:hover{color:#ffffff;}
+.bottomlinks li.basket .topmenulinkactive p span{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+
+/*==================leftmenu====================*/
+.centerbox .leftmenu{float:left; width:176x; padding:35px 25px 0px 71px;}
+.centerbox .leftmenu ul{list-style-type:none;}
+.centerbox .leftmenu ul li{padding-bottom:12px;}
+.centerbox .leftmenu ul li .leftmenulink{border-bottom:1px solid #666666; height:21px; width:150px;}
+.centerbox .leftmenu ul li .leftmenulink:hover{border-bottom:1px solid #999999; height:21px; width:150px;}
+.centerbox .leftmenu ul li .leftmenulinkactive{border-bottom:1px solid #999999; height:21px; width:150px;}
+.centerbox .leftmenu ul li .leftmenulink a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#666666; letter-spacing:0px; padding-left:3px;}
+.centerbox .leftmenu ul li .leftmenulink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.centerbox .leftmenu ul li .leftmenulinkactive a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-left:3px;}
+
+
+/*==================Maincontent====================*/
+
+.centerbox{margin:auto; width:999px; height:100%; margin-bottom:20px;}
+.maincontent{float:left; width:635px; padding-top:31px;}
+.maincontent2{float:left; width:670px; padding-top:31px;}
+.indexgallery{padding:23px 0px 0px; margin:auto; width:731px;}
+.indexgallery img{border:1px solid #c8c8c8;}
+.boxcontenthidden .content .text{position:relative; top:-24px;}
+.boxcontenthidden .content .text p{font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#e1e1e1; letter-spacing:0px; text-align:center; vertical-align:bottom;}
+
+
+.bottombox{width:100%; background:url(img/fbg.png) repeat-x; height:25px; position:absolute; top:100%;}
+
+
+.breadcrumb{border-bottom: 1px solid #666666; height:25px; margin-bottom:13px; padding-left:19px;}
+.maincontent2 .breadcrumb{border-bottom: 1px solid #666666; height:25px; margin-bottom:13px; padding-left:19px; margin-right:35px;}
+.breadcrumb ul{list-style-type:none;}
+.breadcrumb ul li{float:left;}
+.breadcrumb ul li .arrow{float:left; padding:4px 10px;}
+.breadcrumb ul li .blink{float:left;}
+.breadcrumb ul li .blink a {font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; padding-top:5px; display:block;}
+.breadcrumb ul li .blink a:hover {font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:11px; text-decoration:underline; color:#b1be57; letter-spacing:0px; padding-top:5px;}
+.maincontent .textbox{background-color:#ffffff; width:594px; padding:20px;}
+.maincontent .textbox .left{padding:0px; float:left; width:200px;}
+.maincontent .textbox .right{padding:0px; float:left; width:390px}
+.maincontent .textbox .top{padding:5px 0px 15px 0px;}
+.maincontent .textbox .top .leftt{padding:0px; float:left;}
+.maincontent .textbox .top .leftt h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; }
+.maincontent .textbox .center p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:15px; line-height:120%;}
+.maincontent .textbox .top .rightt{padding:0px; float:right; margin-top:-5px;}
+.maincontent .textbox .top .rightt .arrow{float:left; padding:0px 5px;}
+.maincontent .textbox .top .rightt .printlink{float:left; margin-top:1px;}
+.maincontent .textbox .top .rightt .printlink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-top:5px;}
+.maincontent .textbox .top .rightt .printlink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; padding-top:5px;}
+
+/*==================productmenu====================*/
+.productsmenu{height:30px;}
+.productsmenu .list{padding:1px 0px 0px 20px; float:left;}
+.productsmenu .listby{padding:1px 0px 0px 22px; float:left;}
+.productsmenu .page{padding:1px 0px 0px 26px; float:left;}
+.productsmenu .linkname{padding:0px; float:left;}
+.productsmenu .linkname .hiddenbox{display:none; position:relative; top:0px; left:0px;}
+.productsmenu .linkname .hiddenbox .listcontentbox{position:absolute; top:0px; background-color:#000000; border-left:1px solid #333333; border-right:1px solid #333333; border-bottom:1px solid #333333; width:164px;}
+.productsmenu .linkname .hiddenbox .listcontentboxby{position:absolute; top:0px; background-color:#000000; border-left:1px solid #333333; border-right:1px solid #333333; border-bottom:1px solid #333333; width:80px;}
+.productsmenu .linkname .hiddenbox .listcontentbox .listtext{background-position:center top; background-image:url(img/hiddenbg.png);  background-repeat: repeat-x; padding:14px 0px 12px 3px;}
+.productsmenu .linkname .hiddenbox .listcontentboxby .listtext{background-position:center top; background-image:url(img/hiddenbg.png);  background-repeat: repeat-x; padding:14px 0px 12px 3px;}
+.productsmenu .linkname .hiddenbox .listcontentbox .listtext a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.productsmenu .linkname .hiddenbox .listcontentbox .listtext a.active{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.productsmenu .linkname .hiddenbox .listcontentbox .listtext a:hover{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.productsmenu .linkname .hiddenbox .listcontentboxby .listtext a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.productsmenu .linkname .hiddenbox .listcontentboxby .listtext a.active{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.productsmenu .linkname .hiddenbox .listcontentboxby .listtext a:hover{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#cccccc; letter-spacing:0px;}
+.productsmenu .linkname p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.productsmenu .linkname p.active{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.productsmenu .list .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 5px; cursor:pointer;}
+.productsmenu .list .activebutton{float:left; background:url(img/abutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 5px; cursor:pointer;}
+.productsmenu .listby .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 5px; cursor:pointer;}
+.productsmenu .listby .activebutton{float:left; background:url(img/abutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 5px; cursor:pointer;}
+.productsmenu .showall .nonactivebutton{float:left; background:url(img/nbutton.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+.productsmenu .page p span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.productsmenu .page .pages{padding:0px 0px 0px 7px; float:left; margin-top:-2px;}
+.productsmenu .page .pages .leftarrow{padding:0px; float:left;}
+.productsmenu .page .pages .rightarrow{padding:0px; float:left;}
+.productsmenu .page .pages .pagenumbers{padding:1px 0px 0px 6px; float:left;}
+.productsmenu .page .pages .pagenumbers .number{background:url(img/nonactivep.png) no-repeat; width:17px; height:17px; float:left; margin:0px 7px 0px 0px;}
+.productsmenu .page .pages .pagenumbers .number:hover{background:url(img/activep.png) no-repeat; width:17px; height:17px;}
+.productsmenu .page .pages .pagenumbers .numberactive{background:url(img/activep.png) no-repeat; width:17px; height:17px; float:left; margin:0px 7px 0px 0px;}
+.productsmenu .page .pages .pagenumbers .number p{text-align:center; padding:0px;}
+.productsmenu .page .pages .pagenumbers .number p a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-top:1px; display:block;}
+.productsmenu .page .pages .pagenumbers .numberactive p{text-align:center; padding:0px;}
+.productsmenu .page .pages .pagenumbers .numberactive p a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-top:1px; display:block;}
+.productsmenu .showall{margin:0px 0px 0px 21px; float:left;}
+.textbox .maht{}
+.textboxproduct .maht p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:15px; line-height:120%;}
+.textboxproduct .center h2{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:8px;}
+.textbox .center h2 span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.center .centerbottom{padding:0px; width:100%;}
+.center .moreinfo{float:left;}
+.center .moreinfo .arrow{float:left; padding:0px 6px 0px 0px;}
+.center .moreinfo .infolink{float:left; margin-top:1px;}
+.center .moreinfo .infolink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-top:5px;}
+.center .moreinfo .infolink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; padding-top:5px;}
+.center .centerbottom .rightbutton{float:right;}
+.centerbottom .addbutton{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:0px 15px 0px; height:23px; float:left;}
+.centerbottom .addbutton a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; display:block; padding-top:4px;}
+.centerbottom .alertred{padding:4px 10px 0px 0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#ce0000; letter-spacing:0px;}
+.centerbottom .alertnormal{padding:3px 10px 0px 0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.maincontent .textboxproduct{background-color:#ffffff; width:631px; padding:10px 2px 10px; margin-bottom:15px;}
+.maincontent .textboxproduct .left{padding:0px; float:left; width:218px;}
+.maincontent .textboxproduct .right{padding:0px; float:left; width:409px; padding-top:10px;}
+.maincontent .textboxproduct .top{padding:5px 0px 15px 0px;}
+.maincontent .textboxproduct .top .leftt{padding:0px; float:left;}
+.maincontent .textboxproduct .top .leftt h1 a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; }
+.maincontent .textboxproduct .top .leftt h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; }
+.maincontent .textboxproduct .top .leftt h1 a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; }
+.maincontent .textboxproduct .center p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:18px; line-height:120%;}
+.maincontent .textboxproduct .top .rightt{padding:0px; float:right; margin-top:-5px;}
+.maincontent .textboxproduct .top .rightt .arrow{float:left; padding:0px 5px;}
+.maincontent .textboxproduct .top .rightt .printlink{float:left;}
+.maincontent .textboxproduct .top .rightt .printlink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding-top:5px;}
+.maincontent .textboxproduct .top .rightt .printlink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; padding-top:5px;}
+.productbottom{float:right; margin-top:-4px;}
+.maincontent2 .productbottom{float:right; margin-right:31px; margin-top:-4px;}
+.productbottom .page{float:left; padding:6px 22px 0px 0px;}
+.productbottom .page p span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.productbottom .page .pages{padding:0px; float:left; margin-top:-2px;}
+.productbottom .page .pages .leftarrow{padding:0px; float:left;}
+.productbottom .page .pages .rightarrow{padding:0px; float:left;}
+.productbottom .page .pages .pagenumbers{padding:1px 0px 0px 6px; float:left;}
+.productbottom .page .pages .pagenumbers .number{background:url(img/nonactivep.png) no-repeat; width:17px; height:17px; float:left; margin:0px 7px 0px 0px;}
+.productbottom .page .pages .pagenumbers .number:hover{background:url(img/activep.png) no-repeat; width:17px; height:17px;}
+.productbottom .page .pages .pagenumbers .numberactive{background:url(img/activep.png) no-repeat; width:17px; height:17px; float:left; margin:0px 7px 0px 0px;}
+.productbottom .page .pages .pagenumbers .number p{text-align:center; padding:0px;}
+.productbottom .page .pages .pagenumbers .number p a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-top:1px; display:block;}
+.productbottom .page .pages .pagenumbers .numberactive p{text-align:center; padding:0px;}
+.productbottom .page .pages .pagenumbers .numberactive p a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-top:1px; display:block;}
+.productbottom .page .linkname{float:left; padding:0px 7px 0px 0px;}
+.productbottom .page .linkname p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.productbottom .backto{float:left; padding-top:7px;}
+.productbottom .backto .linkname{float:left;}
+.productbottom .backto .linkname p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.productbottom .backto .nonactivebutton{float:left; float:left; background:url(img/backto.png) no-repeat; width:15px; height:16px; margin:-2px 0px 0px 7px; cursor:pointer;}
+
+.maincontent2 .textboxproductsmall{background-color:#ffffff; width:199px; padding:10px 0px 17px; margin:0px 20px 15px 0px; float:left;}
+.maincontent2 .textboxproductsmall h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 0px 0px;}
+.maincontent2 .textboxproductsmall p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 9px 0px; line-height:120%;}
+.maincontent2 .textboxproductsmall h2{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:8px; float:left;}
+.textboxproductsmall .alertred{padding:3px 5px 0px 0px; float:right; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#ce0000; letter-spacing:0px;}
+.maincontent2 .textboxproductsmall .alertnormal{padding:3px 5px 0px 0px; float:right; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.maincontent2 .textboxproductsmall .leftt{padding-left:7px; padding-top:7px;}
+.maincontent2 .textboxproductsmall .leftt h1 a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 0px 0px;}
+.maincontent2 .textboxproductsmall .leftt h1 a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; padding:0px 0px 0px 0px;}
+.maincontent2 .textboxproductsmall .maht{padding-left:7px;}
+.maincontent2 .textboxproductsmall .center{padding-left:7px;}
+.maincontent2 .textboxproductsmall .rightbutton{padding-right:5px;}
+
+/*==================submenu====================*/
+.centerbox .leftmenu ul li .submenu{padding:6px 0px 0px 21px;}
+.centerbox .leftmenu ul li .submenu ul{list-style-type:none;}
+.centerbox .leftmenu ul li .submenu ul li{padding:0px 0px 0px 0px;}
+.centerbox .leftmenu ul li .submenu ul li .subarrow{float:left; padding:0px 9px 0px 0px;}
+.centerbox .leftmenu ul li .submenu ul li .sublink{float:left; width:90px;}
+.centerbox .leftmenu ul li .submenu ul li .sublink a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#666666; letter-spacing:0px; line-height:110%;}
+.centerbox .leftmenu ul li .submenu ul li .sublink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.centerbox .leftmenu ul li .submenu ul li .sublink a.active{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+
+/*==================textboxproductmain====================*/
+
+.textboxproductmain{background-color:#ffffff; width:626px; padding:20px 4px 10px; margin-bottom:15px;}
+.textboxproductmain .left{width:310px; float:left;}
+.textboxproductmain .right{width:304px; float:left;}
+.textboxproductmain .enlarge{padding:0px 0px 0px 18px;}
+.textboxproductmain .enlarge img{float:left; padding-right:6px;}
+.textboxproductmain .enlarge a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.textboxproductmain .smallgallery{padding-top:18px;}
+.textboxproductmain .smallgallery ul{list-style-type:none;}
+.textboxproductmain .smallgallery ul li{float:left; padding:0px 5px 0px 0px;}
+.textboxproductmain .smallgallery li img{border:1px solid #ffffff;} 
+.textboxproductmain .smallgallery li img:hover{border:1px solid #cccccc;}
+.textboxproductmain h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; float:left; padding-top:5px;}
+.textboxproductmain p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.textboxproductmain .recipes{float:right; }
+.textboxproductmain .recipes .arrow{float:left; padding:0px 5px 0px 0px; margin-top:-1px;}
+.textboxproductmain .recipes .infolink{float:left;}
+.textboxproductmain .recipes .infolink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; margin-top:1px;}
+.textboxproductmain .recipes .infolink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; margin-top:1px;}
+.textboxproductmain h2{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px; text-decoration:none; color:#333333; letter-spacing:0px; padding: 15px 0px 1px 0px; float:left;}
+.textboxproductmain h2 span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px; text-decoration:none; color:#333333; letter-spacing:0px; padding-bottom:8px;}
+.textboxproductmain h3{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px; text-decoration:line-through; color:#999999; letter-spacing:0px; padding: 15px 10px 1px 0px; float:left;}
+.textboxproductmain h3 span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px; text-decoration:line-through; color:#999999; letter-spacing:0px; padding-bottom:8px;}
+.textboxproductmain .infobox{padding-top:10px;}
+.textboxproductmain .infobox p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:13px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.textboxproductmain .infobox p img{display:block; float:left; padding:2px 2px 0px 0px;}
+.textboxproductmain .tellimus{padding:27px 0px 29px;}
+.textboxproductmain .tellimus .numberofprod {float:left; padding-right:22px;}
+.textboxproductmain .tellimus .numberofprod  span{padding:4px 5px 0px 0px; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:13px; text-decoration:none; color:#333333; letter-spacing:0px; float:left;}
+.textboxproductmain .tellimus .numberofprod .productinput{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:bold; width:15px; text-align:center; padding:3px 5px; font-size:12px;}
+.textboxproductmain .tellimus .addbutton{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:0px 15px 0px; height:23px; float:left;}
+.textboxproductmain .tellimus .addbutton a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; display:block; padding-top:4px;}
+
+
+/*==================share====================*/
+
+.textboxproductmain .share{border-bottom:1px solid #cccccc; border-top:1px solid #cccccc; padding:20px 0px; margin-bottom:22px;}
+.textboxproductmain .share img{float:left; cursor:pointer;}
+.textboxproductmain .share img.leftimg{padding:0px;}
+.textboxproductmain .share img.rightimg{padding-left:6px;}
+.textboxproductmain .sharelinkbox{padding:3px 29px 0px 0px; float:right;}
+.textboxproductmain .sharelinkbox .arrow{float:left; display:block; padding:4px 5px 0px 0px;}
+.textboxproductmain .sharelinkbox .sharelink{float:left;}
+.textboxproductmain .sharelinkbox .sharelink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.textboxproductmain .sharelinkbox .sharelink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.textboxproductmain .userrew{float:left; padding-right:23px; padding-left:10px;}
+.textboxproductmain .userrew .arrow{float:left; display:block; padding:0px 5px 0px 0px;}
+.textboxproductmain .userrew .sharelink{float:left; padding-top:1px;}
+.textboxproductmain .userrew .sharelink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.textboxproductmain .userrew .sharelink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.textboxproductmain .writerew{float:left;}
+.textboxproductmain .writerew .arrow{float:left; display:block; padding:0px 5px 0px 0px;}
+.textboxproductmain .writerew .sharelink{float:left; padding-top:1px;}
+.textboxproductmain .writerew .sharelink a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.textboxproductmain .writerew .sharelink a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.sharelinkactive {float:left; padding-top:1px;}
+.sharelinkactive a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+
+/*==================comment====================*/
+
+.comment{padding:20px 0px 10px;}
+.comment .user{float:left; width:65px; margin-right:5px; text-align:right;}
+.comment .user p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.comment .user p a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#333333; letter-spacing:0px;}
+.comment .commentbox{float:left; width:215px; border-left:1px solid #cccccc; padding-left:15px;}
+.comment .commentbox h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 5px 0px;}
+.comment .commentbox p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+
+/*==================write====================*/
+
+.write{padding:15px 0px 25px;}
+.write .writename{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:128px; padding:3px 5px; font-size:12px;}
+.write .area{padding-top:10px;}
+.write .commentarea{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:293px; padding:3px 5px; font-size:12px;}
+.write .formbottom{padding-top:25px;}
+.write .formbottom img{float:left; padding:0px;}
+.write .inputboxbottom{padding-left:12px; float:left;}
+.write .code{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:85px; padding:3px 5px; font-size:12px;}
+.write .button{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:0px 15px 0px; height:23px; margin-left:2px; float:right;}
+.write .button a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; display:block; padding-top:4px;}
+
+/*==================basket====================*/
+.mainbasket{padding:0px; background-position:center top; background-image:url(img/basketcenter.png);  background-repeat: repeat-y; width:363px;}
+.baskettopbg{background-position:center top; background-image:url(img/baskettop.png);  background-repeat: no-repeat; width:363px; height:5px;}
+.basketbottombg{background-position:center top; background-image:url(img/basketbottom.png);  background-repeat: no-repeat; width:363px; height:33px;}
+.basketbox{position:relative; top:-33px; left:-119px; z-index:10000; display:none; float:right;}
+.basketcontent{position:absolute; top:0px;}
+.baskettop{background:url(img/bascetbg.png) no-repeat scroll 0px 0px; width:119px; height:60px; position:absolute;}
+.korv{border-bottom:1px solid #cccccc; height:21px; width:107px; margin:11px 0px 0px 7px;}
+.korv img{float:left; padding:5px 7px 0px 0px;}
+.korv p{float:left;}
+.korv p a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:normal; font-size:13px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.summa{padding:4px 15px 0px 0px; float:right;}
+.summa p{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.summa p span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#cccccc; letter-spacing:0px; padding:0px 5px;}
+.summa img{float:left;}
+.basketbg{background:url(img/korvbg.png) repeat-y scroll 0px 0px;}
+.basketbottom{margin:60px 0px 0px -217px;}
+.basketbottom .box{padding:3px 31px 0px;}
+.basketbottom .thumb{float:left;}
+.basketbottom .productname{float:left; padding:6px; width:50px; margin-right:2px;}
+.basketbottom .productname a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.basketbottom .productname a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px;}
+.basketbottom .productprice{float:left; padding:12px 0px 0px 0px; width:58px; text-align:center; margin-right:2px;}
+.basketbottom .productprice .top{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:9px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.basketbottom .productprice .bottom{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#cccccc; letter-spacing:0px; padding-top:6px;}
+.basketbottom .qty{float:left; padding:12px 0px 0px 0px; text-align:center; width:24px;}
+.basketbottom .qty .top{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:9px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.basketbottom .qty .bottom{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#cccccc; letter-spacing:0px; padding-top:6px;}
+.basketbottom .total{float:left; padding:12px 0px 0px 0px; width:58px; text-align:center;}
+.basketbottom .total .top{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:9px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.basketbottom .total .bottom{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#cccccc; letter-spacing:0px; padding-top:6px;}
+.basketbottom .remove{float:left; padding:12px 1px 0px 0px;}
+.basketbottom .remove .top{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:9px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.basketbottom .remove .bottom{text-align:center; background:url(img/remove.png) no-repeat scroll 0px 0px; width:17px; height:17px; margin-left:8px; cursor:pointer; margin:4px 8px;}
+.basketbottom .remove .bottom:hover{text-align:center; background:url(img/removey.png) no-repeat scroll 0px 0px; width:17px; height:17px; margin-left:8px; cursor:pointer;}
+.viewbasket{float:right; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:0px 15px 0px; height:23px; margin:20px 45px;}
+.viewbasket a{text-align:center; display:block; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-top:3px;}
+
+/*==================mainbottom====================*/
+
+.textboxproductmainbottom{}
+.textboxproductmainbottom .prev{float:left;}
+.textboxproductmainbottom .prev .arrow{padding-right:10px; float:left;}
+.textboxproductmainbottom .prev .link{float:left; padding-top:1px;}
+.textboxproductmainbottom .prev .link a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; display:block;}
+.textboxproductmainbottom .next{float:right;}
+.textboxproductmainbottom .next .arrow{padding-left:10px; float:left;}
+.textboxproductmainbottom .next .link{float:left; padding-top:1px;}
+.textboxproductmainbottom .next .link a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; display:block;}
+
+/*==================basketboxsisu====================*/
+
+.basketsisu{}
+.basketsisu .columnname{padding:1px 0px 14px 20px;}
+.basketsisu .columnname p{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.basketsisu .columnname p.remove{padding:0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; width:121px;}
+.basketsisu .columnname p.item{padding:0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; width:260px;}
+.basketsisu .columnname p.unitprice{padding:0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; width:93px;}
+.basketsisu .columnname p.qty{padding:0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; width:83px;}
+.basketsisu .columnname p.amount{padding:0px; float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px;}
+.basketsisu .tootebox{background-color:#ffffff; margin-bottom:10px; height:80px; padding:5px 0px 5px;}
+.basketsisu .tootebox .thumb{padding:3px 10px 0px 12px; float:left; width:77px;}
+.basketsisu .tootebox .remove{background:url(img/delite.png) no-repeat scroll 0px 0px; width:22px; height:22px; margin:22px 0px 0px 20px; float:left; cursor:pointer;}
+.basketsisu .tootebox .remove:hover{background:url(img/delitey.png) no-repeat scroll 0px 0px; width:22px; height:22px; margin:22px 0px 0px 20px; float:left; cursor:pointer;}
+.basketsisu .tootebox .tootename{float:left; padding-top:22px; width:259px;}
+.basketsisu .tootebox .tootename a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.basketsisu .tootebox .tootename a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px;}
+.basketsisu .tootebox .price{float:left; padding-top:25px; width:65px;}
+.basketsisu .tootebox .price p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.basketsisu .tootebox .qty{float:right; padding-top:22px;}
+.basketsisu .tootebox .qty .pluss{cursor:pointer; float:left; padding:0px; background:url(img/pluss.png) no-repeat scroll 0px 0px; width:15px; height:15px; margin:3px 0px 0px 7px;}
+.basketsisu .tootebox .qty .pluss:hover{cursor:pointer; float:left; padding:0px; background:url(img/plussy.png) no-repeat scroll 0px 0px; width:15px; height:15px;}
+.basketsisu .tootebox .qty .minus{cursor:pointer; float:left; padding:0px; background:url(img/minus.png) no-repeat scroll 0px 0px; width:15px; height:15px; margin:3px 7px 0px 0px;}
+.basketsisu .tootebox .qty .minus:hover{cursor:pointer; float:left; padding:0px; background:url(img/minusy.png) no-repeat scroll 0px 0px; width:15px; height:15px;}
+.basketsisu .tootebox .qty .input{float:left; padding:0px;}
+.basketsisu .tootebox .qty .input .qtyinput{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:17px; padding:3px 5px; font-size:12px; text-align:center;}
+.basketsisu .tootebox .amount{float:left; padding:3px 5px 0px 10px; text-align:center; width:82px;}
+.basketsisu .tootebox .amount p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+.basketsisu .buttons{float:right;}
+.basketsisu .buttons .continue{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; height:23px; float:left; margin-right:13px; padding:4px 15px 0px;}
+.basketsisu .buttons .continue a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.basketsisu .buttons .checkout{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:4px 15px 0px; height:23px; float:left;}
+.basketsisu .buttons .checkout a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.basketsisu .subtotal{float:right; border-bottom:1px solid #666666; height:25px; padding-top:16px; width:235px; text-align:center;}
+.basketsisu .subtotal p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.basketsisu .subtotal p span{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px; text-decoration:none; color:#ffffff; letter-spacing:0px; padding-left:10px;}
+.basketsisu .checktootebox{background-color:#ffffff; margin-top:15px;}
+.basketsisu .checktootebox .register{float:left; padding:25px 0px 26px 20px; width:260px;}
+.basketsisu .checktootebox .registered{float:left; padding:25px 0px 26px 20px;}
+.basketsisu .checktootebox .register .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .checktootebox .register .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .checktootebox .register p{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:4px 0px 0px 11px;}
+.basketsisu .checktootebox .registered .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .checktootebox .registered .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .checktootebox .registered p{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:4px 0px 0px 11px;}
+.basketsisu .forms{display:none;}
+.basketsisu .reg{padding:0px 0px 25px 20px;}
+.registeredforms{display:none; padding:0px 300px 25px; background-color:#ffffff;}
+.basketsisu .left{float:left;}
+.basketsisu .right{float:left; padding-left:46px;}
+.basketsisu .right .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px; margin:16px 0px 12px 0px;}
+.basketsisu .right .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px; margin:16px 0px 12px 0px;}
+.basketsisu .right p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px;}
+.basketsisu .right span{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:12px 0px 0px 10px; width:165px;}
+.basketsisu .username{padding-bottom:11px;}
+.basketsisu .username .user{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:156px; padding:3px 5px; font-size:12px;}
+.basketsisu .username .userbold{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:bold; width:156px; padding:3px 5px; font-size:12px;}
+.basketsisu .password{}
+.basketsisu .password .pass{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:156px; padding:3px 5px; font-size:12px;}
+.basketsisu .submit{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; width:65px; height:23px; float:left; margin-top:12px;}
+.basketsisu .submit a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.basketsisu .right .account{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; width:118px; height:23px; float:left; margin-top:0px;}
+.basketsisu .right .account a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.basketsisu .checktooteboxbottom{background-color:#ffffff; margin-top:25px;}
+.basketsisu .checktooteboxbottom .box{padding:21px 21px 36px;}
+.basketsisu .checktooteboxbottom p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 19px 0px;}
+.basketsisu .checktooteboxbottom .submit{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:4px 15px 0px; height:23px; float:left; margin-top:0px;}
+.basketsisu .checktooteboxbottom .submit a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+
+
+
+/*==================sharebig====================*/
+
+.hiddensharebox{position:relative;}
+.sharebig{position:absolute; top:-23px; left:-5px;}
+.imgbig{padding-left:0px; display:none;}
+.big1{position:absolute; top:0px; left:0px;}
+.big2{position:absolute; top:0px; left:30px;}
+.big3{position:absolute; top:0px; left:60px;}
+.big4{position:absolute; top:0px; left:90px;}
+.big5{position:absolute; top:0px; left:120px;}
+/*==================smallboxes====================*/
+
+.basketsisu .smallboxesleft{margin-top:14px;  width:302px;}
+.basketsisu .smallboxesleft{float:left;}
+.basketsisu .smallboxesright{background-color:#ffffff; margin-top:14px;  width:302px;}
+
+.basketsisu .smallboxesright{float:left; margin-left:31px;}
+.basketsisu .smallboxesright .box{float:right; margin-right:20px; padding-top:30px;}
+
+.totalprice{float:left; margin-left:25px;}
+.totalpriceleft{float:left; margin-right:15px;}
+.totalpriceright{float:left;}
+.totalprice h2{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 8px 0px; text-align:right;}
+.totalprice h4{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 8px 0px;}
+.totalprice h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px; padding:20px 0px 31px 0px;}
+.totalprice h5{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px; padding:20px 0px 31px 0px;}
+.totalprice h3{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px;}
+
+.basketsisu .smallboxesright .box h3 span{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 10px 13px;}
+.basketsisu .payment{float:left; padding-bottom:10px; padding-left:23px;}
+.basketsisu .payment img{float:left; filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5; padding-left:5px; cursor:pointer;}
+.basketsisu .payment img:hover{float:left; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity: 1; opacity: 1;}
+.basketsisu .smallboxesright .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .smallboxesright .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .smallboxesright p.check{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:5px 0px 25px 30px;}
+.basketsisu .smallboxesright p.check span{text-decoration:underline;}
+.basketsisu .smallboxesright .rightbottom{padding:10px 0px 4px 0px;}
+.basketsisu .smallboxesright .proceed{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:4px 15px 0px; height:23px; float:right; margin-bottom:35px;}
+.basketsisu .smallboxesright .proceed a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+
+.basketsisu .smallboxesbottom{background-color:#ffffff; margin-top:14px;  width:302px;}
+.basketsisu .smallboxesbottom .shipping{padding:21px;}
+.basketsisu .smallboxesbottom .shipping .pic{}
+.basketsisu .smallboxesbottom .shipping .pic p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:5px 0px 10px 5px;}
+.basketsisu .smallboxesbottom .shipping h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 27px 0px;}
+.basketsisu .smallboxesbottom .shipping p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:5px 0px 10px 30px;}
+.basketsisu .smallboxesleft .billing{padding:21px; background-color:#ffffff;}
+.basketsisu .smallboxesleft .billing h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 27px 0px;}
+.basketsisu .smallboxesleft .billing p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 19px 0px;}
+.basketsisu .smallboxesleft .edit .arrow{float:left; padding:0px 5px 0px 0px;}
+.basketsisu .smallboxesleft .edit .edittext{float:left; padding-top:1px;}
+.basketsisu .smallboxesleft .edit .edittext a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.basketsisu .smallboxesleft .edit .edittext a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#333333; letter-spacing:0px; display:block;}
+.basketsisu .smallboxesbottom .shipping .arrow{float:left; padding:0px 5px 0px 0px;}
+.basketsisu .smallboxesbottom .shipping .edittext{float:left; padding-top:1px;}
+.basketsisu .smallboxesbottom .shipping .edittext a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.basketsisu .smallboxesbottom .shipping .edittext a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#333333; letter-spacing:0px; display:block;}
+.basketsisu .smallboxesbottom .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .smallboxesbottom .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.basketsisu .smallboxesbottom .edit{padding-bottom:10px;}
+.basketsisu .smallboxesleft .edit{padding-bottom:10px;}
+.shipping .bottominput{padding-bottom:40px;}
+
+
+.basketsisu .smallboxesbottom .dropdown{border:1px solid #cccccc; margin-left:19px; width:244px; margin-bottom:10px;}
+.basketsisu .smallboxesbottom .dropdown p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; float:left; width:209px; padding:3px 0px 4px 11px; cursor:pointer;}
+.basketsisu .smallboxesbottom .dropdown p:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#333333; letter-spacing:0px; display:block;  cursor:pointer;}
+.basketsisu .smallboxesbottom .dropdown img{float:left; padding-top:2px;}
+.basketsisu .smallboxesbottom .dropdown .hiddendrop{position:relative; top:0px; left:-1px; z-index:10000; display:none;}
+.basketsisu .smallboxesbottom .dropdown .hiddendropbox{position:absolute; top:0px; background-color:#ffffff; border:1px solid #cccccc; width:244px;}
+.basketsisu .smallboxesbottom .dropdown .hiddendropbox a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; float:left; width:209px; padding:3px 0px 4px 11px;}
+.basketsisu .smallboxesbottom .dropdown .hiddendropbox a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; float:left; width:209px; padding:3px 0px 4px 11px;}
+.basketsisu .smallboxesbottom .dropdown .hiddendropbox a.active{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; float:left; width:209px; padding:3px 0px 4px 11px;}
+
+/*==================settings====================*/
+
+.settings .smallboxesleft{margin-top:-5px;  width:302px;}
+.settings .smallboxesleft{float:left;}
+.settings .smallboxesright{ margin-top:0px;  width:302px;}
+
+.settings .smallboxesright{float:left; margin-left:31px; margin-top:-5px;}
+.settings .smallboxesright .box{padding-right:20px; padding:21px;}
+.settings .smallboxesright .box h2{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 8px 60px;}
+.settings .smallboxesright .box h2.bottom span{padding-left:13px;}
+.settings .smallboxesright .box h2.bottom{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 30px 82px;}
+.settings .smallboxesright .box h2 span{padding-left:13px;}
+.settings .smallboxesright .box h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 31px 40px;}
+.settings .smallboxesright .box h1 span{padding-left:13px;}
+.settings .smallboxesright .box h3{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 9px 42px;}
+.settings .smallboxesright .box h3 span{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:0px 0px 10px 13px;}
+.settings .payment{float:left; padding-bottom:10px; padding-left:38px;}
+.settings .payment img{float:left; filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5; padding-left:5px; cursor:pointer;}
+.settings .payment img:hover{float:left; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity: 1; opacity: 1;}
+.settings .smallboxesright .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.settings .smallboxesright .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.settings .smallboxesright p.check{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:5px 0px 25px 30px;}
+.settings .smallboxesright p.check span{text-decoration:underline;}
+.settings .smallboxesright .rightbottom{padding:10px 0px 4px 0px;}
+.settings .smallboxesright .proceed{text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; width:148px; height:23px; float:right; margin-bottom:35px;}
+.settings .smallboxesright .proceed a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+
+.settings .smallboxesbottom{background-color:#ffffff; margin-top:14px;  width:302px;}
+.settings .smallboxesbottom .shipping{padding:21px;}
+.settings .smallboxesbottom .shipping h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 27px 0px;}
+.settings .smallboxesbottom .shipping p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:5px 0px 10px 30px;}
+.settings .smallboxesleft .personalinfo{padding:21px; background-color:#ffffff;}
+.settings .smallboxesleft .personalinfo h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 27px 0px;}
+.settings .smallboxesleft .personalinfo h2{float:left;font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:2px 0px 15px 0px;}
+.settings .smallboxesleft .personalinfo .default{float:left;padding:0px 0px 0px 10px;}
+.settings .smallboxesleft .personalinfo p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 19px 0px;}
+.settings .smallboxesleft .personalinfo .formbox{float:left; padding-bottom:11px;}
+.settings .smallboxesleft .personalinfo p.formtext{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:3px 0px 0px 0px; float:left; width:92px;}
+.settings .smallboxesleft .personalinfo .form{float:left;}
+.settings .smallboxesleft .personalinfo .save{float:right; text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:4px 15px 0px; height:23px; float:right; margin-bottom:10px;}
+.settings .smallboxesleft .personalinfo .save a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.settings .smallboxesleft .personalinfo .form .user{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:156px; padding:3px 5px; font-size:12px;}
+.settings .smallboxesleft .personalinfo .form .userred{background-color:transparent; border:1px solid #f34939; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:156px; padding:3px 5px; font-size:12px;}
+.settings .smallboxesleft .edit .arrow{float:left; padding:0px 5px 0px 0px;}
+.settings .smallboxesleft .edit .edittext{float:left; padding-top:2px;}
+.settings .smallboxesleft .edit .edittext a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.settings .smallboxesleft .edit .edittext a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+
+.settings .smallboxesright .personalinfo{padding:21px; background-color:#ffffff;}
+.settings .smallboxesright .personalinfo h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 27px 0px;}
+.settings .smallboxesright .personalinfo h2{float:left;font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:4px 0px 15px 0px;}
+.settings .smallboxesright .personalinfo .default{float:left;padding:0px 0px 0px 0px; width:93px;}
+.settings .smallboxesright .personalinfo p{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 19px 0px;}
+.settings .smallboxesright .personalinfo .formbox{float:left; padding-bottom:11px;}
+.settings .smallboxesright .personalinfo p.formtext{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:3px 0px 0px 0px; float:left; width:92px;}
+.settings .smallboxesright .personalinfo .form{float:left;}
+.settings .smallboxesright .personalinfo .formheader{padding:3px 0px 25px 0px; float:left;}
+.settings .smallboxesright .personalinfo .formheader .header{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:bold; width:195px; padding:3px 5px; font-size:12px;}
+.settings .smallboxesright .personalinfo .save{float:right; text-align:center; background:url(img/buttonbg.png) repeat-x scroll 0px 0px; padding:4px 15px 0px; height:23px; float:right; margin-top:14px;}
+.settings .smallboxesright .personalinfo .save a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#ffffff; letter-spacing:0px;}
+.settings .smallboxesright .personalinfo .form .user{background-color:transparent; border:1px solid #cccccc; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:156px; padding:3px 5px; font-size:12px;}
+.settings .smallboxesright .personalinfo .form .userred{background-color:transparent; border:1px solid #f34939; color:#333333; font-family: Arial, Helvetica, sans-serif; font-weight:normal; width:156px; padding:3px 5px; font-size:12px;}
+.settings .smallboxesright .edit{}
+.settings .smallboxesright .edit .arrow{float:left; padding:0px 5px 0px 0px;}
+.settings .smallboxesright .edit .edittext{float:left; padding-top:2px;}
+.settings .smallboxesright .edit .edittext a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.settings .smallboxesright .edit .edittext a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.settings .smallboxesright .remove{float:left; padding:15px 0px 10px;}
+.settings .smallboxesright .remove {float:left;}
+.settings .smallboxesright .remove .removebutton {cursor:pointer; background:url(img/removebig.png) no-repeat scroll 0px 0px; width:22px; height:22px; float:left;}
+.settings .smallboxesright .remove .removebutton:hover {cursor:pointer; background:url(img/removebigy.png) no-repeat scroll 0px 0px; width:22px; height:22px; float:left;}
+.settings .smallboxesright .remove a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; float:left; padding:4px 0px 0px 5px;}
+.settings .smallboxesright .remove a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block; float:left; padding:4px 0px 0px 5px;}
+
+.settings .smallboxesbottom .shipping .arrow{float:left; padding:0px 5px 0px 0px;}
+.settings .smallboxesbottom .shipping .edittext{float:left; padding-top:4px;}
+.settings .smallboxesbottom .shipping .edittext a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.settings .smallboxesbottom .shipping .edittext a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#333333; letter-spacing:0px; display:block;}
+.settings .smallboxesbottom .checkboxactive{cursor:pointer; float:left; background:url(img/checked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.settings .smallboxesbottom .checkbox{cursor:pointer; float:left; background:url(img/unchecked.png) no-repeat scroll 0px 0px; width:23px; height:23px;}
+.settings .smallboxesbottom .edit{padding-bottom:10px;}
+.settings .smallboxesleft .edit{padding-bottom:10px; float:left;}
+.shipping .bottominput{padding-bottom:40px;}
+.settings  .viga{padding:12px 0px 0px 45px;}
+.settings  .viga p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#f34939; letter-spacing:0px; padding:9px 0px 27px 0px;}
+
+.settings .smallboxesright .shipping{background-color:#ffffff; margin-top:10px;}
+.settings .smallboxesright .shipping .box{padding:20px;}
+.settings .smallboxesright .shipping .box h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 9px 0px; float:left;}
+.settings .smallboxesright .shipping .box .edit{padding:0px; float:right; padding:5px 1px 0px 0px}
+
+.settings .smallboxesright .ship2{margin-top:10px;}
+.settings .smallboxesright .ship2 h1{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; padding:9px 0px 9px 0px; float:left;}
+.settings .smallboxesright .ship2 .edit2{float:right; padding:5px 1px 0px 0px}
+.settings .smallboxesright .ship2 .edit2 .arrow{float:left; padding:0px 5px 0px 0px;}
+.settings .smallboxesright .ship2 .edit2 .edittext{float:left; padding-top:4px;}
+.settings .smallboxesright .ship2 .edit2 .edittext a{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.settings .smallboxesright .ship2 .edit2 .edittext a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; text-decoration:underline; color:#333333; letter-spacing:0px; display:block;}
+
+/*==================orders====================*/
+
+.orders{}
+.orders .topmenu{padding-left:20px; height:25px;}
+.orders .topmenu p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#999999; letter-spacing:0px; display:block; float:left; width:97px;}
+.orders .topmenu p.ordername{width:106px;}
+.orders .topmenu p.orderdate{width:118px;}
+.orders .topmenu p.invoice{width:111px;}
+.orders .topmenu p.orderdetail{width:75px;}
+.orders .orderbox{margin-top:0px;}
+.orders .orderbox .ordercontent{background-color:#ffffff; padding:25px 18px; margin-bottom:10px;}
+.orders .orderbox .ordercontent .name{float:left; width:108px;}
+.orders .orderbox .ordercontent .name a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.orders .orderbox .ordercontent .name a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.orders .orderbox .ordercontent .date{float:left; width:118px;}
+.orders .orderbox .ordercontent .date p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.orders .orderbox .ordercontent .invoice{float:left; width:111px;}
+.orders .orderbox .ordercontent .invoice a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.orders .orderbox .ordercontent .invoice a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+.orders .orderbox .ordercontent .details{float:left; width:155px;}
+.orders .orderbox .ordercontent .details p{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block;}
+.orders .orderbox .ordercontent .rename{float:left;}
+.orders .orderbox .ordercontent .rename img{float:left; padding:4px 5px 0px 0px;}
+.orders .orderbox .ordercontent .rename a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; float:left;}
+.orders .orderbox .ordercontent .rename a:hover{float:left; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:underline; color:#b1be57; letter-spacing:0px; display:block;}
+
+/*==================productsbox====================*/
+.productsbox{margin-top:-5px; margin-bottom:24px;}
+.prodimg {border:0px; padding:0px;}
+.prodimg a{border:0px; padding:0px;}
+.productboxleft{background-color:#ffffff; width:199px; float:left;}
+.prodname a{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#333333; letter-spacing:0px; display:block; padding:15px 0px 15px 5px;}
+.prodname a:hover{font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none; color:#bcc75c; letter-spacing:0px; display:block; padding:15px 0px 15px 5px;}
+.productboxcenter{background-color:#ffffff; width:199px; float:left; margin-left:19px;}
+.productboxright{background-color:#ffffff; width:199px; float:left; margin-left:19px;}
+
+
+
+/*==================bottomthumbs====================*/
+.bottomthumbs{padding-top:8px; margin:auto; width:835px; height:135px;}
+.thumbbox{float:left; padding-left:64px;}
+.thumbbox .boxcontent{cursor:pointer;}
+.thumbbox .boxcontenthidden{position:relative; top:-114px; left:-32px; display:none; cursor:pointer;}
+.thumbbox .boxcontenthidden .content{position:absolute; top:0px;}
+
+.footermenu{width:850px; margin:auto; padding-top:5px;}
+.footermenu p{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px; float:left;}
+.footermenu ul{list-style-type:none;}
+.footermenu ul li{float:left;}
+.footermenu ul li .footerlink{padding-left:3px;}
+.footermenu ul li .footerlink p a{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px; float:left;}
+.footermenu ul li .footerlink .linkvahe{float:left; margin:-6px 5px 0px 10px;}
+
+.bottomthumbs .hiddenthumb{height:130px; float:left; width:130px; padding-left:30px;}
+.bottomthumbs .hiddenthumb .back{position:relative; top:0px; left:0px; display:none;}
+.bottomthumbs .hiddenthumb .back .thumb{position:absolute; top:0px;}
+.bottomthumbs .hiddenthumb .back .thumb p{font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10px; text-decoration:none; color:#666666; letter-spacing:0px;}
+.bottomthumbs .hiddenthumb .front{position:relative; top:35px; left:33px; cursor:pointer;}
+.bottomthumbs .hiddenthumb .front:hover{position:relative; top:35px; left:33px; cursor:pointer;}
+.bottomthumbs .hiddenthumb .front .thumb{position:absolute; top:0px;}
+.bottomthumbs .hiddenthumb .front .thumb:hover{position:absolute; top:0px;}
+.bottomthumbs .hiddenthumb .front .thumb img{filter:alpha(opacity=30); -moz-opacity:0.3; -khtml-opacity: 0.3; opacity: 0.3; width:92px; height:78px; position:relative; top:0px; left:0px;}
+.bottomthumbs .hiddenthumb .front .thumb img:hover{width:102px; height:86px; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity: 1; opacity: 1; position:relative; top:-3px; left:-5px;}
+.bottomthumbs .hiddenthumb .back .thumb p{font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px; text-decoration:none; color:#e1e1e1; letter-spacing:0px; text-align:center; vertical-align:bottom; position:relative; top:-25px;}

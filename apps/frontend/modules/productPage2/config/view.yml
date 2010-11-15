@@ -1,0 +1,3 @@
+all:
+    javascripts: [/faye/js/jquery.mousewheel-3.0.2.pack.js,/faye/js/jquery.fancybox-1.3.1.js,/faye/js/productpage/scripts.js]
+    stylesheets: [/faye/jquery.fancybox-1.3.1.css]

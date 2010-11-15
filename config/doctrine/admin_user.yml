@@ -1,0 +1,13 @@
+AdminUserGroup:
+ columns:
+   name: { type: string(50), notnull: true }
+   
+AdminUserGroupVsStructure:
+ columns:
+   name: { type: string(50), notnull: true, default: noname }
+   permission: { type: integer, notnull: true, default: 0 }
+   structure_id: { type: integer, notnull: true, primary: true }
+   admin_user_group_id: { type: integer, notnull: true, primary: true }
+ relations:
+   Structure: { onDelete: CASCADE, local: structure_id, foreign: id, foreignAlias: AdminUserGroup }
+   AdminUserGroup: { onDelete: CASCADE, local: admin_user_group_id, foreign: id, foreignAlias: AdminUserGroup }

@@ -1,0 +1,38 @@
+ProductExemplar:
+ actAs:
+  I18n:
+   fields: [comment]
+ columns:
+    comment:          { type: string(500), notnull: false }
+    code:             { type: string(255), notnull: true }
+    location:         { type: string(255), notnull: true }
+    scheduled_time:   { type: timestamp, notnull: false }
+    product_id:       { type: integer, notnull: true }
+    buy_link:         { type: string(255), notnull: false }
+    cinema:           { type: string(255), notnull: true }
+ relations:
+   Product:
+     local: product_id
+     foreign: id
+     foreignAlias: Exemplars
+     onDelete: CASCADE
+     onUpdate: CASCADE
+
+ProductExemplarVsPublicUser:
+ columns:
+   exemplar_id: { type: integer, notnull: true, primary: true }
+   user_id:     { type: integer, notnull: true, primary: true }
+ relations:
+   ProductExemplar:
+     local: exemplar_id
+     foreign: id
+     foreignAlias: UserProductExemplars
+     onDelete: CASCADE
+     onUpdate: CASCADE
+   PublicUser:
+     local: user_id
+     foreign: id
+     foreignAlias: UserProductExemplars
+     onDelete: CASCADE
+     onUpdate: CASCADE
+

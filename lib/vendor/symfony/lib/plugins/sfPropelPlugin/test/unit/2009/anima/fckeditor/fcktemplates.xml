@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Templates imagesBasePath="fck_template/images/">
+		<Template title="Anima" image="template1.gif">
+		<Description>kaks veergu ja joon vahel</Description>
+		<Html>
+			<![CDATA[
+
+<table id="contentTable" cellspacing="0" cellpadding="0">
+  <tr>
+	 <td class="c1">&nbsp;</td>
+	 <td class="c2">&nbsp;</td>
+  </tr>
+</table>
+
+			]]>
+		</Html>
+	</Template>
+</Templates>

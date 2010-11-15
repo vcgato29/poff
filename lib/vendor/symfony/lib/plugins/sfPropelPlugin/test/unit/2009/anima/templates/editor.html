@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Edit page</title>
+	<link rel="stylesheet" href="$base_url$/css/cms.css" type="text/css">
+</head>
+<body>
+<script type="text/javascript"  src="$base_url$/fckeditor/fckeditor.js" ></script>
+
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td>
+			
+<form name="f1" action="" method="post">
+	<textarea style="display: none" name="content">$content$</textarea>
+	<input type="hidden" name="ListCmd" value="save_page">
+	<input type="hidden" name="id" value="$id$">
+	$hiddens$
+	
+<script type="text/javascript">
+
+sBasePath = "$base_url$/fckeditor/";
+var oFCKeditor = new FCKeditor('editorContent');
+// Set the custom configurations file path
+oFCKeditor.Config['CustomConfigurationsPath'] = "$config_url$";
+
+oFCKeditor.ToolbarSet = "Program";
+oFCKeditor.BasePath	= sBasePath;
+oFCKeditor.Height	= $fck_height$;
+oFCKeditor.Width	= $fck_width$;
+oFCKeditor.Value	= document.f1.content.value;
+document.f1.content.value = '';
+
+
+oFCKeditor.Create();
+
+</script>
+		
+		</td>
+	</tr>
+	<tr>
+		<td align="right">
+			<input type="button" id="button" class="button" value="Cancel" onClick="window.location='$cancel_url$'"/>
+			<input type="button" id="button" class="button" value="Save" onClick="this.form.submit()"/>
+		</td>
+	</tr>
+</table>
+</form>

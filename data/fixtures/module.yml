@@ -1,0 +1,132 @@
+
+FrontendModule:
+ f_module1:
+   name: article        # shows structure contnent
+ f_module2:
+   name: banners        # content provider
+ f_module3:
+   name: news           # content provider
+ f_module4:
+   name: products       # content provider
+ f_moduleN:
+   name: users          # content provider
+ f_module5:
+   name: searchBox      # ...
+ f_module6:
+   name: bannerCycleWidget   # uses banner and banner group
+ f_module7:
+   name: headerMenu     # uses structure 3rd level ( 1st is root, 2nd is languages )
+ f_module8:
+   name: langMenu     # uses structure 3rd level ( 1st is root, 2nd is languages )
+ f_module9:
+   name: productCatalog # uses products, product groups
+ f_module10:
+   name: newsList     # uses products, product groups
+ f_module11:
+   name: searchResults  # component that displays search result depending on query
+ f_module12:
+   name: contactUsForm  # component which knows "modules" and "actions"
+ f_module13:
+   name: contactInfo  # component that displays search result depending on query
+ f_module14:
+   name: bannerPreviewWidget  # component that displays search result depending on query
+ f_module15:
+   name: categoriesMenuWidget
+ f_module16:
+   name: productCarouselWidget
+ f_module17:
+   name: recommendedWidget
+ f_module18:
+   name: newMoviesWidget
+ f_module19:
+   name: mostWatchedWidget
+ f_module20: 
+   name: bottomArticlesWidget
+ f_module21:
+   name: categoryVideosPagedWidget
+ f_module22:
+   name: movieScreenWidget
+ f_module23:
+   name: movieInfoWidget
+ f_module24:
+   name: movieCommentsWidget
+ f_module25:
+   name: moviePayWidget
+ f_module26:
+   name: articlesLeftMenuWidget
+ f_module27:
+   name: publicUserRegistration
+ f_module28:
+   name: categoriesPreviewWidget
+ f_module29:
+   name: newsBlockWidget
+ f_module30:
+   name: calculatorWidget
+ f_module31:
+   name: facebookWidget
+ f_module32:
+   name: bannersOnRightWidget
+   
+
+
+
+BackendModule:
+ b_module1:
+  module_name: news_group
+  FrontendModule: f_module3
+  title: News Group
+ b_module2:
+  module_name: new_item
+  FrontendModule: f_module3
+  title: News
+ b_module3:
+  module_name: bannergroup
+  FrontendModule: f_module2
+  title: Banner Group
+ b_module4:
+  module_name: banner
+  FrontendModule: f_module2
+  title: Banners
+ b_module5:
+  module_name: product_group
+  FrontendModule: f_module4
+  title: Product Groups
+ b_module6:
+  module_name: parameter_group
+  FrontendModule: f_module4
+  title: Parameter Groups
+ b_module7:
+  module_name: parameter
+  FrontendModule: f_module4
+  title: Parameters
+ b_module8:
+  module_name: product
+  FrontendModule: f_module4
+  title: Products
+ b_module9:
+  module_name: orders
+  FrontendModule: f_module4
+  title: Product Orders
+ b_module11:
+  module_name: shipping
+  FrontendModule: f_module4
+  title: Shipping Zones
+ b_module12:
+  module_name: shop
+  FrontendModule: f_module4
+  title: Shops
+ b_module13:
+  module_name: comments
+  FrontendModule: f_module4
+  title: Comments
+ b_module14:
+  module_name: currency
+  FrontendModule: f_module4
+  title: Currencies
+ b_module10:
+  module_name: users
+  FrontendModule: f_moduleN
+  title: Public Users
+  
+  
+ 

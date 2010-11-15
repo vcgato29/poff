@@ -1,0 +1,22 @@
+# Product comments
+ProductComment:
+    comm1:
+        Product: prod1
+        name: Vasja Pupkin
+        message: i looooove olive oil
+        ip: 12.12.12.12
+    comm2:
+        Product: prod1
+        name: John Smith
+        message: who is here ?
+        ip: 12.12.12.12
+    comm3:
+        Product: prod1
+        name: Batman
+        message: bat man is always here
+        ip: 12.12.12.12
+    comm4:
+        Product: prod2
+        name: Spiderman
+        message: y0 y0 y0 y0
+        ip: 12.12.12.12

@@ -1,0 +1,97 @@
+BODY {
+	margin: 0px;
+	padding: 0px;
+	font: 10px Verdana;
+}
+TD {
+	font: 10px Verdana;
+}
+
+A {
+	color: #23388d;
+	text-decoration: none;
+}
+A:hover {
+	text-decoration: underline;
+}
+
+TR.windowHeader {
+	height: 10px;
+	background: #c00;
+	padding: 0.5em 1em;
+}
+TD.windowHeader {
+	color: #fff;
+}
+
+SPAN.lang {
+	margin: 0 2px;
+	background: #900;
+	padding: 0 3px;
+}
+
+A.windowHeader {
+	margin: 0 5px;
+	color: white;
+}
+
+TD.windowContent {
+	text-align: center;
+	padding: 0 4px 3px;
+}
+
+TD.div1 {
+	border-bottom: #c00 1px solid;
+	height: 1px;
+	background: #f00;
+}
+TD.div2 {
+	border-bottom: #f2f2f2 1px solid;
+	height: 1px;
+	background: #fff;
+}
+
+form fieldset {
+	margin-bottom: 15px;
+	padding: 0 5px 5px;
+}
+
+label {
+	color: #cc0000;
+}
+
+TABLE.form {
+	width: 100%;
+}
+
+table.form td.name {
+	width: 35%;
+}
+table.form td.value {
+	width: 65%;
+}
+
+INPUT.value {
+	width: 95%;
+	border: 1px solid #f9b7b7;
+}
+
+.button {
+	background-color: #e6124b;
+	border: 0px solid #f9b7b7;
+	border-collapse: collapse;
+	width: 60px;
+	margin-right: 10px;
+	color: #ffffff;
+}
+
+legend {
+	color: #990000;
+}
+
+label {
+	color: #990000;
+}
+
+
+

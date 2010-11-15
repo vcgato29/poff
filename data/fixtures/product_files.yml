@@ -1,0 +1,11 @@
+ProductFile:
+    pic1:
+        file: /files/file1.jpg
+        Product: prod1
+        Translation:
+            et:
+                name: pdf name est
+            en:
+                name: pdf name est
+            fr:
+                name: pdf name eng

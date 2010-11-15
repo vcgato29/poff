@@ -1,0 +1,3 @@
+invoice_generation:
+  url:   /invoice/:id/:action
+  param: { module: sfInvoiceGeneration, action: html }

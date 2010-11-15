@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewriterule ^(.*)$ /backend.php [r=301,nc] 

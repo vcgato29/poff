@@ -1,0 +1,19 @@
+body td { font-family: verdana; font-size: 12px; color: #231F20}
+body td a { text-decoration: underline ; color: #231F20}
+body td a:hover { text-decoration: none; color: #000}
+
+body a { font-family: verdana; font-size: 12px; text-decoration: underline ; color: #231F20}
+body a:hover { text-decoration: none; color: #000}
+
+
+.evenListRow { background: #f4f4f1; }
+.oddListRow  { background: #ffffff; }
+.listTitle { background-color: #e7e7cf; }
+.blackBg { background-color: #333333 }
+.formBorder { border: 1px solid #006666; background-color: #d8d8b1; }
+.button  { color: #00337f; font-weight: bold; font-size: 11px; font-family: verdana; background-color: #ffffff; border: solid 1px #9D9FBB; width: 100px; height: 19px}
+.gray { color: #bbbbbb; }
+
+/*
+.title {	font-size: 14px; 	font-family: verdana; font-weight: bolder;}
+*/

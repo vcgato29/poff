@@ -1,0 +1,1 @@
+<?php echo url_for('search_page',$params) ?>

@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+#box00 { position: fixed; top: 22px; right: 0; z-index: 2; }
+UL.animals { margin: 2em 0 0 0; padding: 0; height: 70px; background: url(/img/qfmeat/bg10.png) 0 35px no-repeat; text-transform: uppercase; font-size: 15px; line-height: 14px; }
+UL.animals LI { float: left; }
+UL.animals LI.first { padding: 0 0 0 40px; }
+
+UL.animals A { display: block; padding: 42px 0 0 0; color: #a00000; text-decoration: none; text-align: center; width: 150px; }
+UL.animals A:hover,
+UL.animals A.active { color: #000; text-decoration: none; }
+
+UL.animals A SPAN { display: block; padding: 0 0 15px 0; }
+UL.animals A:hover SPAN,
+UL.animals A.active SPAN { background: url(/img/qfmeat/bg05.gif) 50% 100% no-repeat; } 
+
+UL.animals LI.item01 A { background: url(/img/qfmeat/bg12.gif) 50% 0 no-repeat; }
+UL.animals LI.item01 A:hover,
+UL.animals LI.item01 A.active { background: url(/img/qfmeat/bg12a.gif) 50% 0 no-repeat; }
+
+UL.animals LI.item02 A { background: url(/img/qfmeat/bg13.gif) 50% 0 no-repeat; }
+UL.animals LI.item02 A:hover,
+UL.animals LI.item02 A.active { background: url(/img/qfmeat/bg13a.gif) 50% 0 no-repeat; }
+
+UL.animals LI.item03 A { background: url(/img/qfmeat/bg14.gif) 50% 0 no-repeat; }
+UL.animals LI.item03 A:hover,
+UL.animals LI.item03 A.active { background: url(/img/qfmeat/bg14a.gif) 50% 0 no-repeat; }
+
+UL.animals LI.item04 A { background: url(/img/qfmeat/bg15.gif) 50% 0 no-repeat; }
+UL.animals LI.item04 A:hover,
+UL.animals LI.item04 A.active { background: url(/img/qfmeat/bg15a.gif) 50% 0 no-repeat; }
+
+#contact-ctn.eng { background: url(/img/qfmeat/eng/contact02.png) no-repeat; }
+#contact-ctn.cn { background: url(/img/qfmeat/cn/contact02.png) no-repeat; }
+#contact-ctn.pt { background: url(/img/qfmeat/pt/contact02.png) no-repeat; }
+#contact-ctn.es { background: url(/img/qfmeat/es/contact02.png) no-repeat; }
+
+

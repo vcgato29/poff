@@ -1,0 +1,11 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: mysql:host=d765.mysql.zone.ee;dbname=d765sd32919
+      username: d765sa38624
+      password: kiV3X5
+

@@ -1,0 +1,179 @@
+news1=
+~
+<delimiter>
+<b>UUDISED</b>
+<br><br>
+$_01 <br>
+<b><a href="?p=news">UUDISTE ARHIIV</a>
+<delimiter>
+~
+
+news1_e=
+~
+<delimiter>
+<b>NEWS</b>
+<br><br>
+$_01 <br>
+<b><a href="?l=eng&p=news">NEWS ARCHIVE</a></b><br><br>
+<delimiter>
+~
+
+news=
+~
+<delimiter>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="300">
+	<tr> 
+		<td rowspan="2" width="48%" valign="top">
+			
+<b>UUDISED</b>
+<br><br>
+$_01 <br>
+<b><a href="?p=news">UUDISTE ARHIIV</a></b><br><br>
+<a href="http://www.animaster.ee" target="_blank"><img border="0" src="img/animaster.gif" width="308" height="112"></a>						
+<br>
+<a href="http://www.revalcafe.ee/" target="_blank"><img style="margin-right:25px" align="right" src="img/b/reval.gif" width="186"></a>
+<br>
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	WIDTH="186" HEIGHT="84"
+	codebase="http://active.macromedia.com/flash5/cabs/swflash.cab#version=5,0,0,0">
+	<PARAM NAME="MOVIE" VALUE="http://www.poff.ee/anima/img/b/tridens_poff09.swf?clickTAG=http://www.tridens.ee">
+	<PARAM NAME="PLAY" VALUE="true">
+	<PARAM NAME="LOOP" VALUE="true">
+	<PARAM NAME="QUALITY" VALUE="high">
+	<EMBED SRC="http://www.poff.ee/anima/img/b/tridens_poff09.swf?clickTAG=http://www.tridens.ee" WIDTH="186" HEIGHT="84" 
+		PLAY="true" LOOP="true" QUALITY="high" 
+		PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+</OBJECT>
+
+
+						
+		</td>
+		<td width="1" bgcolor="#000000"></td>
+		<td width="20">&nbsp;</td>
+		<td valign="top">
+
+
+11. animafilmide festival <strong>ANIMATED DREAMS</strong> toimub 18.-22. novembril 2009.
+<br><br><br>
+
+<!--
+&Uuml;leskutse filmitegijatele! Esita oma animafilm animafestivalile.<br>
+<a href="?b=1&dyn=17">Reeglid</a> ja <a href="docs/Osalusvorm_AD2009.doc">osalusvormi</a> leiad siit.<br>
+T&auml;htaeg: 15 august 2009!<br><br><br> -->
+
+<!--
+K&otilde;igil huvilistel on animafestivalile v&otilde;imalik akrediteeruda kuni 6. novembrini 
+<a href="http://2009.poff.ee/est/akrediteerimine/animated_dreams" target="_blank">siit</a>.
+<br><br><br>
+<img style="margin-left:0px" src="img/b/animateek11.jpg" width="345">
+-->
+Lae alla animafestivali <strong>KATALOOG</strong>
+<a href="http://www.poff.ee/anima/docs/ad_kataloog2009.pdf" target="_blank">siit</a>.
+<br><br><br>
+Loe ja kommenteeri
+<a href="http://poff.epl.ee/" target="_blank">P&Ouml;FFi blogi</a>! 
+
+
+
+		</td>
+	</tr>
+
+</table>
+<br><delimiter> 
+~
+
+
+news_e=
+~
+
+<delimiter>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="270">
+	<tr>
+		<td width="48%" valign="top"><b>NEWS</b><br><br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-right:25">
+	<tr>
+		<td valign="top">
+		$_01
+		<br>
+		<b><a href="?l=eng&p=news">NEWS ARCHIVE</a></b><br><br>
+	<a href="http://www.animaster.ee" target="_blank"><img border="0" src="img/animaster.gif" width="308" height="112"></a>
+		
+		<br>
+		<a href="http://www.revalcafe.ee/" target="_blank"><img style="margin-left:0px" align="right" src="img/b/reval.gif" width="186"></a>
+		<br>
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	WIDTH="186" HEIGHT="84"
+	codebase="http://active.macromedia.com/flash5/cabs/swflash.cab#version=5,0,0,0">
+	<PARAM NAME="MOVIE" VALUE="http://www.poff.ee/anima/img/b/tridens_poff09.swf?clickTAG=http://www.tridens.ee">
+	<PARAM NAME="PLAY" VALUE="true">
+	<PARAM NAME="LOOP" VALUE="true">
+	<PARAM NAME="QUALITY" VALUE="high">
+	<EMBED SRC="http://www.poff.ee/anima/img/b/tridens_poff09.swf?clickTAG=http://www.tridens.ee" WIDTH="186" HEIGHT="84" 
+		PLAY="true" LOOP="true" QUALITY="high" 
+		PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+</OBJECT>
+
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align=right><br>
+		
+		
+		</td>
+	</tr>
+</table>
+
+
+		</td>
+		<td width="1" bgcolor="#000000"></td>
+		<td width="20">&nbsp;</td>
+		<td valign="top">
+		
+
+11th Animation Film Festival <strong>ANIMATED DREAMS</strong> will take place from 18 to 22 November 2009 in Tallinn, Estonia. 
+<br>
+<br>
+<br>
+<!--
+Call for entries! Submit your animated film to international competition.<br>
+Please click here for the <a href="?b=1&dyn=34&l=eng">regulations</a> and <a href="docs/Entry_Form_AD2009.doc">entry form</a>.<br>
+Deadline: <strong>15 August 2009!</strong>
+<br>
+<br>
+<br>
+Accreditation forms for the animation festival are available <a target="_blank" href="http://2009.poff.ee/est/akrediteerimine/animated_dreams">here</a>. The deadline is 6 November.
+-->
+Download the animation festival's </strong>CATALOGUE</strong> from
+<a href="http://www.poff.ee/anima/docs/ad_kataloog2009.pdf" target="_blank">here</a>.
+<br><br><br>
+Read and comment on 
+<a href="http://poff.epl.ee/" target="_blank">P&Ouml;FF's blog</a>! 
+
+<!--
+<img style="margin-left:0px" src="img/b/animateek11.jpg" width="345">
+-->
+		</td>
+	</tr>
+</table>
+<br><br><br><br><delimiter> 
+~
+
+news_content=
+~
+
+<delimiter>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="270">
+	<tr>
+		<td width="48%" valign="top" style="padding-right:12px"><b>$_01</b><br><br>
+		$_02
+		</td>
+		<td width="1" bgcolor="#000000"></td>
+		
+		<td width="20">&nbsp;</td>
+		<td valign="top"><br>$_03&nbsp;
+		</td>
+	</tr>
+</table>
+<br><delimiter> 
+~

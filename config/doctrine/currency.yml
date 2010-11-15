@@ -1,0 +1,13 @@
+Currency:
+    columns:
+        name: { type: string(255), notnull: true }
+        factor: { type: decimal(18), scale: 3, notnull: true, default: 1 }
+        symbol: { type: string(255), notnull: false }
+        abbr: { type: string(255), notnull: true }
+        prefix: { type: boolean, default: false }
+        language_id: { type: integer, notnull: false }
+    relations:
+        Language:
+          local: language_id
+          foreign: id
+          foreignType: one

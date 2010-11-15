@@ -1,0 +1,60 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT src="$base_url$/js/main.js" type=text/javascript></SCRIPT>
+
+<style type="text/css">
+.previewImage {
+	position:absolute;
+	clip:rect(0px 200px 200px 0px)
+}
+</style>
+
+<script language="JavaScript">
+<!--
+
+			function setUrl(fileUrl) {
+				window.top.opener.SetUrl(fileUrl);
+				window.top.close();
+				window.top.opener.focus();
+			}
+			
+			function setPreview(fileUrl) {
+				var img = document.getElementById('imgPreview');
+				img.src = fileUrl;
+			}
+			
+			function askAndGo(text, url) {
+				var name = window.prompt(text);
+				if (! name) return;
+				window.location = url + "&name=" + name;
+			}
+			
+//-->
+</script>
+<link rel="stylesheet" href="$base_url$/css/cms.css" type="text/css">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<FORM enctype="multipart/form-data" name="f1" method="post">
+<input type="hidden" name="todo" />
+$hiddens$
+<table border="0" cellspacing="0" cellpadding="0" width="700">
+	<tr> 
+		<td valign="top" colspan="2">
+			$cat_select$
+			<input type="button" value="New catalog" onClick="askAndGo('Catalog name', '$new_folder_url$')" />
+			<input type="button" value="Delete catalog" onClick="confirm_and_go('Kustutada', '$del_folder_url$');" />
+			<input type="file" enctype="multipart/form-data" name="uploadImage" />
+			<input type="button" value="Upload image" onClick="this.form.todo.value='uploadImage'; this.form.submit();" />
+		</td>
+	</tr>
+	<tr>	
+		<td valign="top" style="padding-top: 10px; padding-right: 15px">
+			<img align="right" src="images/spacer.gif" id="imgPreview">
+			$image_table$</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

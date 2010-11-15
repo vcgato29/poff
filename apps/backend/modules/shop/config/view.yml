@@ -1,0 +1,3 @@
+editSuccess:
+    javascripts: [/js/ckeditor/ckeditor.js]
+    stylesheets: [/css/shop_translations.css]

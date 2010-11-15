@@ -1,0 +1,19 @@
+# Programming languages Est, Eng, Fr
+Language:
+  est_lang:
+   url: est
+   abr: et
+   title_est: Estonian
+  eng_lang:
+   url: eng
+   abr: en
+   title_est: English
+  fr_lang:
+   url: fr
+   abr: fr
+   title_est: French
+  ru_lang:
+   url: ru
+   abr: ru
+   title_est: Russian
+   

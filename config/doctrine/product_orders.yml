@@ -1,0 +1,186 @@
+ProductOrder:
+    actAs:
+     Timestampable: ~
+    columns:
+     public_user_id: { type: integer, notnull: true }
+     order_number:   { type: string(255), notnull: true, unique: true }
+     price_currency: { type: string(255), notnull: false }
+     pay_in_currency: { type: string(255), notnull: false, default: "EUR" }
+     user_culture:    { type: string(255), notnull: false, default: "et" }
+     is_archived:    {type: boolean, notnull true, default: false}
+     is_hidden:      {type: boolean, notnull true, default: false}
+     invoice_mailed: {type: boolean, notnull true, default: false}
+     ticket:         { type: string(255), notnull: false }
+     ip:             { type: string(255), notnull: false }
+     buyer_email:    { type: string(255), notnull: false }
+     title:          { type: string(255), notnull: false }
+     notes:          { type: string(255), notnull: false }
+     status:
+      type: enum
+      values: [new, paid, canceled]
+     raw_response:   { type: clob, notnull: false }
+     type:
+      type: enum
+      values: [seb,swed,sampo,nordea]
+    relations:
+     Products:
+      class: Product
+      local: order_id
+      foreign: product_id
+      refClass: ProductOrderVsProduct
+     PublicUser:
+       local: public_user_id
+       foreign: id
+       foreignAlias: Orders
+       onDelete: CASCADE
+       onUpdate: CASCADE
+       
+ProductOrderVsProduct: # many-to-many setup between Product and ProductOrder
+  columns:
+    product_id:
+      type: integer
+      primary: true
+    order_id:
+      type: integer
+      primary: true
+  relations:
+   ProductOrder:
+    local: order_id
+    foreign: id
+    onDelete: CASCADE
+    onUpdate: CASCADE
+   Product:
+    local: product_id
+    foreign: id
+    onDelete: CASCADE
+    onUpdate: CASCADE
+       
+ProductOrderSeb:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: seb
+    
+ProductOrderSwed:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: swed
+
+ProductOrderNordea:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: nordea
+
+ProductOrderSampo:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: sampo
+    
+ProductOrderPayPal:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: paypal
+    
+ProductOrderVisa:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: visa
+    
+ProductOrderMasterCard:
+  actAs: ~
+  inheritance:
+    extends: ProductOrder
+    type: column_aggregation
+    keyField: type
+    keyValue: master
+    
+
+        
+## provide LOGGING of order information
+
+ProductOrderItem:    # items that were ordered
+    columns:
+        order_id: { type: integer, notnull: true }
+        price_currency: { type: string(255), notnull: false }
+        product_id: { type: integer, notnull: false }
+        mass: { type: integer, notnull: false }
+        vatrate: { type: integer, notnull: false }
+        code: { type: string(255), notnull: false }
+        order_shipping_id: { type: integer, notnull: true }
+        name: { type: string(255), notnull: false }
+        quanity: { type: integer, notnull: false }
+        price: { type: float, notnull: false }
+    relations:
+      ProductOrder:
+       local: order_id
+       foreign: id
+       foreignAlias: OrederedItems
+       onDelete: CASCADE
+       onUpdate: CASCADE
+      Product:
+       local: product_id
+       foreign: id
+       foreignAlias: OrederedItems
+       onDelete: SET NULL
+       onUpdate: SET NULL
+      ProductOrderShipping:
+       local: order_shipping_id
+       foreign: id
+       foreignAlias: OrederedItems
+               
+
+ProductOrderBilling:    # billing information of order (one-to-one)
+    columns:
+        country: { type: string(255), notnull: false }
+        city: { type: string(255), notnull: false }
+        street: { type: string(255), notnull: false }
+        zip: { type: string(255), notnull: false }
+        receiver: { type: string(255), notnull: false }
+        email: { type: string(255), notnull: false }
+        order_id: { type: integer, notnull: true }
+    relations:
+      ProductOrder:
+       local: order_id
+       foreign: id
+       foreignAlias: BillingAddress
+       foreignType: one
+       onDelete: CASCADE
+       onUpdate: CASCADE
+        
+        
+ProductOrderShipping: # details of shipping that user selected (sending to home, pickuping from shop) 
+    columns: 
+        information: { type: string(3000), notnull: false }
+        name: { type: string(255), notnull: false }
+        vatrate: { type: integer, notnull: false }
+        cost:        { type: string(255), notnull: false, default: 0 }
+        price_currency: { type: string(255), notnull: false }
+        mass_interval_start: { type: integer, notnull: false }
+        mass_interval_end:  { type: integer, notnull: false }
+        order_id: { type: integer, notnull: true }
+    relations:
+      ProductOrder:
+       local: order_id
+       foreign: id
+       foreignAlias: Shippings
+       onDelete: CASCADE
+       onUpdate: CASCADE
+
+## / provide LOGGING of order information

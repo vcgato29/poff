@@ -1,0 +1,1 @@
+<?php include_partial('shipping/interval_form', array('form' => $form))?>

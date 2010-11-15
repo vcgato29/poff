@@ -1,0 +1,177 @@
+td {
+        font-family: verdana;
+		font-size:11px;
+}
+a {
+        color: #330000; text-decoration: none;
+}
+a:hover {
+        text-decoration: underline;
+}
+spacer.full {
+        WIDTH: 100%; HEIGHT: 100%
+}
+BODY.main {
+        MARGIN: 0px; BACKGROUND-COLOR: #FFFFFF;
+}
+BODY.tree {
+        MARGIN: 4px 2px; BACKGROUND-COLOR: #ffffff;
+}
+TR.windowHeader {
+        padding-right: 0em; padding-left: 1em; padding-bottom: 0.5em; padding-top: 0em; background-color: #FFFFFF;
+}
+TD.windowHeader {
+        COLOR: #ffffff
+}
+SPAN.lang {
+        PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; MARGIN: 0px 2px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ff0000;
+}
+A.windowHeader {
+        MARGIN: 0px 5px; COLOR: white
+}
+TD.windowContent {
+        PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+DIV.slider {
+        DISPLAY: none; TEXT-ALIGN: right
+}
+DIV.slider FORM {
+        margin-bottom: 5px;
+}
+DIV.slider FORM FIELDSET {
+        margin-bottom: 5px;
+}
+TD.div1 {
+        border-bottom: #2b3f52 1px solid; height: 1px; background-color: #ff0000;
+}
+TD.div2 {
+        border-bottom: #f2f2f2 1px solid; height: 1px; background-color: #ffffff;
+}
+DIV.divider {
+        WIDTH: 100%; HEIGHT: 1px
+}
+FORM FIELDSET {
+        PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 5px; PADDING-TOP: 0px
+}
+TABLE.form {
+        WIDTH: 100%
+}
+UNKNOWN {
+        BORDER-RIGHT: medium none; PADDING-RIGHT: 2px; BORDER-TOP: medium none; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: medium none; PADDING-TOP: 2px; BORDER-BOTTOM: medium none
+}
+TABLE.form TD.name {
+        WIDTH: 35%
+}
+TABLE.form TD.value {
+        WIDTH: 65%
+}
+INPUT.value {
+        WIDTH: 100%
+}
+INPUT.valueDisabled {
+        WIDTH: 100%; BACKGROUND-COLOR: #e9e9e9
+}
+TEXTAREA.value {
+        WIDTH: 100%; HEIGHT: 100%
+}
+TABLE.menu TD {
+        BORDER-RIGHT: #ebebeb 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ebebeb 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ebebeb 1px solid; CURSOR: default; PADDING-TOP: 3px; BORDER-BOTTOM: #ebebeb 1px solid; WORD-WRAP: break-word
+}
+TABLE.menu TD IMG {
+        BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 16px; MARGIN-RIGHT: 3px; BORDER-BOTTOM: medium none; HEIGHT: 16px
+}
+TABLE.menu TD.div {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px
+}
+TABLE.menu TD.div IMG {
+        MARGIN: 0px; WIDTH: 2px; HEIGHT: 16px
+}
+TD.mitem {
+        PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+TD.mdiv {
+        MARGIN-TOP: 2px; WIDTH: 2px; HEIGHT: 16px
+}
+TABLE.content {
+        WIDTH: 100%; HEIGHT: 100%; BACKGROUND-COLOR: #ffffff
+}
+TABLE.content TR.content {
+        HEIGHT: 1px
+}
+TABLE.content TD {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+TABLE.content TD.ccb {
+        BORDER-RIGHT: #ffffff 2px solid; VERTICAL-ALIGN: top; WIDTH: 1px
+}
+TABLE.content TD.name {
+        BORDER-RIGHT: #ffffff 1px solid; COLOR: #414141
+}
+TABLE.content TD.value {
+        BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+IMG.cicon {
+        MARGIN: 0px 3px 1px 0px; WIDTH: 16px; HEIGHT: 16px
+}
+INPUT.order {
+        BORDER-RIGHT: #d2d2d2 1px solid; BORDER-TOP: #d2d2d2 1px solid; FONT-SIZE: 90%; MARGIN: 0px 4px 0px 3px; BORDER-LEFT: #d2d2d2 1px solid; WIDTH: 2em; BORDER-BOTTOM: #d2d2d2 1px solid; TEXT-ALIGN: right
+}
+TABLE.header {
+        WIDTH: 100%;
+}
+TABLE.header TD {
+        HEIGHT: 1.3em
+        color: #FFFFFF;
+        font-weight: bold;
+}
+TABLE.header TD.ccb {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 1px; PADDING-TOP: 0px
+}
+TABLE.header TD.title {
+
+}
+TABLE.header TD.titleRight {
+        PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+TABLE.header TD.titleLeft {
+        PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+TABLE.window {
+        WIDTH: 100%; HEIGHT: 100%
+}
+TD.tabs {
+        HEIGHT: 1px; BACKGROUND-COLOR: #c6c6c6
+}
+TD.tab {
+        PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; BORDER-LEFT: #c6c6c6 1px solid; CURSOR: hand; COLOR: #6c6c6c; PADDING-TOP: 5px; BACKGROUND-COLOR: #d4d4d4
+}
+TD.tabSelected {
+        PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #e9e9e9
+}
+TABLE.editor {
+        PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BACKGROUND-COLOR: #ebebeb
+}
+TD.eb {
+        BORDER-RIGHT: #ebebeb 1px solid; BORDER-TOP: #ebebeb 1px solid; BORDER-LEFT: #ebebeb 1px solid; WIDTH: 18px; BORDER-BOTTOM: #ebebeb 1px solid
+}
+TD.ed {
+        WIDTH: 2px
+}
+DIV.ed {
+        BORDER-RIGHT: #a2b2c2 1px solid; HEIGHT: 18px
+}
+BODY.ehtml {
+        FONT-FAMILY: "Courier New", Courier, monospace
+}
+BODY.etext {
+        FONT-FAMILY: "Times New Roman", Times, serif
+}
+TD.tree {
+        COLOR: #969696
+}
+BODY.help {
+        FONT-SIZE: 100%; BACKGROUND: #e9e9e9; COLOR: #000000; FONT-FAMILY: times
+}
+BODY.help IMG {
+        BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: #a0a0a0 1px solid
+}

@@ -1,0 +1,3 @@
+ordersSuccess:
+    javascripts:    [/faye/js/prompt/scripts.js]
+    stylesheets:    [/faye/js/prompt/style.css]

@@ -1,0 +1,50 @@
+sub_menu=
+~
+<tr id=row_$_01 style="display: none"> 
+	<td height="25"> 
+		<table border="0" cellspacing="0" cellpadding="0" height="25">
+			<tr onmouseover="javascript:clearInterval(document.inter);" onmouseout="javascript:setHideInt($_01,3)"> 
+				<td width="$_02">&nbsp;</td>
+				$_03
+			</tr>
+		</table>
+	</td>
+</tr>
+~
+
+sub_menu_cell=
+~
+<td class="sL" valign="bottom" id=$_01 onMouseOver="javascript:cS('$_01','sLO');$_04" onMouseOut="javascript:cS('$_01','sL');$_05" onClick="document.location='$_03'">$_02</td>
+~
+
+sub_menu_cell_nw=
+~
+<td class="sL" valign="bottom" id=$_01 onMouseOver="javascript:cS('$_01','sLO');$_04" onMouseOut="javascript:cS('$_01','sL');$_05" onClick="window.open('$_03')">$_02</td>
+~
+
+sub_menu_cell_separator=
+~
+<td width="2" bgcolor="ffff99"></td>
+~
+
+special_programm=
+~
+<table id=row_3 style="display: none" width="100%" border="0" cellspacing="0" cellpadding="0" onmouseover="clearInterval(document.inter);" onmouseout="setHideInt(1,3)">
+<tr>
+	<td>
+$_01
+	</td>
+</tr>
+</table>
+~
+
+comp_programm=
+~
+<table id=row_4 style="display: none" width="100%" border="0" cellspacing="0" cellpadding="0" onmouseover="clearInterval(document.inter);" onmouseout="setHideInt(1,4)">
+<tr>
+	<td>
+$_01
+	</td>
+</tr>
+</table>
+~

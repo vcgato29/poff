@@ -1,0 +1,1 @@
+<?php include_partial('form', array('form' => $form, 'languages' => $languages, 'id' => $sf_request->getParameter('id') )) ?>

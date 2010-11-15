@@ -1,0 +1,48 @@
+<?php include_partial('articlesLeftMenuWidget/render', $params)?>
+
+<?php $z = get_slot('menu') ?>
+<?php slot('menu') ?>
+<?php echo $z ?>
+
+<div class="productGroupPictures" style="display:none">
+    <?php foreach($params['secondLevelMenuItems'] as $node):  ?>
+        <img alt="<?php echo $node['id'] ?>"  src="<?php echo @myPicture::getInstance( $node['object']->getPicture() )->thumbnail(573,382,'center')->url()?>" />
+    <?php endforeach; ?>
+</div>
+
+<script type="text/javascript">
+ // used for RIGHT MENU
+$(document).ready(function(){
+    $('.menuItem').click(function(e){
+
+        // check if clicked was menu item like PRODUCT or ARTICLE
+        var clicked = $(e.target);
+        var z = clicked.parents('ul');
+        if(z.get(0)){
+            return true;
+        }
+
+        e.preventDefault();
+
+
+        if(typeof menuItemActivatedCallback == 'function' && !$(this).find('.rlinksub').is(':visible')) {
+            menuItemActivatedCallback($(this), $(this).attr('title'));
+        }
+
+        // CLOSE MENU
+        $('.rlinksub').hide();
+        $('.rlink').show();
+
+        // OPEN specific menu
+        $(this).find('.rlink').hide();
+        $(this).find('.rlinksub').show();
+
+
+
+
+        return false;
+    });
+});
+
+</script>
+<?php end_slot() ?>

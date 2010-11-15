@@ -1,0 +1,133 @@
+Product:
+ actAs:
+  I18n:
+   fields: [name,description,longdescription,volume,slug]
+  Timestampable: ~ 
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+  code: { type: string(255), notnull: true, unique: true }
+  slug: { type: string(255), notnull: true, default: "" }
+  type: { type: string(255), notnull: false }
+  parameter: { type: string(255), notnull: false, default: "default" }
+  name: { type: string(1000), notnull: false }
+  vatrate: { type: integer, notnull: false, default: 20 }
+  mass: { type: float, notnull: true, default: 0 }
+  volume: { type: string(255), notnull: false }
+  pri: { type: integer, notnull: true, default: 100 }
+  price: { type: float, notnull: false }
+  discount_price: { type: float, notnull: false }
+  description: { type: string(6000), notnull: false }
+  longdescription: { type: string(9999), notnull: false }
+  is_active: { type: boolean, notnull: true, default: 1 }
+ relations:
+  ConnectedProducts:
+   class: Product
+   local: product1
+   foreign: product2
+   refClass: ProductVsProduct
+   equal: true
+  ParameterOptions:
+   class: ParameterOption
+   local: product_id
+   foreign: option_id
+   refClass: ParameterProductOption
+
+    
+
+    
+ProductGroup:
+ actAs:
+  I18n:
+   fields: [name,meta_title,meta_description,meta_keywords,slug]
+  NestedSet: ~
+  Timestampable: ~ 
+  Userid:
+   created:
+     name: created_by
+     type: integer
+   updated:
+     name: updated_by
+     type: integer
+ columns:
+  title: { type: string(255), notnull: true }
+  slug: { type: string(255), notnull: true, default: "" }
+  picture: { type: string(255), notnull: false }
+  picture_inactive: { type: string(255), notnull: false }
+  meta_title: { type: string(1000), notnull: false }
+  meta_description: { type: string(1000), notnull: false }
+  meta_keywords: { type: string(1000), notnull: false }
+  name: { type: string(300), notnull: false }
+  import_code: { type: string(255), notnull: false }
+  pri: { type: integer, notnull: false }
+  parameter: { type: string(255), notnull: false, default: "default" }
+  
+
+ProductVsProductGroup:
+ columns:
+   group_id: { type: integer, notnull: true, primary: true }
+   product_id: { type: integer, notnull: true, primary: true }
+ relations:
+   ProductGroup:
+    local: group_id
+    foreign: id   
+    foreignAlias: Products
+    onDelete: CASCADE 
+    onUpdate: CASCADE
+   Product:
+    local: product_id
+    foreign: id   
+    foreignAlias: ProductGroups
+    onDelete: CASCADE 
+    onUpdate: CASCADE
+
+    
+ProductVsProduct:
+ columns:
+   product1: { type: integer, notnull: true, primary: true }
+   product2: { type: integer, notnull: true, primary: true }
+   
+ProductPictures:
+ actAs:
+  I18n:
+   fields: [name]
+ columns:
+  file: { type: string(255), notnull: true }
+  pri: { type: integer, notnull: true, default 0 }
+  original_filename: { type: string(255), notnull: false }
+  name: { type: string(255), notnull: false }
+  parameter: { type: string(255), notnull: true, default: "default" }
+  product_id: { type: integer, notnull: true }
+ relations:
+  Product:
+   local: product_id
+   foreign: id
+   foreignAlias: ProductPictures
+   onDelete: CASCADE
+   onUpdate: CASCADE
+
+
+ProductFile:
+ actAs:
+  I18n:
+   fields: [name]
+ columns:
+  file: { type: string(255), notnull: true }
+  pri: { type: integer, notnull: true, default 0 }
+  original_filename: { type: string(255), notnull: false }
+  name: { type: string(255), notnull: false }
+  parameter: { type: string(255), notnull: true, default: "default" }
+  product_id: { type: integer, notnull: true }
+ relations:
+  Product:
+   local: product_id
+   foreign: id
+   foreignAlias: ProductFiles
+   onDelete: CASCADE
+   onUpdate: CASCADE
+   

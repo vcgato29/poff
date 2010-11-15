@@ -1,0 +1,42 @@
+form {  margin-top: 0px; margin-bottom: 0px}
+
+
+
+.evenListRow { background: #F4F4F1; }
+.oddListRow  { background: #FFFFFF; }
+.ListTitle { background-color: #E7E7CF; }
+
+.blackLine { BACKGROUND-COLOR: #333333}
+.formBorder { 	border: 1px solid #006666; background-color: #D8D8B1; }
+.textBox  { color: #00337f; font-size: 11px; font-family: verdana; border: solid 1px #222222; width: 150px ; height: 19px}
+.button  { color: #00337f; font-weight: bold; font-size: 11px; font-family: verdana; background-color: #ffffff; border: solid 1px #9D9FBB; width: 100px; height: 19px}
+
+.title { 	FONT-SIZE: 14px; 	FONT-FAMILY: Verdana; font-weight: bolder;}
+td { 	FONT-SIZE: 11px; 	FONT-FAMILY: Verdana; }
+td a { color: #222222 }
+.redlink a{color: #f00 ; text-decoration:none }
+
+.sublinks a { font-weight: bolder; text-decoration:none; font-size: 10px;}
+.news a {  text-decoration:none; }
+
+.gray { color: #999999; }
+
+.alphaBg { 	text-align: center; 	padding: 1px 5px 1px 5px; 	border: 1px solid #E1E1C4; background-color: #F4F4F1;}
+.alphaBg a { FONT-SIZE: 10px; text-decoration: none}
+.back {  background-image: url(img/back.jpg); background-repeat: no-repeat}
+.backGrad { background-image: url(img/grad_back.jpg); background-repeat: repeat-x}
+.hStripe {  background-image: url(img/h_stripe_dot.gif); background-repeat: repeat-x}
+.vStripe {  background-image: url(img/v_stripe_dot.gif); background-repeat: repeat-y}
+
+.avaSmall { 	FONT-SIZE: 10px; 	FONT-FAMILY: Verdana; }
+.avaSmall a{ color: #ff0000; text-decoration:none}
+.avaPk{ 	FONT-SIZE: 15px; 	FONT-FAMILY: arial; font-weight: bolder;}
+.esitlevad{ FONT-SIZE: 10px; color: #bbb;}
+
+.filmPk a { FONT-SIZE: 12px; color: #000;font-weight: bolder;  letter-spacing: 1px}
+.filmPk { color: #F00; font: bold 17px arial;}
+
+.filmPopGrad {  background-image: url(img/film_grad_back.jpg); background-repeat: repeat-x}
+.filmPopBack { background-image: url(img/film_back.jpg); background-repeat: no-repeat}
+
+.filmTopLinks a { font-family: arial; font-size: 16px; font-weight: bolder; color: #FFFFFF; text-decoration:none}

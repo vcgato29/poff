@@ -1,0 +1,1 @@
+<?php echo url_for('register_page', $params)?>

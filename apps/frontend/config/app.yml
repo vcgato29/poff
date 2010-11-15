@@ -1,0 +1,22 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+    max_movies_on_category: 10
+    max_items_on_ajaxsearch: 2
+    max_items_on_searchpage: 2
+    no_video_front_picture: notfound.jpg
+    facebook:
+       api_key: d4f4a4800e3770f12ccad4f300d91f44
+       api_secret: 45c584e92f82f61af01e0e0e5089b788
+       api_id: 137453762959536
+       callback_url: http://google.com
+       app_url: http://apps.facebook.com/faye/
+       redirect_after_connect: true
+       redirect_after_connect_url: 'http://yahoo.com'
+       connect_signin_url: 'http://google.com'
+    facebook_connect:
+       load_routing:     true
+       user_permissions: []
+

@@ -1,0 +1,7 @@
+Shop:
+    actAs:
+        I18n:
+            fields: [address]
+    columns:
+        title: { type: string(255), notnull: false }
+        address: { type: text, notnull: false }

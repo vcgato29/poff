@@ -1,0 +1,1 @@
+<?php echo __('Sisestage õige pindala') ?>

@@ -1,0 +1,71 @@
+DIV.dynarch-horiz-menu {
+	CURSOR: hand;
+	 BORDER-RIGHT: 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: 1px solid; PADDING-LEFT: 3px;; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px solid; WIDTH: 520; CURSOR: hand; PADDING-TOP: 0px; BORDER-BOTTOM: 1px solid
+	 /*peamenüü border*/
+}
+DIV.dynarch-horiz-menu TABLE TR TD {
+	font-family: verdana; font-size: 12px; color: #000000;
+	/* peamenüü text */
+}
+
+DIV.dynarch-horiz-menu TABLE TR TD.item {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px
+	/* peamenüü padding text */
+}
+
+DIV.dynarch-horiz-menu {
+	BORDER-LEFT-COLOR: #809dc7; BORDER-BOTTOM-COLOR: #809dc7; COLOR: #000; BORDER-TOP-COLOR: #809dc7; BORDER-RIGHT-COLOR: #809dc7	
+	/* peamenüü border color */
+}
+
+DIV.dynarch-popup-menu TABLE {
+	FONT: 11px verdana,sans-serif; color: #333
+	/* popup text */
+}
+
+DIV.dynarch-popup-menu {
+	BORDER-BOTTOM: 5px solid; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; Z-INDEX: 1000; LEFT: 0px; PADDING-BOTTOM: 5px; CURSOR: hand; PADDING-TOP: 1px; POSITION: absolute; TOP: 0px
+	/*popup borderid text */
+}
+
+DIV.dynarch-popup-menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-COLOR: #c1d5f1; BORDER-BOTTOM-COLOR: #000000; PADDING-BOTTOM: 0px; COLOR: #ffffff; BORDER-TOP-COLOR: #c1d5f1; PADDING-TOP: 0px; BACKGROUND-COLOR: #eeeeee; BORDER-RIGHT-COLOR: #000000
+	/* popup border color */
+}
+
+DIV.dynarch-popup-menu TR.item TD.icon {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 1px
+	/* popup padding */
+}
+
+DIV.dynarch-popup-menu TR.hover {
+	COLOR: #346236
+	/* popup hover text */
+}
+
+DIV.dynarch-horiz-menu {
+	/*BACKGROUND-COLOR: #c1d5f1*/
+	/* peamenüü bg */
+}
+
+DIV.dynarch-horiz-menu TABLE TR TD.active {
+	BACKGROUND-COLOR: #eeeeee;
+	COLOR: #ffffff
+	/* peamenüü active */
+}
+
+DIV.dynarch-horiz-menu TABLE TR TD.hover {
+	/*BACKGROUND-COLOR: #809dc7
+	 peamenüü hover */
+}
+
+DIV.dynarch-popup-menu TR.hover {
+	COLOR: #ff00ff
+	/*BACKGROUND-COLOR: #809dc7
+	 popup hover */
+}
+DIV.dynarch-popup-menu TR.active {
+	BACKGROUND-COLOR: #ddd;
+	COLOR: #333
+	/* popup active */
+}

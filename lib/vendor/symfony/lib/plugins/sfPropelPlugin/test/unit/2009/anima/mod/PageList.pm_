@@ -1,0 +1,65 @@
+package PageList;
+use strict;
+use warnings;
+use Data::Dumper;
+require 'List.pm';
+@PageList::ISA = qw(List);
+
+sub handle_params {
+	my $this = shift;
+
+	if ($this->_get_list_cmd() eq 'save_page'){
+		$this->_cmd_save_page();
+		$this->{out} = $this->as_html();
+		return;
+	}
+	elsif ($this->_get_list_cmd() eq 'edit_page'){
+		$this->_cmd_edit_page();
+		return;
+	}
+
+	$this->SUPER::handle_params();
+}
+
+sub _cmd_save_page {
+	my $this = shift;
+	my $id = $this->{g}->param('id');
+	my $content = $this->{g}->param('editorContent');
+	my $qs = "update anima_pages_2008 set content = ? where anima_pages_2008_id = $id";
+	$this->{g}->execute($qs, $content);
+}
+
+sub _cmd_edit_page {
+	my $this = shift;
+	my $id = $this->{g}->param('id');
+
+	my $qs = "select content from anima_pages_2008 where anima_pages_2008_id = $id";
+	my $sth = $this->{g}->execute($qs);
+	
+	my $h_ref = {};
+	$h_ref->{'content'} = $sth->fetchrow_array() || '';
+	$h_ref->{'id'} = $id;
+	$h_ref->{'hiddens'} = $this->_make_hiddens();
+	$h_ref->{'config_url'} = $this->{g}->conf('base_url'). '/main.cgi?todo=fck_conf';
+	$h_ref->{'cancel_url'} = $this->_add_base_path('ListCmd=cancel');
+	
+	$this->{g}->add_conf_entries($h_ref);
+	
+	print $this->{g}->tmpl('editor.html', $h_ref);
+	exit;
+}
+
+sub process_row {
+	my $this = shift;
+	my $h_ref = shift;
+	my $id = $h_ref->{id};
+	my $name = $h_ref->{name};
+	
+	my $href = $this->{g}->conf('base_url') . "/?pro=$id";
+	$h_ref->{name} = qq~<a href="$href" target="_blank">$name</a>~;
+	
+	$this->SUPER::process_row($h_ref);
+}
+
+
+1;

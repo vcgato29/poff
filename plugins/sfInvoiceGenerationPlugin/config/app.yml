@@ -1,0 +1,4 @@
+# default values
+all:
+  sfInvoiceGenerationPlugin:
+    invoice_dir: sfInvoiceGenerationPlugin/html_invoices/

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * BannerGif filter form base class.
+ *
+ * @package    jobeet
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedInheritanceTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ */
+abstract class BaseBannerGifFormFilter extends BannerFormFilter
+{
+  protected function setupInheritance()
+  {
+    parent::setupInheritance();
+
+    $this->widgetSchema->setNameFormat('banner_gif_filters[%s]');
+  }
+
+  public function getModelName()
+  {
+    return 'BannerGif';
+  }
+}

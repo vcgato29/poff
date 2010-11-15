@@ -1,0 +1,41 @@
+Catalogue:
+ columns:
+  cat_id:                 { type: integer(4), notnull: true, autoincrement: true, primary: true, unsigned: true }
+  name:                   { type: string(63), notnull: true, default: "" }
+  source_lang:            { type: string(63), notnull: true, default: "" }
+  target_lang:            { type: string(63), notnull: true, default: "" }
+  date_created:           { type: integer(4), notnull: true, default: 0, unsigned: true }
+  date_modified:          { type: integer(4), notnull: true, default: 0, unsigned: true }
+  author:                 { type: string(63), notnull: true, default: "" }
+
+
+TransUnit:
+ columns:
+  msg_id:                 { type: integer(4), notnull: true, autoincrement: true, primary: true, unsigned: true }
+  cat_id:                 { type: integer(4), notnull: true, default: 1, unsigned: true }
+  id:                     { type: string(63) }
+  source:                 { type: string(65532), notnull: true }
+  target:                 { type: string(65532), notnull: false, default: "tranlation" }
+  comments:               { type: string(63) }
+  type:                   { type: string(255), notnull: false, default: "" }
+  date_created:           { type: integer(4), notnull: true, default: 0, unsigned: true }
+  date_modified:          { type: integer(4), notnull: true, default: 0, unsigned: true }
+  author:                 { type: string(63), notnull: true, default: "" }
+  translated:             { type: integer(4), notnull: true, default: 0, unsigned: true }
+  variable_id:            { type: integer, notnull: false }
+ relations:
+  Catalogue:
+   local:                cat_id
+   foreign:              cat_id
+   onDelete:             CASCADE
+   foreignAlias:         Units
+  TransUnitVariable:
+    local: variable_id
+    foreign: id
+    foreignAlias: Variables
+    onDelete: CASCADE
+   
+TransUnitVariable:
+  columns:
+      variable:     { type: string(255), notnull: true, unique: true } # is inserted into 'SOURCE' field of TransUnit
+      multilang:  { type: boolean, notnull: true, default: true }

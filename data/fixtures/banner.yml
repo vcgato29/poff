@@ -1,0 +1,63 @@
+# one category
+BannerGroup:
+    cat1:
+        name: first page widget
+        type: default
+    cat2:
+        name: footer banners
+        type: logos
+    cat3:
+        name: product icons
+        type: socials
+    cat4:
+        name: avalehe bännerid (karuselli all)
+        type: special
+
+
+# connected to "first_page"        
+BannerGroupVsStructure:
+    homepage_connections:
+        BannerGroup: cat1
+        Structure: homepage
+    homepage_banners:
+        BannerGroup: cat2
+        Structure: products
+    homepage_banners2:
+        BannerGroup: cat4
+        Structure: homepage
+
+# two banners included
+Banner:
+    banner1:
+        name: avalehe banner 1
+        link: http://google.com
+        BannerGroup: cat1
+    banner2:
+        name: avalehe banner 2
+        link: http://yahoo.com
+        BannerGroup: cat1
+    banner3:
+        name: caoursel banner 1
+        link: http://msn.com
+        BannerGroup: cat2
+    banner4:
+        name: caoursel banner 2
+        link: http://amazon.com
+        BannerGroup: cat2
+    banner5:
+        name: facebook
+        link: http://facebook.com
+        BannerGroup: cat2
+    banner6:
+        name: twitter
+        link: http://twitter.com
+        BannerGroup: cat3
+    banner7:
+        name: facebook
+        link: http://facebook.com
+        BannerGroup: cat4
+    banner8:
+        name: twitter
+        link: http://twitter.com
+        BannerGroup: cat4
+        

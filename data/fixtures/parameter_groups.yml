@@ -1,0 +1,35 @@
+ParameterGroup:
+ root:
+  title: root
+  Translation:
+   et:
+    name: root
+  children: 
+   ParamGroup1:
+    title: oils
+    Translation:
+     et:
+      name: ParamGroup1 EST
+     en:
+      name: ParamGroup1 ENG
+     fr:
+      name: ParamGroup1 FR
+
+Parameter:
+ param1:
+  title: some description
+  multilang: 0
+  ParameterGroup: ParamGroup1
+  type: SINGLE_OPTIONS
+ param2:
+  title: ingredients
+  multilang: 0
+  ParameterGroup: ParamGroup1
+  type: MANY_OPTIONS
+
+ProductGroupVsParameterGroup:
+    prodgroup_paramgroup1:
+        ProductGroup: Group1
+        ParameterGroup: ParamGroup1
+
+    

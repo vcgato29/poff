@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NewItem
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          new_item
+    with_doctrine_route:   true
+    actions_base_class:    MyAction
+
+    config:
+      actions: ~
+      fields:
+       pri_form: { label: Priority }
+       newGroupsForForm: { label: Groups }
+      list:
+        display: [name,  active_start, active_end, newGroupsForForm ,pri_form]
+        max_per_page: 20
+        sort: [pri]
+        batch_actions: 
+         _delete: ~
+         priority: ~
+      filter:
+        display: [name, slug, group_id, relatives, content]
+      form:    ~
+      edit:    ~
+      new:     ~

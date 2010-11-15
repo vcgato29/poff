@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NewsGroup
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          news_group
+    with_doctrine_route:   true
+    actions_base_class:    MyAction
+    
+    config:
+      actions: ~
+      fields:
+       pri_form: { label: Priority }
+      list:
+        display: [name,type,is_active, pri_form]
+        max_per_page: 20
+        sort: [pri]
+        batch_actions: 
+         _delete: ~
+         priority: ~
+      filter:
+        display: [name,relatives,is_active]
+      form:    ~
+      edit:    ~
+      new:     ~

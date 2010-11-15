@@ -1,0 +1,116 @@
+ProductGroup:
+ root:
+  title: root
+  picture: /product_group/file1.jpg
+  children: 
+   Group1:
+    title: Katusele
+    Translation:
+        et:
+            name: Katusele
+        en:
+            name: Roof
+    picture: /product_group/file2.jpg
+   Group2:
+    title: Seinale
+    Translation:
+        et:
+            name: Seinale
+        en:
+            name: Wall
+    picture: /product_group/file7.jpg
+   Group3:
+    title: Group 3
+    Translation:
+        et:
+            name: Group 3 est
+        en:
+            name: Group 3 eng
+    picture: /product_group/file8.jpg
+   Group4:
+    title: Group4
+    Translation:
+        et:
+            name: Group4 est
+        en:
+            name: Group4 eng
+    picture: /product_group/file9.jpg
+   Group5:
+    title: Group5
+    Translation:
+        et:
+            name: Group5 est
+        en:
+            name: Group5 eng
+    picture: /product_group/file10.jpg
+   Group6:
+    title: Group6
+    Translation:
+        et:
+            name: Group6 est
+        en:
+            name: Group6 eng
+    picture: /product_group/file11.jpg
+    
+    
+# connections between products and product groups
+ProductVsProductGroup:
+    conn1:
+        Product: prod1
+        ProductGroup: Group1
+    conn2:
+        Product: prod2
+        ProductGroup: Group1
+    conn3:
+        Product: prod3
+        ProductGroup: Group1
+    conn4:
+        Product: prod4
+        ProductGroup: Group1
+    conn5:
+        Product: prod5
+        ProductGroup: Group1
+    conn6:
+        Product: prod6
+        ProductGroup: Group1
+    conn7:
+        Product: prod7
+        ProductGroup: Group1
+    conn8:
+        Product: prod8
+        ProductGroup: Group1
+    conn9:
+        Product: prod9
+        ProductGroup: Group1
+    conn10:
+        Product: prod10
+        ProductGroup: Group1
+    conn11:
+        Product: prod11
+        ProductGroup: Group1
+    conn12:
+        Product: prod12
+        ProductGroup: Group1
+    conn13:
+        Product: prod1
+        ProductGroup: Group2
+    conn14:
+        Product: prod2
+        ProductGroup: Group2
+    conn15:
+        Product: prod3
+        ProductGroup: Group3
+    conn16:
+        Product: prod4
+        ProductGroup: Group4
+    conn17:
+        Product: prod5
+        ProductGroup: Group5
+    conn18:
+        Product: prod6
+        ProductGroup: Group5
+    conn19:
+        Product: prod7
+        ProductGroup: Group5
+    
+    
