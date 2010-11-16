@@ -1,3 +1,12 @@
+product_exemplar:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProductExemplar
+    module:               product_exemplar
+    prefix_path:          /product_exemplar
+    column:               id
+    with_wildcard_routes: true
+    
 trans_unit:
   class: sfDoctrineRouteCollection
   options:
