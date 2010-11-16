@@ -17,7 +17,7 @@
                 <div class="block_bottom"></div>
               </div>
               <div class="halfbox-183-content">
-                <ul>				  
+                <ul>
 				  <?php foreach($product['ProductGroups'] as $groupConn): ?>
 				  <?php $link = str_replace('.p', '.c', $_SERVER['REQUEST_URI']);
                         $link = explode($category['slug'], $link);
@@ -55,7 +55,7 @@
 
 
                 <!--<b><?php echo __('Operaator') ?></b>: Witold Stokk<br>-->
-                <!--<b><?php echo __('Osatäitjad') ?></b>:<br>				Mingi nimi,<br>				Mingi teine nimi <br>				Dagmara Krasowska, <br>				Dominika Überzeug <br><br> <br>-->
+                <?php if (!empty($product['cast'])): ?><b><?php echo __('Osatäitjad') ?></b>: <?php echo $product['cast'] ?><br /><?php endif; ?>
                 <br />
 				<?php if (!empty($product['production'])): ?><b><?php echo __('Tootja') ?></b>: <?php echo $product['production'] ?> <br> <?php endif; ?>
                 <?php if (!empty($product['distributor'])): ?><b><?php echo __('Levitaja') ?></b>: <?php echo $product['distributor'] ?><br> <?php endif; ?>
