@@ -342,6 +342,7 @@ class EventivalXMLMapper extends SimpleWebResponseInterpretator{
 
 		$action = $this->checkData($filmArray['ids']['system_id']);
 
+
 		//TODO: redo validation
 		$film['eventival_id'] = $filmArray['ids']['system_id'];
 		$film['Translation'] = array('et' => array('name' => is_array($filmArray['titles']['title_local']) ? '' : $filmArray['titles']['title_local'],
@@ -396,12 +397,12 @@ class EventivalXMLMapper extends SimpleWebResponseInterpretator{
 
 		foreach($filmArray['publications']['en']['crew']['contact'] as $filmcrew) {
 
-			if($filmcrew['type']['id']==6) $film['music'] = $filmcrew['text'];
-		    if($filmcrew['type']['id']==7) $film['editor'] = $filmcrew['text'];
-		    if($filmcrew['type']['id']==9) $film['production'] = $filmcrew['text'];
-			if($filmcrew['type']['id']==127) $film['world_sales'] = $filmcrew['text'];
-		    if($filmcrew['type']['id']==126) $film['distributor'] = $filmcrew['text'];
-		    if($filmcrew['type']['id']==15) $film['cast'] = $filmcrew['text'];
+			if($filmcrew['type']['id']==6) $film['music'] = is_array($filmcrew['text']) ? '' : $filmcrew['text'];
+		    if($filmcrew['type']['id']==7) $film['editor'] = is_array($filmcrew['text']) ? '' : $filmcrew['text'];
+		    if($filmcrew['type']['id']==9) $film['production'] = is_array($filmcrew['text']) ? '' : $filmcrew['text'];
+			if($filmcrew['type']['id']==127) $film['world_sales'] = is_array($filmcrew['text']) ? '' : $filmcrew['text'];
+		    if($filmcrew['type']['id']==126) $film['distributor'] = is_array($filmcrew['text']) ? '' : $filmcrew['text'];
+		    if($filmcrew['type']['id']==15) $film['cast'] = is_array($filmcrew['text']) ? '' : $filmcrew['text'];
 
 		}
 
@@ -557,7 +558,7 @@ class EventivalXMLMapper extends SimpleWebResponseInterpretator{
 	    //$xml = false;
         //$xml = @simplexml_load_string($this->response);
         //if ($xml)
-        return $this->objectsIntoArray(@simplexml_load_string($this->response));
+        return $this->objectsIntoArray(@simplexml_load_string($this->response, 'SimpleXMLElement', LIBXML_NOCDATA));
         //else return array();
 	}
 

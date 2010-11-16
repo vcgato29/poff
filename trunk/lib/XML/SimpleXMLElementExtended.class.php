@@ -2,12 +2,12 @@
 
 /*
  * Extended SimpleXMLElement class for easier node attribute handling
- * 
- * 
+ *
+ *
  */
 
 class SimpleXMLElementExtended extends SimpleXMLElement {
-   
+
 
     public function getAttribute($name){
         foreach($this->attributes() as $key=>$val){
@@ -34,7 +34,7 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
         }
         return (int)$cnt;
     }
-   
+
     public function getAttributeCount(){
         $cnt = 0;
         foreach($this->attributes() as $key=>$val){
@@ -42,7 +42,7 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
         }
         return (int)$cnt;
     }
-   
+
     public function getAttributesArray($names){
         $len = count($names);
         $arrTemp = array();
@@ -51,8 +51,8 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
         }
         return (array)$arrTemp;
     }
-    
-    
+
+
 	public static function xml2array($contents, $get_attributes=1, $priority = 'tag') {
     if(!$contents) return array();
 
@@ -90,7 +90,7 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
 
         $result = array();
         $attributes_data = array();
-        
+
         if(isset($value)) {
             if($priority == 'tag') $result = $value;
             else $result['value'] = $value; //Put the value in a assoc array if we are in the 'Attribute' mode
@@ -122,7 +122,7 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
                 } else {//This section will make the value an array if multiple tags with the same name appear together
                     $current[$tag] = array($current[$tag],$result);//This will combine the existing item and the new item together to make an array
                     $repeated_tag_index[$tag.'_'.$level] = 2;
-                    
+
                     if(isset($current[$tag.'_attr'])) { //The attribute of the last(0th) tag must be moved as well
                         $current[$tag]['0_attr'] = $current[$tag.'_attr'];
                         unset($current[$tag.'_attr']);
@@ -145,7 +145,7 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
 
                     // ...push the new element into that array.
                     $current[$tag][$repeated_tag_index[$tag.'_'.$level]] = $result;
-                    
+
                     if($priority == 'tag' and $get_attributes and $attributes_data) {
                         $current[$tag][$repeated_tag_index[$tag.'_'.$level] . '_attr'] = $attributes_data;
                     }
@@ -156,11 +156,11 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
                     $repeated_tag_index[$tag.'_'.$level] = 1;
                     if($priority == 'tag' and $get_attributes) {
                         if(isset($current[$tag.'_attr'])) { //The attribute of the last(0th) tag must be moved as well
-                            
+
                             $current[$tag]['0_attr'] = $current[$tag.'_attr'];
                             unset($current[$tag.'_attr']);
                         }
-                        
+
                         if($attributes_data) {
                             $current[$tag][$repeated_tag_index[$tag.'_'.$level] . '_attr'] = $attributes_data;
                         }
@@ -173,10 +173,10 @@ class SimpleXMLElementExtended extends SimpleXMLElement {
             $current = &$parent[$level-1];
         }
     }
-    
+
     return($xml_array);
-}  
-   
+}
+
 }
 
 
