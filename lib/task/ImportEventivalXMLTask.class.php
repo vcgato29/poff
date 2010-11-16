@@ -33,10 +33,10 @@ EOF;
     $databaseManager = new sfDatabaseManager($this->configuration);
     $connection = $databaseManager->getDatabase($options['connection'])->getConnection();
 
-	$request = new FetchEventivalXMLWebRequest(array('url' =>'http://www.eventival.eu/poff/14/et/ws/2ae44138cee5011f9cd2d474f11bfbd9/films/sections.xml'));
-	$xmlObj = $request->send();
-	$xmlObj->requestType = 'Sections';
-	$xmlObj->mapObjects();
+	//$request = new FetchEventivalXMLWebRequest(array('url' =>'http://www.eventival.eu/poff/14/et/ws/2ae44138cee5011f9cd2d474f11bfbd9/films/sections.xml'));
+	//$xmlObj = $request->send();
+	//$xmlObj->requestType = 'Sections';
+	//$xmlObj->mapObjects();
 
 	//$request = new FetchEventivalXMLWebRequest(array('url' =>'http://www.eventival.eu/poff/14/et/ws/2ae44138cee5011f9cd2d474f11bfbd9/films/cinemas.xml'));
 	//$xmlObj = $request->send();
