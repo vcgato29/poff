@@ -58,7 +58,7 @@ product_page_lvl_1:
 
 test_page:
     url: /stuff1
-    param: { module:productPage, action: test }
+    param: {module: productPage, action: test }
     class: myProductRouter
     options: { model: Structure, type: object }
     requirements:
