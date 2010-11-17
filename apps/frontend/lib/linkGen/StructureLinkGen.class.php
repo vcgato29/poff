@@ -1,5 +1,5 @@
 <?php
-/*
+/* 
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -15,12 +15,11 @@ class StructureLinkGen extends LinkGen{
 
 	private static $nodesMap;
 
-
 	protected function init(){
 		$q = Doctrine_Query::create()
 			->from('Structure s')
 			->select('s.*')
-			->where('s.isHidden = ? AND s.level >= 1', array(false))
+			->where('s.level >= 1')
 			->setHydrationMode(Doctrine::HYDRATE_ARRAY_HIERARCHY);
 
 		$this->setData($q->execute());
@@ -38,7 +37,7 @@ class StructureLinkGen extends LinkGen{
 		parent::setData($data);
 
 		$this->traverse($data,array());
-
+		
 	}
 
 	private function traverse($data, $urlParts){

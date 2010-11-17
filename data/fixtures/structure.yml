@@ -83,6 +83,31 @@ Structure:
        is_first: 0
        lang: est
        ishidden: true
+      filmid:
+       title: Filmid
+       inherits_layout: 0
+       Parent: est
+       status: 0
+       is_first: 0
+       lang: est
+       ishidden: false
+       children:
+         programmid:
+           title: programmid
+           inherits_layout: 0
+           Parent: filmid
+           status: 0
+           is_first: 0
+           lang: est
+           ishidden: false
+         ajakava:
+           title: ajakava
+           inherits_layout: 0
+           Parent: filmid
+           status: 0
+           is_first: 0
+           lang: est
+           ishidden: false
       footer:
        title: __Footer
        inherits_layout: 0

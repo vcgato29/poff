@@ -66,7 +66,10 @@ FrontendModule:
    name: facebookWidget
  f_module32:
    name: bannersOnRightWidget
-   
+ eventsArchive:
+   name: eventsArchive
+ eventsSchedule:
+   name: eventsSchedule
 
 
 
@@ -127,6 +130,9 @@ BackendModule:
   module_name: users
   FrontendModule: f_moduleN
   title: Public Users
-  
+ products_ProductExemplar:
+  module_name: product_exemplar
+  FrontendModule: f_module4
+  title: Linastused
   
  

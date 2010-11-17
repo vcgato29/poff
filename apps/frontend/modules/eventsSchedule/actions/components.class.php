@@ -17,8 +17,8 @@ class eventsScheduleComponents extends myComponents{
 		foreach($this->linastused as $lin){
 			$products[] = $lin['Product'];
 		}
-
-		$this->productsLinks = LinkGen::getInstance(LinkGen::PRODUCT)->collectionLinks($products);
+                var_dump($this->linastused[0]['Product']);exit();
+		//$this->productsLinks = LinkGen::getInstance(LinkGen::PRODUCT)->collectionLinks($products);
 		
 	}
 
