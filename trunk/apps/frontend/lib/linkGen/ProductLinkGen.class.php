@@ -39,6 +39,9 @@ class ProductLinkGen extends LinkGen {
 		
 	}
 
+	public function getRoutePrefix(){
+		return 'product_page_lvl_';
+	}
 
 	// very inefficient method
 	public function link($id,$additionalParams = array()){
@@ -57,6 +60,8 @@ class ProductLinkGen extends LinkGen {
 		
 		$ids = $this->getIds($elements);
 
+		
+
 //		if(count($elements) == 1){
 //			print_r($ids);
 //			exit;
@@ -66,19 +71,8 @@ class ProductLinkGen extends LinkGen {
 //		print_r($ids);
 //		exit;
 
-		$res = Doctrine_Query::create()
-			->from('Product p')
-			->select('p.*,pt.*,pgvp.*,pg.*,pgt.*,spg.*,s.*')
-			->innerJoin('p.ProductGroups pgvp')
-			->innerJoin('pgvp.ProductGroup pg WITH pg.parameter = ?', 'default')
-			->innerJoin('pg.StructureProductGroup spg')
-			->innerJoin('spg.Structure s WITH s.lang = ?', Doctrine::getTable('Language')->findOneByAbr($this->getCulture())->getUrl())
-			->innerJoin('pg.Translation pgt WITH pgt.lang = ?', 'en')
-			->innerJoin('p.Translation pt WITH pt.lang = ? AND pt.name != ""', $this->getCulture())
-			->whereIn('p.id', $ids)
-			->setHydrationMode(Doctrine::HYDRATE_ARRAY)
-			->execute();
-		//print_r($res);exit;
+		$res = $this->getQuery($ids)
+				->execute();
 
 
 		if(!empty($res)){
@@ -86,17 +80,17 @@ class ProductLinkGen extends LinkGen {
 
 
 				//print_r($node);exit;
-				$structNode =  $product['ProductGroups'][0]['ProductGroup']['StructureProductGroup'][0]['Structure'];
+				$structNode =  $product['ProductGroups'][0]['ProductGroup']['LinkedStructures'][0]['Structure'];
 				$group = $product['ProductGroups'][0]['ProductGroup'];
 
-				if(($parts = LinkGen::getInstance(LinkGen::PRODUCT_GROUP)->linkParts($group['id']) )){
+				if(($parts = $this->getProductGroupLinkParts($group['id']) )){
 					$result[$product['id']] =
 								array_merge(
 										$parts,
 										$additionalParams,
 										array(
 											'product_slug' => $product['Translation'][$this->getCulture()]['slug'],
-											'route' => 'product_page_lvl_' . ($structNode['level'] - 1)
+											'route' => $this->getRoutePrefix() . ($structNode['level'] - 1)
 											)
 					);
 
@@ -116,6 +110,29 @@ class ProductLinkGen extends LinkGen {
 
 
 		return $result;
+	}
+	
+	protected function getProductGroupLinkParts($id){
+		return LinkGen::getInstance(LinkGen::PRODUCT_GROUP)->linkParts($id);
+	}
+	
+	protected function getQuery($ids){
+		
+		$q =  Doctrine_Query::create()
+			->from('Product p')
+			->select('p.*,pt.*,pgvp.*,pg.*,pgt.*,spg.*,s.*')
+			->innerJoin('p.ProductGroups pgvp')
+			->innerJoin('pgvp.ProductGroup pg')
+			->innerJoin('pg.LinkedStructures spg')
+			->innerJoin('spg.Structure s WITH s.lang = ?', array( Doctrine::getTable('Language')->findOneByAbr($this->getCulture())->getUrl()))
+			->innerJoin('pg.Translation pgt WITH pgt.lang = ?', 'en')
+			->innerJoin('p.Translation pt WITH pt.lang = ? AND pt.name != ""', $this->getCulture())
+			->whereIn('p.id', $ids)
+			->andWhereIn('pg.parameter', array('default','fest'))
+			->setHydrationMode(Doctrine::HYDRATE_ARRAY);
+			
+			
+		return $q;
 	}
 
 

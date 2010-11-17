@@ -48,6 +48,32 @@ Product:
     myindex:
       fields: [pri]
 
+# cinemas connected to Products
+Cinema:
+ actAs:
+  I18n:
+   fields: [name]
+ columns:
+  name: { type: string(255), notnull: true }
+  eventival_id: { type: integer, notnull: true }
+  city: { type: string(255), notnull: true }
+
+CinemaHall:
+ actAs:
+  I18n:
+   fields: [name]
+ columns:
+  name: { type: string(255), notnull: true }
+  eventival_id: { type: integer, notnull: true }
+  cinema_id: { type: integer, notnull: true }
+ relations:
+  Cinema:
+   local: cinema_id
+   foreign: id
+   foreignAlias: Halls
+   onDelete: CASCADE
+   onUpdate: CASCADE
+
 
 ProductGroup:
  actAs:

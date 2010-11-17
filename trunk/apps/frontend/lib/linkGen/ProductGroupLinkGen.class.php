@@ -1,5 +1,5 @@
 <?php
-/*
+/* 
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -19,7 +19,7 @@ class ProductGroupLinkGen extends LinkGen{
 		$q = Doctrine_Query::create()
 			->from('ProductGroup pg')
 			->leftJoin('pg.Translation pgt')
-			->innerJoin('pg.StructureProductGroup spg')
+			->innerJoin('pg.LinkedStructures spg')
 			->innerJoin('spg.Structure s WITH s.lang = ?', Doctrine::getTable('Language')->findOneByAbr($this->getCulture())->getUrl())
 			->setHydrationMode(Doctrine::HYDRATE_ARRAY_HIERARCHY);
 
@@ -34,8 +34,9 @@ class ProductGroupLinkGen extends LinkGen{
 	private function traverse($data){
 		foreach($data as $node){
 			self::$groupMap[$node['id']] = array(
-				'node' => $node['StructureProductGroup'][0]['Structure']['id'],
-				'group' => array('c1' => $node['Translation'][$this->getCulture()]['slug'])
+				'node' => $node['LinkedStructures'][0]['Structure']['id'],
+				//'group' => array('c1' => $node['Translation'][$this->getCulture()]['slug'])
+				'group' => array() // do not wanna see category slug in url
 			);
 
 			if(isset($node['__children']) && !empty($node['__children'])){
@@ -56,10 +57,12 @@ class ProductGroupLinkGen extends LinkGen{
 			return '#no_group_link';
 
 
-
+		
 	}
 
 	public function linkParts($id,$additionalParams = array()){
+		if(!isset(self::$groupMap[$id]))
+			return false;
 
 		$nodeParts = LinkGen::getInstance(LinkGen::STRUCTURE)->linkParts(self::$groupMap[$id]['node']);
 		$route = 'category_page_lvl_' . (count($nodeParts));
