@@ -45,7 +45,7 @@
                 <?php if (!empty($product['year'])): ?><b><?php echo __('Aasta') ?></b>: <?php echo $product['year'] ?><br><?php endif; ?>
                 <br>
 
-                <!--<b><?php echo __('Kestus') ?></b>: <?php echo $product['year'] ?><br>-->
+                <?php if (!empty($product['runtime'])): ?><b><?php echo __('Kestus') ?></b>: <?php echo intval($product['runtime']/60/60)."h ". 60*($product['runtime']/60/60-intval($product['runtime']/60/60)). "'"; ?><br><?php endif; ?>
                 <?php if (!empty($product['Translation']['en']['language'])): ?><b><?php echo __('Keel') ?></b>: <?php echo $product['language'] ?> <br><?php endif; ?>
                 <br>
 
@@ -54,7 +54,7 @@
                 <?php if (!empty($product['writer'])): ?><b><?php echo __('Stsenarist') ?></b>: <?php echo $product['writer'] ?><br><?php endif; ?>
 
 
-                <!--<b><?php echo __('Operaator') ?></b>: Witold Stokk<br>-->
+                <?php if (!empty($product['operator'])): ?><b><?php echo __('Operaator') ?></b>: <?php echo $product['operator'] ?><br><?php endif; ?>
                 <?php if (!empty($product['cast'])): ?><b><?php echo __('Osatäitjad') ?></b>: <?php echo $product['cast'] ?><br /><?php endif; ?>
                 <br />
 				<?php if (!empty($product['production'])): ?><b><?php echo __('Tootja') ?></b>: <?php echo $product['production'] ?> <br> <?php endif; ?>

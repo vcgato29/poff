@@ -152,10 +152,10 @@ abstract class BaseProduct extends BaseDoctrineRecord
              'type' => 'clob',
              'notnull' => false,
              ));
-        $this->hasColumn('producer_description', 'string', 700, array(
+        $this->hasColumn('producer_description', 'string', 70000, array(
              'type' => 'string',
              'notnull' => false,
-             'length' => 700,
+             'length' => 70000,
              ));
         $this->hasColumn('director_bio', 'string', 700, array(
              'type' => 'string',
@@ -211,10 +211,10 @@ abstract class BaseProduct extends BaseDoctrineRecord
              'type' => 'float',
              'notnull' => false,
              ));
-        $this->hasColumn('description', 'string', 6000, array(
+        $this->hasColumn('description', 'string', 600000, array(
              'type' => 'string',
              'notnull' => false,
-             'length' => 6000,
+             'length' => 600000,
              ));
         $this->hasColumn('is_active', 'boolean', null, array(
              'type' => 'boolean',
@@ -267,6 +267,16 @@ abstract class BaseProduct extends BaseDoctrineRecord
              'length' => 1000,
              ));
         $this->hasColumn('distributor', 'string', 1000, array(
+             'type' => 'string',
+             'notnull' => false,
+             'length' => 1000,
+             ));
+        $this->hasColumn('operator', 'string', 1000, array(
+             'type' => 'string',
+             'notnull' => false,
+             'length' => 1000,
+             ));
+        $this->hasColumn('runtime', 'string', 1000, array(
              'type' => 'string',
              'notnull' => false,
              'length' => 1000,
